@@ -1,7 +1,7 @@
 # cmit_procurement_app
 **Выполнить в терминале**
 
-### 1. Клонирование репозитория
+### 1. Клонировать репозиторий
 git clone https://github.com/levui7/cmit_procurement_app
 
 cd procurement-app
