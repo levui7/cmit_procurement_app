@@ -112,7 +112,7 @@ class MainWindow(QMainWindow):
         menu_items = [
             ("home.png", "Главная", True),
             ("add.png", "Создать заявку", False),
-            ("calendar.png", "История заявок", False),
+            ("search.png", "История заявок", False),
             # ("suppliers.png", "Поставщики", False),
             ("product.png", "Справочник товаров", False),
             # ("contracts.png", "Договоры", False),
@@ -228,7 +228,7 @@ class MainWindow(QMainWindow):
              "Создайте новую заявку на закупку товаров",
              "#3B82F6", "#EFF6FF"),
 
-            ("calendar.png", "История заявок",
+            ("search.png", "История заявок",
              "Просмотрите ваши предыдущие заявки",
              "#10B981", "#D1FAE5"),
 
