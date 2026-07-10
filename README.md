@@ -2,7 +2,7 @@
 **Выполнить в терминале**
 
 ### 1. Клонирование репозитория
-git clone https://github.com/твой_ник/procurement-app.git
+git clone https://github.com/levui7/cmit_procurement_app
 cd procurement-app
 
 ### 2. Создать виртуальное окружение
