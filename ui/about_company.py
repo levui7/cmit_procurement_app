@@ -348,7 +348,7 @@ class AboutWindow(QWidget):
         layout.addWidget(title_label)
 
         # Серый подтекст
-        subtitle_label = QLabel("Возможно, остались несохраненные дела")
+        subtitle_label = QLabel("Возможно, остались незавершенные дела")
         subtitle_label.setFont(QFont("Segoe UI", 11))
         subtitle_label.setStyleSheet("color: #6B7280;")
         subtitle_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
