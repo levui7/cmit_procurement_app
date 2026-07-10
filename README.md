@@ -1,21 +1,21 @@
 # cmit_procurement_app
 **Выполнить в терминале**
 
-# 1. Клонирование репозитория
+### 1. Клонирование репозитория
 git clone https://github.com/твой_ник/procurement-app.git
 cd procurement-app
 
-# 2. Создать виртуальное окружение
+### 2. Создать виртуальное окружение
 python -m venv venv
 
-# 3. Активировать виртуальное окружение
-# Windows:
+### 3. Активировать виртуальное окружение
+##### Windows:
 venv\Scripts\activate
-# Mac/Linux:
+##### Mac/Linux:
 source venv/bin/activate
 
-# 4. Установить зависимости
+### 4. Установить зависимости
 pip install -r requirements.txt
 
-# 5. Запустить приложение
+### 5. Запустить приложение
 python -m src.main
