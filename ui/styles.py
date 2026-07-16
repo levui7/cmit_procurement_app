@@ -483,6 +483,157 @@ SETTINGS_DARK_STYLES = """
     }
 """
 
+# ========== ДИАЛОГИ ==========
+DIALOG_LIGHT_STYLES = """
+    QDialog {
+        background-color: #FFFFFF;
+    }
+
+    QLabel {
+        color: #1F2937;
+    }
+
+    QLineEdit {
+        padding: 10px;
+        border: 1px solid #D1D5DB;
+        border-radius: 6px;
+        font-size: 12px;
+        font-family: 'Segoe UI';
+        color: #1F2937;
+    }
+
+    QLineEdit:focus {
+        border: 2px solid #3B82F6;
+    }
+
+    QSpinBox, QDoubleSpinBox {
+        padding: 10px;
+        border: 1px solid #D1D5DB;
+        border-radius: 6px;
+        font-size: 12px;
+        font-family: 'Segoe UI';
+        color: #1F2937;
+    }
+
+    QSpinBox:focus, QDoubleSpinBox:focus {
+        border: 2px solid #3B82F6;
+    }
+
+    QComboBox {
+        padding: 10px;
+        border: 1px solid #D1D5DB;
+        border-radius: 6px;
+        font-size: 12px;
+        font-family: 'Segoe UI';
+        color: #1F2937;
+        background-color: #FFFFFF;
+    }
+
+    QComboBox:focus {
+        border: 2px solid #3B82F6;
+    }
+
+    QPushButton#cancelButton {
+        background-color: #F3F4F6;
+        color: #374151;
+        border: 1px solid #D1D5DB;
+        border-radius: 6px;
+    }
+
+    QPushButton#cancelButton:hover {
+        background-color: #E5E7EB;
+    }
+
+    QPushButton#saveButton {
+        background-color: #3B82F6;
+        color: white;
+        border: none;
+        border-radius: 6px;
+    }
+
+    QPushButton#saveButton:hover {
+        background-color: #2563EB;
+    }
+
+    QPushButton#dangerButton {
+        background-color: #EF4444;
+        color: white;
+        border: none;
+        border-radius: 6px;
+    }
+
+    QPushButton#dangerButton:hover {
+        background-color: #DC2626;
+    }
+
+    QPushButton#secondaryButton {
+        background-color: #FFFFFF;
+        color: #374151;
+        border: 1px solid #D1D5DB;
+        border-radius: 6px;
+    }
+
+    QPushButton#secondaryButton:hover {
+        background-color: #F3F4F6;
+    }
+"""
+
+DIALOG_DARK_STYLES = """
+    QDialog {
+        background-color: #1F2937;
+    }
+
+    QLabel {
+        color: #F3F4F6;
+    }
+
+    QLineEdit, QSpinBox, QDoubleSpinBox, QComboBox {
+        padding: 10px;
+        border: 1px solid #4B5563;
+        border-radius: 6px;
+        font-size: 12px;
+        font-family: 'Segoe UI';
+        color: #F3F4F6;
+        background-color: #111827;
+    }
+
+    QLineEdit:focus, QSpinBox:focus, QDoubleSpinBox:focus, QComboBox:focus {
+        border: 2px solid #3B82F6;
+    }
+
+    QPushButton#cancelButton {
+        background-color: #374151;
+        color: #F3F4F6;
+        border: 1px solid #4B5563;
+        border-radius: 6px;
+    }
+
+    QPushButton#cancelButton:hover {
+        background-color: #4B5563;
+    }
+
+    QPushButton#saveButton {
+        background-color: #3B82F6;
+        color: white;
+        border: none;
+        border-radius: 6px;
+    }
+
+    QPushButton#saveButton:hover {
+        background-color: #2563EB;
+    }
+
+    QPushButton#dangerButton {
+        background-color: #EF4444;
+        color: white;
+        border: none;
+        border-radius: 6px;
+    }
+
+    QPushButton#dangerButton:hover {
+        background-color: #DC2626;
+    }
+"""
 
 # ========== ФУНКЦИИ ДЛЯ ПРИМЕНЕНИЯ СТИЛЕЙ ==========
 
@@ -521,3 +672,9 @@ def get_settings_styles(theme="light"):
     if theme == "dark":
         return COMMON_STYLES + SETTINGS_DARK_STYLES + EXIT_CARD_STYLES
     return COMMON_STYLES + SETTINGS_LIGHT_STYLES + EXIT_CARD_STYLES
+
+def get_dialog_styles(theme="light"):
+    """Стили для модальных диалогов"""
+    if theme == "dark":
+        return DIALOG_DARK_STYLES
+    return DIALOG_LIGHT_STYLES

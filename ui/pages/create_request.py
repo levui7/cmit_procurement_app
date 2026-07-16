@@ -350,21 +350,21 @@ class CreateRequestPage(QWidget):
         self.setStyleSheet(get_create_request_styles())
 
 
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    app.setStyle("Fusion")
-    app.setFont(QFont("Segoe UI", 10))
-
-    # Для тестирования создаем временное окно
-    from PyQt6.QtWidgets import QMainWindow
-
-    window = QMainWindow()
-    window.setWindowTitle("Тест: Создание заявки")
-    window.setGeometry(100, 100, 1400, 900)
-
-    icons_path = Path(__file__).parent / "icons"
-    page = CreateRequestPage(icons_path)
-    window.setCentralWidget(page)
-
-    window.show()
-    sys.exit(app.exec())
+# if __name__ == "__main__":
+#     app = QApplication(sys.argv)
+#     app.setStyle("Fusion")
+#     app.setFont(QFont("Segoe UI", 10))
+#
+#     # Для тестирования создаем временное окно
+#     from PyQt6.QtWidgets import QMainWindow
+#
+#     window = QMainWindow()
+#     window.setWindowTitle("Тест: Создание заявки")
+#     window.setGeometry(100, 100, 1400, 900)
+#
+#     icons_path = Path(__file__).parent / "icons"
+#     page = CreateRequestPage(icons_path)
+#     window.setCentralWidget(page)
+#
+#     window.show()
+#     sys.exit(app.exec())

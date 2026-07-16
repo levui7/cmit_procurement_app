@@ -4,11 +4,12 @@ from pathlib import Path
 from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel,
                              QPushButton, QFrame, QSizePolicy, QApplication, QDialog,
                              QRadioButton, QButtonGroup, QCheckBox, QComboBox,
-                             QLineEdit, QSpinBox, QScrollArea)
+                             QLineEdit, QSpinBox, QScrollArea, QDoubleSpinBox)
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont, QPixmap, QIcon
 
 from ui.styles import get_settings_styles
+from backend.database import get_app_setting, set_app_setting
 
 
 class SettingsPage(QWidget):
@@ -135,6 +136,36 @@ class SettingsPage(QWidget):
 
         appearance_group.layout().addLayout(appearance_layout)
         content_layout.addWidget(appearance_group)
+
+        # Секция: Параметры товаров
+        products_group = self.create_settings_group(
+            "Параметры товаров",
+            "Глобальные настройки для всех товаров"
+        )
+        products_layout = QVBoxLayout()
+        products_layout.setSpacing(15)
+
+        # Процент поломки
+        damage_layout = QHBoxLayout()
+        damage_layout.setSpacing(15)
+
+        damage_label = QLabel("Процент поломки/амортизации")
+        damage_label.setFont(QFont("Segoe UI", 12, QFont.Weight.Bold))
+        damage_layout.addWidget(damage_label)
+        damage_layout.addStretch()
+
+        self.damage_spin = QDoubleSpinBox()
+        self.damage_spin.setRange(0.0, 100.0)
+        self.damage_spin.setValue(float(get_app_setting("default_damage_percent", "2.5")))
+        self.damage_spin.setSuffix("%")
+        self.damage_spin.setFixedWidth(100)
+        self.damage_spin.setFixedHeight(40)
+        self.damage_spin.setObjectName("settingsSpin")
+        damage_layout.addWidget(self.damage_spin)
+
+        products_layout.addLayout(damage_layout)
+        products_group.layout().addLayout(products_layout)
+        content_layout.addWidget(products_group)
 
         # --- Секция 2: Общие настройки ---
         general_group = self.create_settings_group(
@@ -394,22 +425,21 @@ class SettingsPage(QWidget):
         self.save_settings()
         print(f"Настройки сохранены. Тема: {self.current_theme}")
 
-
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    app.setStyle("Fusion")
-    app.setFont(QFont("Segoe UI", 10))
-
-    # Для тестирования создаем временное окно
-    from PyQt6.QtWidgets import QMainWindow
-
-    window = QMainWindow()
-    window.setWindowTitle("Тест: Справочник товаров")
-    window.setGeometry(100, 100, 1400, 900)
-
-    icons_path = Path(__file__).parent / "icons"
-    page = SettingsPage(icons_path)
-    window.setCentralWidget(page)
-
-    window.show()
-    sys.exit(app.exec())
+# if __name__ == "__main__":
+#     app = QApplication(sys.argv)
+#     app.setStyle("Fusion")
+#     app.setFont(QFont("Segoe UI", 10))
+#
+#     # Для тестирования создаем временное окно
+#     from PyQt6.QtWidgets import QMainWindow
+#
+#     window = QMainWindow()
+#     window.setWindowTitle("Тест: Справочник товаров")
+#     window.setGeometry(100, 100, 1400, 900)
+#
+#     icons_path = Path(__file__).parent / "icons"
+#     page = SettingsPage(icons_path)
+#     window.setCentralWidget(page)
+#
+#     window.show()
+#     sys.exit(app.exec())

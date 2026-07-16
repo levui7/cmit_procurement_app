@@ -122,20 +122,20 @@ class AboutCompanyPage(QWidget):
         self.setStyleSheet(get_about_styles())
 
 
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    app.setStyle("Fusion")
-    app.setFont(QFont("Segoe UI", 10))
-
-    from PyQt6.QtWidgets import QMainWindow
-
-    window = QMainWindow()
-    window.setWindowTitle("Тест: О предприятии")
-    window.setGeometry(100, 100, 1400, 900)
-
-    icons_path = Path(__file__).parent.parent / "icons"
-    page = AboutCompanyPage(icons_path)
-    window.setCentralWidget(page)
-
-    window.show()
-    sys.exit(app.exec())
+# if __name__ == "__main__":
+#     app = QApplication(sys.argv)
+#     app.setStyle("Fusion")
+#     app.setFont(QFont("Segoe UI", 10))
+#
+#     from PyQt6.QtWidgets import QMainWindow
+#
+#     window = QMainWindow()
+#     window.setWindowTitle("Тест: О предприятии")
+#     window.setGeometry(100, 100, 1400, 900)
+#
+#     icons_path = Path(__file__).parent.parent / "icons"
+#     page = AboutCompanyPage(icons_path)
+#     window.setCentralWidget(page)
+#
+#     window.show()
+#     sys.exit(app.exec())
