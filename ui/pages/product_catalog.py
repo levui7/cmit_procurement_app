@@ -4,17 +4,14 @@
 import sys
 from pathlib import Path
 from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel,
-                             QPushButton, QFrame, QSizePolicy, QApplication,
-                             QScrollArea, QTableWidget, QTableWidgetItem, QHeaderView,
-                             QLineEdit, QAbstractItemView, QDialog, QInputDialog,
-                             QMessageBox)
+                             QPushButton, QFrame, QApplication,
+                             QTableWidget, QTableWidgetItem, QHeaderView,
+                             QLineEdit, QAbstractItemView, QDialog, QMessageBox)
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont, QPixmap
-from ui.styles import get_catalog_styles
+from ui.utils.styles import get_catalog_styles
 
-from ui.pages.edit_product_window import EditProductDialog
-from backend.database import update_internal_product
-from backend.database import add_internal_product
+from ui.dialogs import EditProductDialog
 
 from backend.database import (
     get_all_internal_products,

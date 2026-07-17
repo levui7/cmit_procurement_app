@@ -167,13 +167,11 @@
 """
 Главная страница приложения
 """
-import sys
-from pathlib import Path
 from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel,
-                             QPushButton, QFrame, QGridLayout, QSizePolicy, QApplication)
+                             QFrame, QGridLayout, QSizePolicy)
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont, QPixmap
-from ui.styles import get_main_page_styles
+from ui.utils.styles import get_main_page_styles
 
 
 class MainPage(QWidget):

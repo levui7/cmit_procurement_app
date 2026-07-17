@@ -1,11 +1,9 @@
-import sys
-from pathlib import Path
-from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel,
-                             QPushButton, QFrame, QSizePolicy, QApplication, QDialog)
+from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QLabel,
+                             QFrame)
 from PyQt6.QtCore import Qt
-from PyQt6.QtGui import QFont, QPixmap, QIcon
+from PyQt6.QtGui import QFont, QPixmap
 
-from ui.styles import get_about_styles
+from ui.utils.styles import get_about_styles
 
 
 class AboutCompanyPage(QWidget):

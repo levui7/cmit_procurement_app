@@ -6,8 +6,8 @@ from pathlib import Path
 from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QStackedWidget
 from PyQt6.QtGui import QFont, QIcon
 
-from ui.config import APP_TITLE, APP_LOGO, WINDOW_WIDTH, WINDOW_HEIGHT, WINDOW_MIN_WIDTH, WINDOW_MIN_HEIGHT
-from ui.styles import get_main_window_styles
+from ui.utils.config import APP_TITLE, APP_LOGO, WINDOW_WIDTH, WINDOW_HEIGHT, WINDOW_MIN_WIDTH, WINDOW_MIN_HEIGHT
+from ui.utils.styles import get_main_window_styles
 from ui.widgets.sidebar import Sidebar
 from ui.widgets.exit_card import ExitCard
 
@@ -100,6 +100,20 @@ class AppWindow(QMainWindow):
         # Показываем главную страницу
         self.switch_page("Главная")
 
+    # def switch_page(self, page_name):
+    #     """Переключение страницы"""
+    #     if self._switching_page:
+    #         return
+    #     self._switching_page = True
+    #
+    #     try:
+    #         if page_name in self.pages:
+    #             index = list(self.pages.keys()).index(page_name)
+    #             self.stack.setCurrentIndex(index)
+    #             self.sidebar.set_active_page(page_name)
+    #     finally:
+    #         self._switching_page = False
+
     def switch_page(self, page_name):
         """Переключение страницы"""
         if self._switching_page:
@@ -110,7 +124,10 @@ class AppWindow(QMainWindow):
             if page_name in self.pages:
                 index = list(self.pages.keys()).index(page_name)
                 self.stack.setCurrentIndex(index)
+
+                # Делегируем управление подсветкой сайдбару
                 self.sidebar.set_active_page(page_name)
+
         finally:
             self._switching_page = False
 

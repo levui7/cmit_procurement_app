@@ -1,15 +1,13 @@
-import sys
 import json
 from pathlib import Path
 from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel,
-                             QPushButton, QFrame, QSizePolicy, QApplication, QDialog,
-                             QRadioButton, QButtonGroup, QCheckBox, QComboBox,
+                             QPushButton, QFrame, QRadioButton, QButtonGroup, QCheckBox, QComboBox,
                              QLineEdit, QSpinBox, QScrollArea, QDoubleSpinBox)
 from PyQt6.QtCore import Qt
-from PyQt6.QtGui import QFont, QPixmap, QIcon
+from PyQt6.QtGui import QFont, QPixmap
 
-from ui.styles import get_settings_styles
-from backend.database import get_app_setting, set_app_setting
+from ui.utils.styles import get_settings_styles
+from backend.database import get_app_setting
 
 
 class SettingsPage(QWidget):

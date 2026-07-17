@@ -100,6 +100,45 @@ MAIN_PAGE_STYLES = """
 """
 
 # ========== СТРАНИЦА СОЗДАНИЯ ЗАЯВКИ ==========
+# CREATE_REQUEST_STYLES = """
+#     #formCard {
+#         background-color: #FFFFFF;
+#         border: 1px solid #E5E7EB;
+#         border-radius: 16px;
+#     }
+#
+#     #iconContainer {
+#         background-color: transparent;
+#         border-radius: 12px;
+#     }
+#
+#     #inputField {
+#         background-color: #FFFFFF;
+#         border: 1px solid #D1D5DB;
+#         border-radius: 8px;
+#         padding: 10px 15px;
+#         color: #1F2937;
+#     }
+#
+#     #inputField:focus {
+#         border: 2px solid #3B82F6;
+#     }
+#
+#     #clearButton {
+#         background-color: #FFFFFF;
+#         color: #374151;
+#         border: 1px solid #D1D5DB;
+#         border-radius: 8px;
+#     }
+#
+#     #nextButton {
+#         background-color: #3B82F6;
+#         color: white;
+#         border: none;
+#         border-radius: 8px;
+#     }
+# """
+
 CREATE_REQUEST_STYLES = """
     #formCard {
         background-color: #FFFFFF;
@@ -107,21 +146,38 @@ CREATE_REQUEST_STYLES = """
         border-radius: 16px;
     }
 
-    #iconContainer {
-        background-color: transparent;
-        border-radius: 12px;
-    }
-
     #inputField {
         background-color: #FFFFFF;
         border: 1px solid #D1D5DB;
         border-radius: 8px;
-        padding: 10px 15px;
+        padding: 5px 10px;
         color: #1F2937;
     }
 
     #inputField:focus {
         border: 2px solid #3B82F6;
+    }
+
+    #addButton {
+        background-color: #3B82F6;
+        color: white;
+        border: none;
+        border-radius: 8px;
+    }
+
+    #addButton:hover {
+        background-color: #2563EB;
+    }
+
+    #dangerButton {
+        background-color: #FFFFFF;
+        color: #EF4444;
+        border: 1px solid #FECACA;
+        border-radius: 8px;
+    }
+
+    #dangerButton:hover {
+        background-color: #FEE2E2;
     }
 
     #clearButton {
@@ -136,6 +192,10 @@ CREATE_REQUEST_STYLES = """
         color: white;
         border: none;
         border-radius: 8px;
+    }
+
+    #nextButton:hover {
+        background-color: #2563EB;
     }
 """
 

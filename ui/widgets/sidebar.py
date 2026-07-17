@@ -104,6 +104,20 @@ class Sidebar(QFrame):
         if self.on_page_change:
             self.on_page_change(page_name)
 
+    # def set_active_page(self, page_name):
+    #     """Установить активную страницу"""
+    #     self.current_page = page_name
+    #
+    #     for name, btn in self.menu_buttons.items():
+    #         if name == page_name:
+    #             btn.setObjectName("activeMenu")
+    #         else:
+    #             btn.setObjectName("menuButton")
+    #
+    #     # Обновить стили
+    #     self.style().unpolish(self)
+    #     self.style().polish(self)
+
     def set_active_page(self, page_name):
         """Установить активную страницу"""
         self.current_page = page_name
@@ -114,9 +128,10 @@ class Sidebar(QFrame):
             else:
                 btn.setObjectName("menuButton")
 
-        # Обновить стили
-        self.style().unpolish(self)
-        self.style().polish(self)
+            # Применяем unpolish/polish к каждой кнопке, а не к sidebar
+            btn.style().unpolish(btn)
+            btn.style().polish(btn)
+            btn.update()
 
     def _create_icon_label(self, filename, size=24):
         label = QLabel()

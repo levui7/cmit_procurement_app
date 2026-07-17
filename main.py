@@ -4,7 +4,7 @@
 import sys
 from PyQt6.QtWidgets import QApplication
 from PyQt6.QtGui import QFont
-from ui.app_window import AppWindow
+from ui.utils.app_window import AppWindow
 
 from backend.database import init_db, seed_test_data
 

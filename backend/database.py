@@ -91,18 +91,70 @@ class ProcurementRequest(Base):
 
 
 class ProcurementItem(Base):
-    """Конкретные товары внутри одной заявки"""
+    """Позиция товара внутри заявки"""
     __tablename__ = "procurement_items"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     request_id = Column(Integer, ForeignKey("procurement_requests.id"), nullable=False)
     internal_product_id = Column(Integer, ForeignKey("internal_products.id"), nullable=False)
-    quantity = Column(Integer, default=1)
-    estimated_price = Column(Float)
+
+    quantity = Column(Integer, default=1)  # Количество
+    min_price = Column(Float, default=0.0)  # Мин. цена для этого товара
+    max_price = Column(Float, default=0.0)  # Макс. цена для этого товара
 
     request = relationship("ProcurementRequest", back_populates="items")
     product = relationship("InternalProduct")
 
+
+def create_procurement_with_items(request_data, items_data):
+    """
+    Создать заявку вместе с позициями товаров.
+
+    request_data: dict с общими полями (description, delivery_date, min_rating, students_count)
+    items_data: список словарей вида [
+        {'internal_product_id': 1, 'quantity': 100, 'min_price': 10.0, 'max_price': 50.0},
+        ...
+    ]
+    """
+    session = get_session()
+    try:
+        # Генерируем номер заявки
+        last_request = session.query(ProcurementRequest).order_by(
+            ProcurementRequest.id.desc()
+        ).first()
+        new_number = f"{int(last_request.number) + 1:03d}" if last_request else "001"
+
+        # Создаём заявку
+        request = ProcurementRequest(
+            number=new_number,
+            description=request_data.get("description", ""),
+            students_count=request_data.get("students_count", 0),
+            delivery_date=request_data.get("delivery_date", ""),
+            min_rating=request_data.get("min_rating", "4.0"),
+            status="new"
+        )
+        session.add(request)
+        session.flush()  # Чтобы получить request.id до commit
+
+        # Создаём позиции
+        for item in items_data:
+            proc_item = ProcurementItem(
+                request_id=request.id,
+                internal_product_id=item['internal_product_id'],
+                quantity=item.get('quantity', 1),
+                min_price=item.get('min_price', 0.0),
+                max_price=item.get('max_price', 0.0)
+            )
+            session.add(proc_item)
+
+        session.commit()
+        return request.id, new_number
+    except Exception as e:
+        session.rollback()
+        print(f"❌ Ошибка создания заявки: {e}")
+        return None, None
+    finally:
+        session.close()
 
 class Supplier(Base):
     """Поставщики (опционально, для будущего расширения)"""

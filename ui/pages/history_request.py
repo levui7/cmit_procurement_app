@@ -1,12 +1,9 @@
-import sys
-from pathlib import Path
 from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel,
-                             QPushButton, QFrame, QSizePolicy, QApplication, QDialog,
-                             QScrollArea)
+                             QPushButton, QFrame, QScrollArea)
 from PyQt6.QtCore import Qt
-from PyQt6.QtGui import QFont, QPixmap, QIcon
+from PyQt6.QtGui import QFont, QPixmap
 
-from ui.styles import get_history_styles
+from ui.utils.styles import get_history_styles
 
 class HistoryRequestPage(QWidget):
     def __init__(self, icons_path, parent=None):
