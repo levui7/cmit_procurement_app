@@ -317,6 +317,19 @@ CATALOG_STYLES = """
         border: 1px solid #BFDBFE;
         border-radius: 6px;
     }
+    
+    /* СТИЛИ ДЛЯ КНОПКИ УДАЛЕНИЯ */
+    #deleteButton {
+        background-color: #FEE2E2;  /* Пастельно-красный фон */
+        color: #DC2626;              /* Тёмно-красный текст */
+        border: 1px solid #FECACA;   /* Светло-красная рамка */
+        border-radius: 6px;
+    }
+
+    #deleteButton:hover {
+        background-color: #FECACA;   /* Чуть темнее при наведении */
+        border: 1px solid #F87171;
+    }
 """
 
 # ========== СТРАНИЦА "О ПРЕДПРИЯТИИ" ==========

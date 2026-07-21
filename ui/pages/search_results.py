@@ -1,166 +1,190 @@
 """
-Страница результатов поиска на маркетплейсах
+Страница результатов поиска товаров на маркетплейсах
 """
 from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel,
-                             QPushButton, QFrame, QScrollArea, QTableWidget,
-                             QTableWidgetItem, QHeaderView, QMessageBox, QDialog)
+                             QPushButton, QFrame, QTableWidget, QTableWidgetItem,
+                             QHeaderView, QAbstractItemView, QRadioButton,
+                             QButtonGroup, QMessageBox, QScrollArea)
 from PyQt6.QtCore import Qt
-from PyQt6.QtGui import QFont, QPixmap
-from backend.database import get_marketplace_matches, get_all_internal_products
+from PyQt6.QtGui import QFont
+
+from ui.utils.config import Colors, Fonts, Spacing, Sizes
+from ui.utils.icons import create_icon_label, IconNames
+from ui.utils.styles import get_catalog_styles
 
 
 class SearchResultsPage(QWidget):
-    def __init__(self, icons_path, request_id, parent=None):
+    """Страница отображения результатов поиска товаров"""
+
+    def __init__(self, request_id, parent=None):
         super().__init__(parent)
-        self.icons_path = icons_path
         self.request_id = request_id
+        self.selected_items = {}  # {internal_product_id: marketplace_product_id}
+
         self.create_widgets()
+        self.apply_styles()
         self.load_results()
 
     def create_widgets(self):
         layout = QVBoxLayout(self)
-        layout.setContentsMargins(50, 40, 50, 40)
+        layout.setContentsMargins(Spacing.XXL, Spacing.XL, Spacing.XXL, Spacing.XL)
+        layout.setSpacing(Spacing.LG)
 
         # Заголовок
-        title = QLabel("Результаты поиска на маркетплейсах")
-        title.setFont(QFont("Segoe UI", 28, QFont.Weight.Bold))
+        title = QLabel("Результаты поиска товаров")
+        title.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_DISPLAY, QFont.Weight.Bold))
+        title.setStyleSheet(f"color: {Colors.TEXT_PRIMARY};")
         layout.addWidget(title)
 
-        subtitle = QLabel("Выберите лучшие варианты для закупки")
-        subtitle.setFont(QFont("Segoe UI", 13))
-        subtitle.setStyleSheet("color: #6B7280;")
+        subtitle = QLabel(f"Заявка #{self.request_id} • Найдено вариантов на маркетплейсах")
+        subtitle.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_NORMAL))
+        subtitle.setStyleSheet(f"color: {Colors.TEXT_SECONDARY};")
         layout.addWidget(subtitle)
-        layout.addSpacing(20)
 
-        # Таблица результатов
-        self.table = QTableWidget()
-        self.table.setObjectName("resultsTable")
-        self.table.setColumnCount(7)
+        # Скроллируемая область
+        scroll_area = QScrollArea()
+        scroll_area.setWidgetResizable(True)
+        scroll_area.setStyleSheet("QScrollArea { border: none; background-color: transparent; }")
 
-        headers = ["Товар", "Маркетплейс", "Название", "Цена", "Рейтинг", "Выбрать", ""]
-        self.table.setHorizontalHeaderLabels(headers)
+        scroll_widget = QWidget()
+        self.scroll_layout = QVBoxLayout(scroll_widget)
+        self.scroll_layout.setContentsMargins(0, 0, 0, 0)
+        self.scroll_layout.setSpacing(Spacing.LG)
 
-        # Настройка колонок
-        self.table.horizontalHeader().setSectionResizeMode(0, QHeaderView.ResizeMode.Stretch)
-        self.table.horizontalHeader().setSectionResizeMode(1, QHeaderView.ResizeMode.ResizeToContents)
-        self.table.horizontalHeader().setSectionResizeMode(2, QHeaderView.ResizeMode.Stretch)
-        self.table.horizontalHeader().setSectionResizeMode(3, QHeaderView.ResizeMode.ResizeToContents)
-        self.table.horizontalHeader().setSectionResizeMode(4, QHeaderView.ResizeMode.ResizeToContents)
-        self.table.horizontalHeader().setSectionResizeMode(5, QHeaderView.ResizeMode.ResizeToContents)
+        scroll_area.setWidget(scroll_widget)
+        layout.addWidget(scroll_area)
 
-        layout.addWidget(self.table)
+        # Итоговая панель
+        summary_card = QFrame()
+        summary_card.setObjectName("formCard")
+        summary_layout = QHBoxLayout(summary_card)
+        summary_layout.setContentsMargins(Spacing.LG, Spacing.LG, Spacing.LG, Spacing.LG)
+
+        # Сумма
+        total_layout = QVBoxLayout()
+        total_label = QLabel("Итоговая сумма:")
+        total_label.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_SMALL, QFont.Weight.Bold))
+        total_label.setStyleSheet(f"color: {Colors.TEXT_SECONDARY};")
+        total_layout.addWidget(total_label)
+
+        self.total_amount_label = QLabel("0 ₽")
+        self.total_amount_label.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_HEADING, QFont.Weight.Bold))
+        self.total_amount_label.setStyleSheet(f"color: {Colors.PRIMARY};")
+        total_layout.addWidget(self.total_amount_label)
+
+        summary_layout.addLayout(total_layout)
+        summary_layout.addStretch()
 
         # Кнопки
-        buttons_layout = QHBoxLayout()
-        buttons_layout.addStretch()
+        save_btn = QPushButton("💾 Сохранить заявку")
+        save_btn.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_NORMAL, QFont.Weight.Bold))
+        save_btn.setFixedSize(220, Sizes.BUTTON_HEIGHT)
+        save_btn.setObjectName("saveButton")
+        save_btn.clicked.connect(self.save_results)
+        summary_layout.addWidget(save_btn)
 
-        # Кнопка "Экспорт в Excel" с иконкой
-        self.export_btn = QPushButton()
-        self.export_btn.setFixedHeight(45)
-        self.export_btn.setFixedWidth(220)
-        self.export_btn.setObjectName("exportButton")
-        self.export_btn.setCursor(Qt.CursorShape.PointingHandCursor)
+        back_btn = QPushButton("← Назад")
+        back_btn.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_NORMAL))
+        back_btn.setFixedSize(120, Sizes.BUTTON_HEIGHT)
+        back_btn.setObjectName("clearButton")
+        back_btn.clicked.connect(self.go_back)
+        summary_layout.addWidget(back_btn)
 
-        # Layout для кнопки с иконкой
-        export_layout = QHBoxLayout(self.export_btn)
-        export_layout.setContentsMargins(15, 10, 15, 10)
-        export_layout.setSpacing(10)
-
-        # Иконка экспорта
-        export_icon = self.create_icon_label("stats.png", size=20)
-        export_text = QLabel("Экспорт в Excel")
-        export_text.setFont(QFont("Segoe UI", 12))
-        export_text.setAlignment(Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignVCenter)
-
-        export_layout.addWidget(export_icon)
-        export_layout.addWidget(export_text)
-        export_layout.addStretch()
-
-        self.export_btn.clicked.connect(self.export_to_excel)
-
-        # Кнопка "Сохранить заявку" с иконкой
-        self.save_btn = QPushButton()
-        self.save_btn.setFixedHeight(45)
-        self.save_btn.setFixedWidth(220)
-        self.save_btn.setObjectName("saveButton")
-        self.save_btn.setCursor(Qt.CursorShape.PointingHandCursor)
-
-        # Layout для кнопки с иконкой
-        save_layout = QHBoxLayout(self.save_btn)
-        save_layout.setContentsMargins(15, 10, 15, 10)
-        save_layout.setSpacing(10)
-
-        # Иконка сохранения
-        save_icon = self.create_icon_label("save.png", size=20)
-        save_text = QLabel("Сохранить заявку")
-        save_text.setFont(QFont("Segoe UI", 12))
-        save_text.setAlignment(Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignVCenter)
-
-        save_layout.addWidget(save_icon)
-        save_layout.addWidget(save_text)
-        save_layout.addStretch()
-
-        self.save_btn.clicked.connect(self.save_selection)
-
-        buttons_layout.addWidget(self.export_btn)
-        buttons_layout.addWidget(self.save_btn)
-
-        layout.addLayout(buttons_layout)
+        layout.addWidget(summary_card)
 
     def load_results(self):
-        """Загрузка результатов парсинга"""
-        # Получаем все товары из заявки
-        internal_products = get_all_internal_products()
+        """Загрузка результатов поиска (заглушка)"""
+        # TODO: Загрузить реальные данные из БД
+        mock_data = [
+            {
+                'internal_product_id': 1,
+                'product_name': 'Светодиоды 5мм красные',
+                'variants': [
+                    {'marketplace': 'Ozon', 'name': 'Светодиоды красные 5мм (20шт)', 'price': 150.0, 'rating': 4.5, 'url': 'https://ozon.ru/...'},
+                    {'marketplace': 'Wildberries', 'name': 'LED красные 5мм набор', 'price': 120.0, 'rating': 4.2, 'url': 'https://wb.ru/...'},
+                ]
+            },
+        ]
 
-        self.table.setRowCount(0)
+        for product_data in mock_data:
+            card = self.create_product_card(product_data)
+            self.scroll_layout.addWidget(card)
 
-        for product in internal_products:
-            # Получаем найденные варианты для этого товара
-            matches = get_marketplace_matches(product.id)
+        self.scroll_layout.addStretch()
 
-            for i, match in enumerate(matches):
-                row = self.table.rowCount()
-                self.table.insertRow(row)
+    def create_product_card(self, product_data):
+        """Создание карточки товара с вариантами"""
+        card = QFrame()
+        card.setObjectName("formCard")
+        card_layout = QVBoxLayout(card)
+        card_layout.setContentsMargins(Spacing.LG, Spacing.LG, Spacing.LG, Spacing.LG)
+        card_layout.setSpacing(Spacing.SM)
 
-                # Внутренний товар
-                self.table.setItem(row, 0, QTableWidgetItem(product.name))
+        # Заголовок товара
+        product_title = QLabel(product_data['product_name'])
+        product_title.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_LARGE, QFont.Weight.Bold))
+        product_title.setStyleSheet(f"color: {Colors.TEXT_PRIMARY};")
+        card_layout.addWidget(product_title)
 
-                # Маркетплейс
-                marketplace_item = QTableWidgetItem(match.marketplace_name)
-                marketplace_item.setFont(QFont("Segoe UI", 11, QFont.Weight.Bold))
-                self.table.setItem(row, 1, marketplace_item)
+        # Таблица вариантов
+        variants_table = QTableWidget()
+        variants_table.setColumnCount(5)
+        variants_table.setHorizontalHeaderLabels(["Выбрать", "Маркетплейс", "Название", "Цена, ₽", "Рейтинг"])
+        variants_table.horizontalHeader().setSectionResizeMode(0, QHeaderView.ResizeMode.ResizeToContents)
+        variants_table.horizontalHeader().setSectionResizeMode(1, QHeaderView.ResizeMode.ResizeToContents)
+        variants_table.horizontalHeader().setSectionResizeMode(2, QHeaderView.ResizeMode.Stretch)
+        variants_table.horizontalHeader().setSectionResizeMode(3, QHeaderView.ResizeMode.ResizeToContents)
+        variants_table.horizontalHeader().setSectionResizeMode(4, QHeaderView.ResizeMode.ResizeToContents)
+        variants_table.verticalHeader().setVisible(False)
+        variants_table.setFixedHeight(150)
 
-                # Название на маркетплейсе
-                self.table.setItem(row, 2, QTableWidgetItem(match.name))
+        for i, variant in enumerate(product_data['variants']):
+            row = variants_table.rowCount()
+            variants_table.insertRow(row)
 
-                # Цена
-                price_item = QTableWidgetItem(f"{match.price:,.0f} ₽")
-                price_item.setFont(QFont("Segoe UI", 11, QFont.Weight.Bold))
-                self.table.setItem(row, 3, price_item)
+            # Радиокнопка выбора
+            radio = QRadioButton()
+            radio_widget = QWidget()
+            radio_layout = QHBoxLayout(radio_widget)
+            radio_layout.setAlignment(Qt.AlignmentFlag.AlignCenter)
+            radio_layout.setContentsMargins(0, 0, 0, 0)
+            radio_layout.addWidget(radio)
+            variants_table.setCellWidget(row, 0, radio_widget)
 
-                # Рейтинг
-                rating_item = QTableWidgetItem(f"⭐ {match.rating}" if match.rating else "N/A")
-                self.table.setItem(row, 4, rating_item)
+            # Маркетплейс
+            marketplace_item = QTableWidgetItem(variant['marketplace'])
+            variants_table.setItem(row, 1, marketplace_item)
 
-                # Кнопка "Выбрать"
-                select_btn = QPushButton("✅")
-                select_btn.setFixedSize(40, 30)
-                select_btn.clicked.connect(lambda checked, p=product.id, m=match.id:
-                                           self.select_product(p, m))
-                self.table.setCellWidget(row, 5, select_btn)
+            # Название
+            name_item = QTableWidgetItem(variant['name'])
+            variants_table.setItem(row, 2, name_item)
 
-    def select_product(self, internal_id, marketplace_id):
-        """Выбор товара для закупки"""
-        # Здесь логика выбора лучшего варианта
-        QMessageBox.information(self, "Выбрано", f"Товар {marketplace_id} выбран!")
-        # TODO: Сохранить выбор в БД
+            # Цена
+            price_item = QTableWidgetItem(f"{variant['price']:.0f}")
+            price_item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
+            variants_table.setItem(row, 3, price_item)
 
-    def export_to_excel(self):
-        """Экспорт результатов в Excel"""
-        # TODO: Реализовать экспорт
-        QMessageBox.information(self, "Экспорт", "Экспорт в Excel будет реализован")
+            # Рейтинг
+            rating_item = QTableWidgetItem(f"⭐ {variant['rating']}")
+            rating_item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
+            variants_table.setItem(row, 4, rating_item)
 
-    def save_selection(self):
-        """Сохранение выбранной конфигурации"""
-        # TODO: Сохранить финальную заявку
-        QMessageBox.information(self, "Сохранено", "Заявка сохранена!")
+        card_layout.addWidget(variants_table)
+        return card
+
+    def save_results(self):
+        """Сохранить выбранные варианты"""
+        QMessageBox.information(self, "Успех", "Заявка сохранена!")
+        # TODO: Сохранить выбранные варианты в БД
+
+    def go_back(self):
+        """Вернуться на главную"""
+        parent = self.parent()
+        while parent is not None:
+            if hasattr(parent, 'switch_page'):
+                parent.switch_page("Главная")
+                return
+            parent = parent.parent()
+
+    def apply_styles(self):
+        self.setStyleSheet(get_catalog_styles())

@@ -4,19 +4,21 @@
 from PyQt6.QtWidgets import (QDialog, QVBoxLayout, QHBoxLayout, QLabel,
                              QPushButton, QTableWidget, QTableWidgetItem,
                              QHeaderView, QAbstractItemView, QLineEdit,
-                             QFrame)
+                             QFrame, QMessageBox)
 from PyQt6.QtGui import QFont
 
-from backend.database import get_all_internal_products
+from backend.crud.crud_internal_product import get_all_internal_products
+from backend.database import get_session
 
 
 class SelectProductsDialog(QDialog):
     """Модальное окно для выбора товаров из справочника"""
 
-    def __init__(self, icons_path, parent=None):
+    def __init__(self, icons_path=None, parent=None):
         super().__init__(parent)
         self.icons_path = icons_path
-        self.selected_products = []  # Список выбранных товаров
+        self.selected_products = []  # Список выбранных товаров (словари)
+        self.all_products = []       # Кэш всех товаров
 
         self.setWindowTitle("Выбрать товары из справочника")
         self.setFixedSize(700, 500)
@@ -46,7 +48,7 @@ class SelectProductsDialog(QDialog):
         search_layout.setContentsMargins(10, 0, 10, 0)
 
         self.search_input = QLineEdit()
-        self.search_input.setPlaceholderText("🔍 Поиск по названию...")
+        self.search_input.setPlaceholderText("🔍 Поиск по названию или коду...")
         self.search_input.setFont(QFont("Segoe UI", 11))
         self.search_input.setStyleSheet("border: none; background: transparent;")
         self.search_input.textChanged.connect(self.filter_products)
@@ -54,13 +56,13 @@ class SelectProductsDialog(QDialog):
 
         layout.addWidget(search_container)
 
-        # Таблица товаров
+        # ✅ Таблица товаров: ИСПРАВЛЕНО (2 колонки вместо 3, убрана Категория)
         self.table = QTableWidget()
-        self.table.setColumnCount(3)
-        self.table.setHorizontalHeaderLabels(["Код", "Название", "Категория"])
+        self.table.setColumnCount(2)  # <-- ИЗМЕНЕНО
+        self.table.setHorizontalHeaderLabels(["Код", "Название"])  # <-- ИЗМЕНЕНО
+
         self.table.horizontalHeader().setSectionResizeMode(0, QHeaderView.ResizeMode.ResizeToContents)
         self.table.horizontalHeader().setSectionResizeMode(1, QHeaderView.ResizeMode.Stretch)
-        self.table.horizontalHeader().setSectionResizeMode(2, QHeaderView.ResizeMode.ResizeToContents)
         self.table.verticalHeader().setVisible(False)
         self.table.setSelectionBehavior(QAbstractItemView.SelectionBehavior.SelectRows)
         self.table.setSelectionMode(QAbstractItemView.SelectionMode.MultiSelection)
@@ -100,8 +102,12 @@ class SelectProductsDialog(QDialog):
 
     def load_products(self):
         """Загрузить все товары из справочника"""
-        self.all_products = get_all_internal_products()
-        self.refresh_table(self.all_products)
+        db = get_session()
+        try:
+            self.all_products = get_all_internal_products(db)
+            self.refresh_table(self.all_products)
+        finally:
+            db.close()
 
     def refresh_table(self, products):
         """Обновить таблицу"""
@@ -110,17 +116,17 @@ class SelectProductsDialog(QDialog):
             row = self.table.rowCount()
             self.table.insertRow(row)
 
+            # Колонка 0: Код
             code_item = QTableWidgetItem(product.internal_code or str(product.id))
             code_item.setFont(QFont("Segoe UI", 10))
             self.table.setItem(row, 0, code_item)
 
+            # Колонка 1: Название
             name_item = QTableWidgetItem(product.name)
             name_item.setFont(QFont("Segoe UI", 11))
             self.table.setItem(row, 1, name_item)
 
-            cat_item = QTableWidgetItem(product.category)
-            cat_item.setFont(QFont("Segoe UI", 10))
-            self.table.setItem(row, 2, cat_item)
+            # ✅ Колонка с категорией полностью удалена
 
     def filter_products(self, text):
         """Фильтрация товаров по поиску"""
@@ -134,28 +140,35 @@ class SelectProductsDialog(QDialog):
 
     def update_selection_info(self):
         """Обновить счётчик выбранных товаров"""
-        count = len(self.table.selectedItems()) // 3  # 3 колонки на товар
+        # ✅ ИСПРАВЛЕНО: теперь 2 колонки на товар, а не 3
+        count = len(self.table.selectedItems()) // 2
         self.info_label.setText(f"Выбрано товаров: {count}")
 
     def confirm_selection(self):
         """Подтвердить выбор"""
-        # Собираем уникальные выбранные товары (по строкам)
         selected_rows = set()
         for item in self.table.selectedItems():
             selected_rows.add(item.row())
 
         if not selected_rows:
-            from PyQt6.QtWidgets import QMessageBox
             QMessageBox.warning(self, "Внимание", "Выберите хотя бы один товар!")
             return
 
         self.selected_products = []
         for row in sorted(selected_rows):
-            product_id = int(self.table.item(row, 0).text()) if self.table.item(row, 0).text().isdigit() else None
-            # Находим товар по коду или ID
+            code_text = self.table.item(row, 0).text()
+            name_text = self.table.item(row, 1).text()
+
+            # Находим товар в кэше и сохраняем как словарь
             for p in self.all_products:
-                if (p.internal_code == self.table.item(row, 0).text()) or (p.id == product_id):
-                    self.selected_products.append(p)
+                if p.internal_code == code_text or p.name == name_text:
+                    self.selected_products.append({
+                        'id': p.id,
+                        'internal_code': p.internal_code,
+                        'name': p.name,
+                        # ✅ УДАЛЕНО: 'category': p.category,
+                        'keywords': p.keywords
+                    })
                     break
 
         self.accept()
