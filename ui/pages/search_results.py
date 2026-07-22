@@ -3,27 +3,35 @@
 """
 from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel,
                              QPushButton, QFrame, QTableWidget, QTableWidgetItem,
-                             QHeaderView, QAbstractItemView, QRadioButton,
-                             QButtonGroup, QMessageBox, QScrollArea)
+                             QHeaderView, QAbstractItemView, QMessageBox,
+                             QScrollArea, QRadioButton, QMessageBox)
 from PyQt6.QtCore import Qt
-from PyQt6.QtGui import QFont
+from PyQt6.QtGui import QFont, QDesktopServices
+from backend.crud.crud_procurement import get_request_by_id, delete_procurement_request
+from PyQt6.QtCore import QUrl
 
 from ui.utils.config import Colors, Fonts, Spacing, Sizes
 from ui.utils.icons import create_icon_label, IconNames
 from ui.utils.styles import get_catalog_styles
+# from ui.dialogs.review_dialog import ReviewDialog
+from backend.crud.crud_procurement import get_request_by_id
+from backend.database import get_session
 
 
 class SearchResultsPage(QWidget):
     """Страница отображения результатов поиска товаров"""
 
-    def __init__(self, request_id, parent=None):
+    def __init__(self, request_id=None, parent=None):
         super().__init__(parent)
         self.request_id = request_id
-        self.selected_items = {}  # {internal_product_id: marketplace_product_id}
+        self.request_data = None
+        self.marketplace_products = []  # Результаты поиска
 
         self.create_widgets()
         self.apply_styles()
-        self.load_results()
+
+        if request_id:
+            self.load_results()
 
     def create_widgets(self):
         layout = QVBoxLayout(self)
@@ -36,22 +44,22 @@ class SearchResultsPage(QWidget):
         title.setStyleSheet(f"color: {Colors.TEXT_PRIMARY};")
         layout.addWidget(title)
 
-        subtitle = QLabel(f"Заявка #{self.request_id} • Найдено вариантов на маркетплейсах")
-        subtitle.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_NORMAL))
-        subtitle.setStyleSheet(f"color: {Colors.TEXT_SECONDARY};")
-        layout.addWidget(subtitle)
+        self.subtitle = QLabel("")
+        self.subtitle.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_NORMAL))
+        self.subtitle.setStyleSheet(f"color: {Colors.TEXT_SECONDARY};")
+        layout.addWidget(self.subtitle)
 
         # Скроллируемая область
         scroll_area = QScrollArea()
         scroll_area.setWidgetResizable(True)
         scroll_area.setStyleSheet("QScrollArea { border: none; background-color: transparent; }")
 
-        scroll_widget = QWidget()
-        self.scroll_layout = QVBoxLayout(scroll_widget)
+        self.scroll_widget = QWidget()
+        self.scroll_layout = QVBoxLayout(self.scroll_widget)
         self.scroll_layout.setContentsMargins(0, 0, 0, 0)
         self.scroll_layout.setSpacing(Spacing.LG)
 
-        scroll_area.setWidget(scroll_widget)
+        scroll_area.setWidget(self.scroll_widget)
         layout.addWidget(scroll_area)
 
         # Итоговая панель
@@ -76,14 +84,15 @@ class SearchResultsPage(QWidget):
         summary_layout.addStretch()
 
         # Кнопки
-        save_btn = QPushButton("💾 Сохранить заявку")
-        save_btn.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_NORMAL, QFont.Weight.Bold))
-        save_btn.setFixedSize(220, Sizes.BUTTON_HEIGHT)
-        save_btn.setObjectName("saveButton")
-        save_btn.clicked.connect(self.save_results)
-        summary_layout.addWidget(save_btn)
-
-        back_btn = QPushButton("← Назад")
+        # Кнопка "Удалить заявку"
+        delete_btn = QPushButton("Удалить заявку")
+        delete_btn.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_NORMAL))
+        delete_btn.setFixedSize(200, Sizes.BUTTON_HEIGHT)
+        delete_btn.setObjectName("deleteButton")  # Красный стиль
+        delete_btn.clicked.connect(self.delete_request)
+        summary_layout.addWidget(delete_btn)
+        # Кнопка "Назад"
+        back_btn = QPushButton("Назад")
         back_btn.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_NORMAL))
         back_btn.setFixedSize(120, Sizes.BUTTON_HEIGHT)
         back_btn.setObjectName("clearButton")
@@ -92,25 +101,76 @@ class SearchResultsPage(QWidget):
 
         layout.addWidget(summary_card)
 
+    def _clear_results(self):
+        """Очистить старые результаты перед загрузкой новых"""
+        while self.scroll_layout.count() > 0:
+            item = self.scroll_layout.takeAt(0)
+            if item.widget():
+                item.widget().deleteLater()
+
     def load_results(self):
-        """Загрузка результатов поиска (заглушка)"""
-        # TODO: Загрузить реальные данные из БД
-        mock_data = [
+        """Загрузка результатов поиска"""
+        if not self.request_id:
+            return
+
+        self._clear_results()
+        self.marketplace_products = []
+
+        db = get_session()
+        try:
+            # Получаем данные заявки
+            self.request_data = get_request_by_id(db, self.request_id)
+
+            if self.request_data:
+                # Обновляем подзаголовок
+                self.subtitle.setText(
+                    f"Заявка #{self.request_data.number} • "
+                    f"{self.request_data.students_count} студентов • "
+                    f"Дата доставки: {self.request_data.delivery_date}"
+                )
+
+                # TODO: Загрузить результаты парсинга с маркетплейсов
+                # Для примера — заглушка
+                self.marketplace_products = self._get_mock_results()
+
+                # Отображаем результаты
+                for product_data in self.marketplace_products:
+                    card = self.create_product_card(product_data)
+                    self.scroll_layout.addWidget(card)
+
+                self.scroll_layout.addStretch()
+
+                # Подсчитываем сумму
+                self._calculate_total()
+        finally:
+            db.close()
+
+    def _get_mock_results(self):
+        """Заглушка для демонстрации (удалить при реализации парсинга)"""
+        return [
             {
                 'internal_product_id': 1,
                 'product_name': 'Светодиоды 5мм красные',
                 'variants': [
-                    {'marketplace': 'Ozon', 'name': 'Светодиоды красные 5мм (20шт)', 'price': 150.0, 'rating': 4.5, 'url': 'https://ozon.ru/...'},
-                    {'marketplace': 'Wildberries', 'name': 'LED красные 5мм набор', 'price': 120.0, 'rating': 4.2, 'url': 'https://wb.ru/...'},
+                    {
+                        'marketplace': 'Ozon',
+                        'name': 'Светодиоды красные 5мм (20шт)',
+                        'price': 150.0,
+                        'rating': 4.5,
+                        'url': 'https://ozon.ru/product/123',
+                        'reviews_count': 45
+                    },
+                    {
+                        'marketplace': 'Wildberries',
+                        'name': 'LED красные 5мм набор',
+                        'price': 120.0,
+                        'rating': 4.2,
+                        'url': 'https://wb.ru/catalog/456',
+                        'reviews_count': 32
+                    },
                 ]
             },
         ]
-
-        for product_data in mock_data:
-            card = self.create_product_card(product_data)
-            self.scroll_layout.addWidget(card)
-
-        self.scroll_layout.addStretch()
 
     def create_product_card(self, product_data):
         """Создание карточки товара с вариантами"""
@@ -128,13 +188,16 @@ class SearchResultsPage(QWidget):
 
         # Таблица вариантов
         variants_table = QTableWidget()
-        variants_table.setColumnCount(5)
-        variants_table.setHorizontalHeaderLabels(["Выбрать", "Маркетплейс", "Название", "Цена, ₽", "Рейтинг"])
+        variants_table.setColumnCount(6)
+        variants_table.setHorizontalHeaderLabels([
+            "Выбрать", "Маркетплейс", "Название", "Цена, ₽", "Рейтинг", "Действия"
+        ])
         variants_table.horizontalHeader().setSectionResizeMode(0, QHeaderView.ResizeMode.ResizeToContents)
         variants_table.horizontalHeader().setSectionResizeMode(1, QHeaderView.ResizeMode.ResizeToContents)
         variants_table.horizontalHeader().setSectionResizeMode(2, QHeaderView.ResizeMode.Stretch)
         variants_table.horizontalHeader().setSectionResizeMode(3, QHeaderView.ResizeMode.ResizeToContents)
         variants_table.horizontalHeader().setSectionResizeMode(4, QHeaderView.ResizeMode.ResizeToContents)
+        variants_table.horizontalHeader().setSectionResizeMode(5, QHeaderView.ResizeMode.ResizeToContents)
         variants_table.verticalHeader().setVisible(False)
         variants_table.setFixedHeight(150)
 
@@ -169,20 +232,93 @@ class SearchResultsPage(QWidget):
             rating_item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
             variants_table.setItem(row, 4, rating_item)
 
+            # Кнопки действий
+            actions_widget = QWidget()
+            actions_layout = QHBoxLayout(actions_widget)
+            actions_layout.setContentsMargins(2, 2, 2, 2)
+            actions_layout.setSpacing(5)
+
+            # Кнопка "Перейти"
+            link_btn = QPushButton("🔗")
+            link_btn.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_XSMALL))
+            link_btn.setFixedHeight(25)
+            link_btn.setFixedWidth(30)
+            link_btn.setObjectName("editButton")
+            link_btn.setToolTip("Открыть ссылку на товар")
+            link_btn.clicked.connect(lambda checked, url=variant['url']: self.open_link(url))
+            actions_layout.addWidget(link_btn)
+
+            variants_table.setCellWidget(row, 5, actions_widget)
+
         card_layout.addWidget(variants_table)
         return card
 
-    def save_results(self):
-        """Сохранить выбранные варианты"""
-        QMessageBox.information(self, "Успех", "Заявка сохранена!")
-        # TODO: Сохранить выбранные варианты в БД
+    def delete_request(self):
+        """Удалить текущую заявку"""
+
+        print(f"🔍 Попытка удаления заявки #{self.request_id}")
+
+        if not self.request_id:
+            QMessageBox.warning(self, "Ошибка", "Не выбрана заявка для удаления!")
+            return
+
+        # Подтверждение удаления
+        reply = QMessageBox.question(
+            self,
+            "Подтверждение удаления",
+            f"Вы уверены, что хотите удалить заявку #{self.request_data.number if self.request_data else self.request_id}?\n\n"
+            f"Это действие нельзя отменить!",
+            QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
+            QMessageBox.StandardButton.No
+        )
+
+        if reply == QMessageBox.StandardButton.Yes:
+            db = get_session()
+            try:
+                success = delete_procurement_request(db, self.request_id)
+
+                if success:
+                    QMessageBox.information(self, "Успех", "Заявка удалена!")
+                    # Возвращаемся в историю заявок
+                    self.go_back()
+                else:
+                    QMessageBox.critical(self, "Ошибка", "Не удалось удалить заявку!")
+            finally:
+                db.close()
+
+    def open_link(self, url):
+        """Открыть ссылку в браузере"""
+        QDesktopServices.openUrl(QUrl(url))
+
+    def _calculate_total(self):
+        """Подсчитать итоговую сумму"""
+        # TODO: Реальная логика подсчета
+        total = 0
+        self.total_amount_label.setText(f"{total} ₽")
+
+    # def go_back(self):
+    #     """Вернуться на главную"""
+    #     parent = self.parent()
+    #     while parent is not None:
+    #         if hasattr(parent, 'switch_page'):
+    #             parent.switch_page("История заявок")
+    #             return
+    #         parent = parent.parent()
 
     def go_back(self):
-        """Вернуться на главную"""
+        """Вернуться в Историю заявок с обновлением"""
         parent = self.parent()
         while parent is not None:
             if hasattr(parent, 'switch_page'):
-                parent.switch_page("Главная")
+                # ✅ 1. Находим страницу истории
+                history_page = parent.pages.get("История заявок")
+
+                # ✅ 2. Принудительно обновляем данные истории
+                if history_page and hasattr(history_page, 'load_history'):
+                    history_page.load_history()
+
+                # ✅ 3. Только после обновления переключаемся
+                parent.switch_page("История заявок")
                 return
             parent = parent.parent()
 

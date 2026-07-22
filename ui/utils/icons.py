@@ -19,6 +19,7 @@ class IconNames:
     SETTINGS = "settings.png"
     LIGHT_BULB = "light-bulb.png"
     DOOR = "door.png"
+    ACTIVE_REQUEST = "sticky-note.png"
 
     # Действия
     EDIT = "edit.png"
@@ -38,7 +39,7 @@ class IconNames:
     MAGNIFYING_GLASS = "magnifying-glass.png"
     STATS = "stats.png"
     WARNING = "warning.png"
-    ACTIVE_REQUEST = "sticky-note.png"
+
 
     # Логотип
     LOGO = "cmit_logo_parody.png"

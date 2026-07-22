@@ -9,7 +9,7 @@ from PyQt6.QtGui import QFont
 
 from backend.crud.crud_internal_product import get_all_internal_products
 from backend.database import get_session
-
+from ui.utils.icons import create_icon_label, IconNames
 
 class SelectProductsDialog(QDialog):
     """Модальное окно для выбора товаров из справочника"""
@@ -46,9 +46,13 @@ class SelectProductsDialog(QDialog):
 
         search_layout = QHBoxLayout(search_container)
         search_layout.setContentsMargins(10, 0, 10, 0)
+        search_layout.setSpacing(10)
+
+        search_icon = create_icon_label(IconNames.MAGNIFYING_GLASS, size=20)
+        search_layout.addWidget(search_icon)
 
         self.search_input = QLineEdit()
-        self.search_input.setPlaceholderText("🔍 Поиск по названию или коду...")
+        self.search_input.setPlaceholderText("Поиск по названию или коду...")
         self.search_input.setFont(QFont("Segoe UI", 11))
         self.search_input.setStyleSheet("border: none; background: transparent;")
         self.search_input.textChanged.connect(self.filter_products)
@@ -56,10 +60,9 @@ class SelectProductsDialog(QDialog):
 
         layout.addWidget(search_container)
 
-        # ✅ Таблица товаров: ИСПРАВЛЕНО (2 колонки вместо 3, убрана Категория)
         self.table = QTableWidget()
-        self.table.setColumnCount(2)  # <-- ИЗМЕНЕНО
-        self.table.setHorizontalHeaderLabels(["Код", "Название"])  # <-- ИЗМЕНЕНО
+        self.table.setColumnCount(2)
+        self.table.setHorizontalHeaderLabels(["Код", "Название"])
 
         self.table.horizontalHeader().setSectionResizeMode(0, QHeaderView.ResizeMode.ResizeToContents)
         self.table.horizontalHeader().setSectionResizeMode(1, QHeaderView.ResizeMode.Stretch)

@@ -15,9 +15,10 @@ from ui.utils.styles import get_dialog_styles
 class ReviewDialog(QDialog):
     """Диалог оставления отзыва о закупке"""
 
-    def __init__(self, request_id, parent=None):
+    def __init__(self, request_id, variant_data=None, parent=None):
         super().__init__(parent)
         self.request_id = request_id
+        self.variant_data = variant_data  # Данные о товаре с маркетплейса
         self.rating = 5  # По умолчанию 5 звёзд
 
         self.setWindowTitle("Отзыв о закупке")

@@ -81,6 +81,7 @@ class Colors:
     INFO_LIGHT = "#DBEAFE"
     PURPLE_LIGHT = "#F3E8FF"
     YELLOW_LIGHT = "#FEF9C3"
+    ORANGE_LIGHT = "#F7D094"
 
 
 # ========== ШРИФТЫ ==========

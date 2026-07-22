@@ -73,71 +73,71 @@ class SettingsPage(QWidget):
         content_layout.addWidget(subtitle)
         content_layout.addSpacing(Spacing.SM)
 
-        # --- Секция 1: Оформление ---
-        appearance_group = self.create_settings_group(
-            "Оформление",
-            "Выберите тему и внешний вид приложения"
-        )
-        appearance_layout = QVBoxLayout()
-        appearance_layout.setSpacing(Spacing.SM)
-
-        theme_label = QLabel("Тема оформления")
-        theme_label.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_NORMAL, QFont.Weight.Bold))
-        appearance_layout.addWidget(theme_label)
-
-        theme_options_layout = QHBoxLayout()
-        theme_options_layout.setSpacing(Spacing.SM)
-
-        self.theme_group = QButtonGroup()
-
-        self.light_radio = QRadioButton("Светлая")
-        self.light_radio.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_SMALL))
-        self.light_radio.setObjectName("themeRadio")
-        self.light_radio.setChecked(self.current_theme == "light")
-        self.light_radio.toggled.connect(lambda: self.on_theme_change("light"))
-
-        self.dark_radio = QRadioButton("Темная")
-        self.dark_radio.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_SMALL))
-        self.dark_radio.setObjectName("themeRadio")
-        self.dark_radio.setChecked(self.current_theme == "dark")
-        self.dark_radio.toggled.connect(lambda: self.on_theme_change("dark"))
-
-        self.system_radio = QRadioButton("Системная")
-        self.system_radio.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_SMALL))
-        self.system_radio.setObjectName("themeRadio")
-        self.system_radio.setChecked(self.current_theme == "system")
-        self.system_radio.toggled.connect(lambda: self.on_theme_change("system"))
-
-        self.theme_group.addButton(self.light_radio)
-        self.theme_group.addButton(self.dark_radio)
-        self.theme_group.addButton(self.system_radio)
-
-        theme_options_layout.addWidget(self.light_radio)
-        theme_options_layout.addWidget(self.dark_radio)
-        theme_options_layout.addWidget(self.system_radio)
-        theme_options_layout.addStretch()
-        appearance_layout.addLayout(theme_options_layout)
-
-        # Размер шрифта
-        font_size_layout = QHBoxLayout()
-        font_size_layout.setSpacing(Spacing.SM)
-
-        font_size_label = QLabel("Размер шрифта интерфейса")
-        font_size_label.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_NORMAL, QFont.Weight.Bold))
-        font_size_layout.addWidget(font_size_label)
-        font_size_layout.addStretch()
-
-        self.font_size_combo = QComboBox()
-        self.font_size_combo.addItems(["Маленький (10)", "Обычный (12)", "Крупный (14)", "Очень крупный (16)"])
-        self.font_size_combo.setCurrentIndex(1)
-        self.font_size_combo.setFixedWidth(200)
-        self.font_size_combo.setFixedHeight(Sizes.INPUT_HEIGHT)
-        self.font_size_combo.setObjectName("settingsCombo")
-        font_size_layout.addWidget(self.font_size_combo)
-        appearance_layout.addLayout(font_size_layout)
-
-        appearance_group.layout().addLayout(appearance_layout)
-        content_layout.addWidget(appearance_group)
+        # # --- Секция 1: Оформление ---
+        # appearance_group = self.create_settings_group(
+        #     "Оформление",
+        #     "Выберите тему и внешний вид приложения"
+        # )
+        # appearance_layout = QVBoxLayout()
+        # appearance_layout.setSpacing(Spacing.SM)
+        #
+        # theme_label = QLabel("Тема оформления")
+        # theme_label.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_NORMAL, QFont.Weight.Bold))
+        # appearance_layout.addWidget(theme_label)
+        #
+        # theme_options_layout = QHBoxLayout()
+        # theme_options_layout.setSpacing(Spacing.SM)
+        #
+        # self.theme_group = QButtonGroup()
+        #
+        # self.light_radio = QRadioButton("Светлая")
+        # self.light_radio.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_SMALL))
+        # self.light_radio.setObjectName("themeRadio")
+        # self.light_radio.setChecked(self.current_theme == "light")
+        # self.light_radio.toggled.connect(lambda: self.on_theme_change("light"))
+        #
+        # self.dark_radio = QRadioButton("Темная")
+        # self.dark_radio.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_SMALL))
+        # self.dark_radio.setObjectName("themeRadio")
+        # self.dark_radio.setChecked(self.current_theme == "dark")
+        # self.dark_radio.toggled.connect(lambda: self.on_theme_change("dark"))
+        #
+        # self.system_radio = QRadioButton("Системная")
+        # self.system_radio.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_SMALL))
+        # self.system_radio.setObjectName("themeRadio")
+        # self.system_radio.setChecked(self.current_theme == "system")
+        # self.system_radio.toggled.connect(lambda: self.on_theme_change("system"))
+        #
+        # self.theme_group.addButton(self.light_radio)
+        # self.theme_group.addButton(self.dark_radio)
+        # self.theme_group.addButton(self.system_radio)
+        #
+        # theme_options_layout.addWidget(self.light_radio)
+        # theme_options_layout.addWidget(self.dark_radio)
+        # theme_options_layout.addWidget(self.system_radio)
+        # theme_options_layout.addStretch()
+        # appearance_layout.addLayout(theme_options_layout)
+        #
+        # # Размер шрифта
+        # font_size_layout = QHBoxLayout()
+        # font_size_layout.setSpacing(Spacing.SM)
+        #
+        # font_size_label = QLabel("Размер шрифта интерфейса")
+        # font_size_label.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_NORMAL, QFont.Weight.Bold))
+        # font_size_layout.addWidget(font_size_label)
+        # font_size_layout.addStretch()
+        #
+        # self.font_size_combo = QComboBox()
+        # self.font_size_combo.addItems(["Маленький (10)", "Обычный (12)", "Крупный (14)", "Очень крупный (16)"])
+        # self.font_size_combo.setCurrentIndex(1)
+        # self.font_size_combo.setFixedWidth(200)
+        # self.font_size_combo.setFixedHeight(Sizes.INPUT_HEIGHT)
+        # self.font_size_combo.setObjectName("settingsCombo")
+        # font_size_layout.addWidget(self.font_size_combo)
+        # appearance_layout.addLayout(font_size_layout)
+        #
+        # appearance_group.layout().addLayout(appearance_layout)
+        # content_layout.addWidget(appearance_group)
 
         # --- Секция: Параметры товаров ---
         products_group = self.create_settings_group(

@@ -169,7 +169,7 @@
 Главная страница приложения
 """
 from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel,
-                             QFrame, QGridLayout, QSizePolicy)
+                             QFrame, QGridLayout, QSizePolicy, QMessageBox)
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont
 
@@ -254,9 +254,8 @@ class MainPage(QWidget):
 
         # Данные карточек первого уровня
         top_cards_data = [
-            (IconNames.ADD, "Создание новой заявки", "Создайте новую заявку на закупку товаров", Colors.PRIMARY_LIGHT),
-            (IconNames.SEARCH, "Активная заявка", "Просмотрите результаты обработки текущей заявки", Colors.WARNING_LIGHT),
-            # ✅ НОВАЯ КАРТОЧКА
+            (IconNames.ADD, "Создание новой заявки", "Создайте новую заявку на закупку товаров", Colors.PURPLE_LIGHT),
+            (IconNames.ACTIVE_REQUEST, "Активная заявка", "Просмотрите результаты обработки последней заявки", Colors.WARNING_LIGHT),
         ]
 
         for i, (icon_name, title_text, description, bg_color) in enumerate(top_cards_data):
@@ -276,7 +275,7 @@ class MainPage(QWidget):
             (IconNames.SEARCH, "История заявок", "Просмотрите ваши предыдущие заявки", Colors.SUCCESS_LIGHT),
             # ← Перемещена сюда
             (IconNames.PRODUCT, "Справочник товаров", "Просмотрите или редактируйте актуальные товары предприятия",
-             Colors.PURPLE_LIGHT),
+             Colors.ORANGE_LIGHT),
         ]
 
         for i, (icon_name, title_text, description, bg_color) in enumerate(bottom_cards_data):
@@ -357,8 +356,37 @@ class MainPage(QWidget):
         """Обработчик клика на карточку"""
         if card_title == "Создание новой заявки":
             self.navigate_to("Создать заявку")
+
         elif card_title == "Активная заявка":
-            self.navigate_to("Активная заявка")
+            # ✅ Получаем ID активной заявки через реальную сессию
+            from backend.crud.crud_settings import get_app_setting
+            from backend.database import get_session
+
+            db = get_session()
+            try:
+                active_request_id_str = get_app_setting(db, "active_request_id")
+            finally:
+                db.close()
+
+            if active_request_id_str:
+                try:
+                    active_request_id = int(active_request_id_str)
+                except (ValueError, TypeError):
+                    active_request_id = None
+
+                if active_request_id:
+                    parent = self.parent()
+                    while parent is not None:
+                        if hasattr(parent, 'switch_page'):
+                            parent.current_request_id = active_request_id
+                            parent.switch_page("Активная заявка")
+                            return
+                        parent = parent.parent()
+                else:
+                    QMessageBox.information(self, "Информация", "Нет активной заявки")
+            else:
+                QMessageBox.information(self, "Информация", "Нет активной заявки")
+
         elif card_title == "История заявок":
             self.navigate_to("История заявок")
         elif card_title == "Справочник товаров":

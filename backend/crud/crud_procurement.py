@@ -355,3 +355,25 @@ def create_procurement_with_items(
         return None, None
     finally:
         db.close()
+
+
+def delete_procurement_request(db: Session, request_id: int) -> bool:
+    """
+    Удалить заявку и все связанные позиции
+    """
+    try:
+        # Находим заявку
+        request = db.query(ProcurementRequest).filter(ProcurementRequest.id == request_id).first()
+
+        if not request:
+            return False
+
+        # Удаляем заявку (каскадное удаление позиций благодаря cascade="all, delete-orphan")
+        db.delete(request)
+        db.commit()
+        return True
+
+    except Exception as e:
+        db.rollback()
+        print(f"❌ Ошибка удаления заявки: {e}")
+        return False
