@@ -6,7 +6,7 @@ from pathlib import Path
 from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QStackedWidget
 from PyQt6.QtGui import QFont, QIcon
 
-from database import get_session
+from backend.database import get_session
 from ui.utils.config import APP_TITLE, APP_LOGO, WINDOW_WIDTH, WINDOW_HEIGHT, WINDOW_MIN_WIDTH, WINDOW_MIN_HEIGHT
 from ui.utils.styles import get_main_window_styles  # ✅ ИСПРАВЛЕНО: ui.styles вместо ui.utils.styles
 from ui.widgets.sidebar import Sidebar

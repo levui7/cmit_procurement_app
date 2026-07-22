@@ -4,18 +4,17 @@
 from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel,
                              QPushButton, QFrame, QTableWidget, QTableWidgetItem,
                              QHeaderView, QAbstractItemView, QMessageBox,
-                             QScrollArea, QRadioButton, QMessageBox)
-from PyQt6.QtCore import Qt
+                             QScrollArea, QRadioButton)
+from PyQt6.QtCore import Qt, QUrl
 from PyQt6.QtGui import QFont, QDesktopServices
+
 from backend.crud.crud_procurement import get_request_by_id, delete_procurement_request
-from PyQt6.QtCore import QUrl
+from backend.database import get_session
 
 from ui.utils.config import Colors, Fonts, Spacing, Sizes
 from ui.utils.icons import create_icon_label, IconNames
 from ui.utils.styles import get_catalog_styles
 # from ui.dialogs.review_dialog import ReviewDialog
-from backend.crud.crud_procurement import get_request_by_id
-from backend.database import get_session
 
 
 class SearchResultsPage(QWidget):
@@ -83,7 +82,6 @@ class SearchResultsPage(QWidget):
         summary_layout.addLayout(total_layout)
         summary_layout.addStretch()
 
-        # Кнопки
         # Кнопка "Удалить заявку"
         delete_btn = QPushButton("Удалить заявку")
         delete_btn.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_NORMAL))
@@ -91,6 +89,7 @@ class SearchResultsPage(QWidget):
         delete_btn.setObjectName("deleteButton")  # Красный стиль
         delete_btn.clicked.connect(self.delete_request)
         summary_layout.addWidget(delete_btn)
+        
         # Кнопка "Назад"
         back_btn = QPushButton("Назад")
         back_btn.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_NORMAL))
@@ -129,19 +128,26 @@ class SearchResultsPage(QWidget):
                     f"Дата доставки: {self.request_data.delivery_date}"
                 )
 
-                # TODO: Загрузить результаты парсинга с маркетплейсов
-                # Для примера — заглушка
+            # ==========================================================
+            # ИЗМЕНЕНИЕ: Загружаем реальные результаты парсинга из БД
+            # ==========================================================
+            from backend.services.search_results_service import get_parsed_results_for_ui
+            self.marketplace_products = get_parsed_results_for_ui(self.request_id)
+            
+            # Если база пуста (парсинг еще не прошел), используем заглушку для демо
+            if not self.marketplace_products:
                 self.marketplace_products = self._get_mock_results()
 
-                # Отображаем результаты
-                for product_data in self.marketplace_products:
-                    card = self.create_product_card(product_data)
-                    self.scroll_layout.addWidget(card)
+            # Отображаем результаты (Важно: этот блок должен быть ВНЕ условия if!)
+            for product_data in self.marketplace_products:
+                card = self.create_product_card(product_data)
+                self.scroll_layout.addWidget(card)
 
-                self.scroll_layout.addStretch()
+            self.scroll_layout.addStretch()
 
-                # Подсчитываем сумму
-                self._calculate_total()
+            # Подсчитываем сумму
+            self._calculate_total()
+            
         finally:
             db.close()
 
@@ -255,7 +261,6 @@ class SearchResultsPage(QWidget):
 
     def delete_request(self):
         """Удалить текущую заявку"""
-
         print(f"🔍 Попытка удаления заявки #{self.request_id}")
 
         if not self.request_id:
@@ -295,15 +300,6 @@ class SearchResultsPage(QWidget):
         # TODO: Реальная логика подсчета
         total = 0
         self.total_amount_label.setText(f"{total} ₽")
-
-    # def go_back(self):
-    #     """Вернуться на главную"""
-    #     parent = self.parent()
-    #     while parent is not None:
-    #         if hasattr(parent, 'switch_page'):
-    #             parent.switch_page("История заявок")
-    #             return
-    #         parent = parent.parent()
 
     def go_back(self):
         """Вернуться в Историю заявок с обновлением"""

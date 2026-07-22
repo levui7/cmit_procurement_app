@@ -1,6 +1,3 @@
-"""
-Настройки базы данных и управление сессиями
-"""
 from pathlib import Path
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
@@ -22,7 +19,7 @@ SessionLocal = sessionmaker(bind=engine)
 
 def init_db():
     """Инициализация БД: создание таблиц"""
-    # ✅ ВАЖНО: Импортируем все модели, чтобы SQLAlchemy их зарегистрировал
+    #  ВАЖНО: Импортируем все модели, чтобы SQLAlchemy их зарегистрировал
     from backend.models import (
         InternalProduct,
         MarketplaceProduct,
@@ -31,15 +28,45 @@ def init_db():
         AppSettings
     )
 
-    print("📋 Таблицы, которые будут созданы:", list(Base.metadata.tables.keys()))
+    print("Таблицы, которые будут созданы:", list(Base.metadata.tables.keys()))
 
     Base.metadata.create_all(engine)
-    print(f"✅ База данных инициализирована: {DB_PATH}")
+    print(f"База данных инициализирована: {DB_PATH}")
 
 
 def get_session():
     """Получить сессию БД"""
     return SessionLocal()
+
+
+def add_marketplace_match(internal_product_id, marketplace_name, name, url, price, rating=0.0):
+    """
+    Добавить найденный товар на маркетплейсе, привязанный к внутреннему товару.
+    Эта функция нужна парсеру для сохранения результатов.
+    """
+    # Импортируем модель внутри функции, чтобы избежать циклических импортов
+    from backend.models import MarketplaceProduct
+    
+    session = get_session()
+    try:
+        match = MarketplaceProduct(
+            internal_product_id=internal_product_id,
+            marketplace_name=marketplace_name,
+            name=name,
+            url=url,
+            price=price,
+            rating=rating
+        )
+        session.add(match)
+        session.commit()
+        return match.id
+    except Exception as e:
+        session.rollback()
+        print(f" Ошибка добавления товара маркетплейса: {e}")
+        return None
+    finally:
+        session.close()
+
 
 # """
 # Модуль работы с базой данных

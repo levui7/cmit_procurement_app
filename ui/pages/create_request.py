@@ -6,7 +6,7 @@ from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel,
                              QHeaderView, QAbstractItemView, QSpinBox,
                              QDoubleSpinBox, QDateEdit, QComboBox,
                              QMessageBox, QDialog, QTextEdit)
-from PyQt6.QtCore import Qt, QDate
+from PyQt6.QtCore import Qt, QDate, QTimer
 from PyQt6.QtGui import QFont
 
 from datetime import datetime
@@ -238,23 +238,6 @@ class CreateRequestPage(QWidget):
         layout.addLayout(actions_layout)
         layout.addStretch()
 
-    # def open_select_products_dialog(self):
-    #     """Открыть диалог выбора товаров из справочника"""
-    #     dialog = SelectProductsDialog(self.icons_path, parent=self)
-    #     if dialog.exec() == QDialog.DialogCode.Accepted:
-    #         # Добавляем выбранные товары в заявку
-    #         for product in dialog.selected_products:
-    #             # Проверяем, нет ли уже этого товара
-    #             if any(item['product'].id == product.id for item in self.request_items):
-    #                 continue
-    #             self.request_items.append({
-    #                 'product': product,
-    #                 'quantity': 10,
-    #                 'min_price': 0.0,
-    #                 'max_price': 0.0
-    #             })
-    #         self.refresh_items_table()
-
     def open_select_products_dialog(self):
         """Открыть диалог выбора товаров из справочника"""
         dialog = SelectProductsDialog(self.icons_path, parent=self)
@@ -271,56 +254,6 @@ class CreateRequestPage(QWidget):
                     'max_price': 0.0
                 })
             self.refresh_items_table()
-
-    # def refresh_items_table(self):
-    #     """Обновить таблицу товаров в заявке"""
-    #     self.items_table.setRowCount(0)
-    #
-    #     for i, item in enumerate(self.request_items, 1):
-    #         row = self.items_table.rowCount()
-    #         self.items_table.insertRow(row)
-    #
-    #         # Номер
-    #         num_item = QTableWidgetItem(str(i))
-    #         num_item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
-    #         self.items_table.setItem(row, 0, num_item)
-    #
-    #         # Название
-    #         name_item = QTableWidgetItem(item['product'].name)
-    #         name_item.setFont(QFont(Fonts.FAMILY, Fonts.SIZE_SMALL))
-    #         self.items_table.setItem(row, 1, name_item)
-    #
-    #         # Количество (редактируемое)
-    #         qty_widget = QSpinBox()
-    #         qty_widget.setRange(1, 100000)
-    #         qty_widget.setValue(item['quantity'])
-    #         qty_widget.setFixedHeight(30)
-    #         qty_widget.setObjectName("inputField")
-    #         qty_widget.valueChanged.connect(lambda val, idx=row: self.update_item_quantity(idx, val))
-    #         self.items_table.setCellWidget(row, 2, qty_widget)
-    #
-    #         # Мин. цена
-    #         min_widget = QDoubleSpinBox()
-    #         min_widget.setRange(0, 1000000)
-    #         min_widget.setValue(item['min_price'])
-    #         min_widget.setPrefix("")
-    #         min_widget.setSuffix(" ₽")
-    #         min_widget.setFixedHeight(30)
-    #         min_widget.setObjectName("inputField")
-    #         min_widget.valueChanged.connect(lambda val, idx=row: self.update_item_min_price(idx, val))
-    #         self.items_table.setCellWidget(row, 3, min_widget)
-    #
-    #         # Макс. цена
-    #         max_widget = QDoubleSpinBox()
-    #         max_widget.setRange(0, 1000000)
-    #         max_widget.setValue(item['max_price'])
-    #         max_widget.setSuffix(" ₽")
-    #         max_widget.setFixedHeight(30)
-    #         max_widget.setObjectName("inputField")
-    #         max_widget.valueChanged.connect(lambda val, idx=row: self.update_item_max_price(idx, val))
-    #         self.items_table.setCellWidget(row, 4, max_widget)
-    #
-    #         self.items_table.setRowHeight(row, Sizes.TABLE_ROW_HEIGHT - 10)
 
     def refresh_items_table(self):
         """Обновить таблицу товаров в заявке"""
@@ -480,12 +413,10 @@ class CreateRequestPage(QWidget):
         finally:
             db.close()
 
-        # 3. Запускаем парсинг
-        parsing_dialog = ParsingProgressDialog(request_number, len(items_data), request_date, parent=self)
+        # 3. Запускаем парсинг (ПРАВКА: добавлен request_id первым аргументом)
+        parsing_dialog = ParsingProgressDialog(request_id, request_number, len(items_data), request_date, parent=self)
 
-        # print("🟢 ЗАПУСК ДИАЛОГА ПАРСИНГА...")
         result = parsing_dialog.exec()
-        # print(f"🟢 ДИАЛОГ ЗАВЕРШЕН. Результат: {result}")
 
         if result == QDialog.DialogCode.Accepted:
             # ✅ Сохраняем ID активной заявки (без локального импорта get_session!)
@@ -498,7 +429,6 @@ class CreateRequestPage(QWidget):
                 db.close()
 
             # ✅ Безопасный переход с задержкой
-            from PyQt6.QtCore import QTimer
             QTimer.singleShot(100, lambda: self._switch_to_results(request_id))
 
     def _switch_to_results(self, request_id):
@@ -510,110 +440,6 @@ class CreateRequestPage(QWidget):
                 parent.switch_page("Активная заявка")
                 return
             parent = parent.parent()
-
-    # def create_and_search(self):
-    #     """Создать заявку и запустить поиск"""
-    #     if not self.request_items:
-    #         QMessageBox.warning(self, "Ошибка", "Добавьте хотя бы один товар в заявку!")
-    #         return
-    #
-    #     # Собираем данные
-    #     request_data = {
-    #         'description': self.description.toPlainText(),
-    #         'delivery_date': self.delivery_date.date().toString("dd.MM.yyyy"),
-    #         'min_rating': self.min_rating.currentText(),
-    #         'students_count': self.students_count.value()
-    #     }
-    #
-    #     items_data = [
-    #         {
-    #             'product': item['product'],
-    #             'quantity': item['quantity'],
-    #             'min_price': item['min_price'],
-    #             'max_price': item['max_price']
-    #         }
-    #         for item in self.request_items
-    #     ]
-    #
-    #     # 1. Показываем диалог подтверждения
-    #     from ui.dialogs.confirm_request_dialog import ConfirmRequestDialog
-    #     confirm_dialog = ConfirmRequestDialog(request_data, items_data, parent=self)
-    #
-    #     if confirm_dialog.exec() != QDialog.DialogCode.Accepted:
-    #         return  # Пользователь отменил
-    #
-    #     # 2. Создаём заявку в БД
-    #     from backend.crud.crud_procurement import create_procurement_with_items
-    #     items_for_db = [
-    #         {
-    #             'internal_product_id': item['product']['id'],
-    #             'quantity': item['quantity'],
-    #             'min_price': item['min_price'],
-    #             'max_price': item['max_price']
-    #         }
-    #         for item in items_data
-    #     ]
-    #
-    #     request_id, request_number = create_procurement_with_items(request_data, items_for_db)
-    #
-    #     print(f"🔍 request_id={request_id}, type={type(request_id)}")
-    #     print(f"🔍 request_number={request_number}, type={type(request_number)}")
-    #
-    #     if not request_id:
-    #         QMessageBox.critical(self, "Ошибка", "Не удалось создать заявку!")
-    #         return
-    #
-    #     # ✅ Если это ORM-объекты, извлеките ID
-    #     if hasattr(request_id, 'id'):
-    #         request_id = request_id.id
-    #     if hasattr(request_number, 'number'):
-    #         request_number = request_number.number
-    #
-    #     # ✅ Получаем дату создания заявки из БД для корректного отображения
-    #     db = get_session()
-    #     try:
-    #         req = get_request_by_id(db, request_id)
-    #         request_date = req.created_at.strftime("%d.%m.%Y") if req and req.created_at else datetime.now().strftime("%d.%m.%Y")
-    #     finally:
-    #         db.close()
-    #
-    #     # 3. Запускаем парсинг
-    #     parsing_dialog = ParsingProgressDialog(request_number, len(items_data), request_date, parent=self)
-    #
-    #     print("🟢 ЗАПУСК ДИАЛОГА ПАРСИНГА...")
-    #     result = parsing_dialog.exec()
-    #     print(f"🟢 ДИАЛОГ ЗАВЕРШЕН. Результат: {result}")
-    #
-    #     # if result == QDialog.DialogCode.Accepted:
-    #     #     print("🟢 ПЕРЕХОД НА СТРАНИЦУ РЕЗУЛЬТАТОВ...")
-    #     #     parent = self.parent()
-    #     #     while parent is not None:
-    #     #         if hasattr(parent, 'switch_page'):
-    #     #             parent.current_request_id = request_id
-    #     #             parent.switch_page("Активная заявка")
-    #     #             print("🟢 ПЕРЕХОД ВЫПОЛНЕН УСПЕШНО")
-    #     #             return
-    #     #         parent = parent.parent()
-    #     #     print("🔴 ОШИБКА: Не удалось найти parent с методом switch_page")
-    #
-    #     if result == QDialog.DialogCode.Accepted:
-    #         # ✅ Сохраняем ID активной заявки в БД через реальную сессию
-    #         from backend.crud.crud_settings import set_app_setting
-    #
-    #         db = get_session()
-    #         try:
-    #             set_app_setting(db, "active_request_id", str(request_id))
-    #         finally:
-    #             db.close()
-    #
-    #         # Переходим на страницу результатов
-    #         parent = self.parent()
-    #         while parent is not None:
-    #             if hasattr(parent, 'switch_page'):
-    #                 parent.current_request_id = request_id
-    #                 parent.switch_page("Активная заявка")
-    #                 return
-    #             parent = parent.parent()
 
     def apply_styles(self):
         self.setStyleSheet(get_create_request_styles())

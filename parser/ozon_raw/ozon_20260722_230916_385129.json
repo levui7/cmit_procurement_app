@@ -1,0 +1,248 @@
+{
+  "layout": [
+    {
+      "component": "separator",
+      "params": "{\"height\":12}",
+      "stateId": "separator-3669747-default-9",
+      "version": 1,
+      "vertical": "cms",
+      "widgetTrackingInfo": "{\"name\":\"cms.separator\",\"vertical\":\"cms\",\"component\":\"separator\",\"version\":1,\"id\":3669747,\"revisionId\":4185617}",
+      "etag": "ea35b7694a8dbcb3",
+      "widgetToken": "0Fig1TbMj3sj-kc1DO49bcGY07SpKQhC",
+      "name": "cms.separator",
+      "id": 3669747,
+      "isTrackingOn": true,
+      "isStatic": true
+    },
+    {
+      "component": "tileGridDesktop",
+      "params": "{}",
+      "stateId": "tileGridDesktop-3669724-default-9",
+      "version": 1,
+      "vertical": "products",
+      "widgetTrackingInfo": "{\"name\":\"catalog.searchResultsV2\",\"vertical\":\"products\",\"component\":\"tileGridDesktop\",\"version\":1,\"originName\":\"catalog.searchResultsV2\",\"originVertical\":\"catalog\",\"originComponent\":\"searchResultsV2\",\"originVersion\":1,\"id\":3669724,\"revisionId\":4185508,\"index\":1}",
+      "widgetToken": "0Fig1T0UnDWzhuISpYODvooVEW2bWCp0",
+      "timeSpent": 87,
+      "name": "catalog.searchResultsV2",
+      "id": 3669724,
+      "isTrackingOn": true
+    }
+  ],
+  "widgetStates": {
+    "tileGridDesktop-3669724-default-9": "{\"options\":{\"theme\":\"DEFAULT\"},\"sharedData\":{},\"items\":[{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\",\"link\":\"/product/tokoprovodyashchiy-kley-dlya-listovogo-serebra-tokoprovodyashchaya-pasta-elektricheskaya-kraska-4292539552/?at=28t0YZz6KUZXPn2s173nvocL7orkPS17y9KRsoyLVW9\",\"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"4292539552\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\",\"priceV2\":{\"price\":[{\"text\":\"432 ₽\",\"textStyle\":\"PRICE\"}],\"priceStyle\":{\"styleType\":\"CARD_PRICE\"},\"preset\":\"SIZE_500\"}},{\"type\":\"labelListV2\",\"labelListV2\":{\"items\":[{\"type\":\"icon\",\"icon\":{\"icon\":{\"icon\":\"ic_s_download_filled_compact\",\"tintColor\":\"bgPositivePrimary\"},\"leftPadding\":-2}},{\"type\":\"text\",\"text\":{\"text\":\"Стало дешевле\",\"leftPadding\":2}}],\"verticalIndents\":{\"top\":2,\"bottom\":2},\"testInfo\":{\"automatizationId\":\"tile-list-labels\"}}},{\"type\":\"textDS\",\"textDS\":{\"text\":\"Токопроводящий клей для листового серебра, токопроводящая паста, электрическая краска, клеевая линия\",\"textColor\":\"textPrimary\",\"maxLines\":2,\"preset\":\"PRESET_CUSTOM\",\"typographyToken\":\"tsBody500Medium\",\"testInfo\":{\"automatizationId\":\"tile-name\"}},\"id\":\"name\"}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\",\"addToCart\":{\"skuId\":\"4292539552\",\"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\",\"id\":\"addToCart\",\"params\":{\"id\":\"4292539552\",\"quantity\":\"1\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\",\"key\":\"28t0YZz6KUZXPn2s173nvocL7orkPS17y9KRsoyLVW9\"}},\"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}},\"icon\":\"ic_s_grocery_cart_filled\",\"title\":\"8 августа\"},\"quantityButton\":{\"maxItems\":500,\"updateCartAction\":{\"id\":\"4292539552\",\"quantity\":1}},\"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\",\"key\":\"28t0YZz6KUZXPn2s173nvocL7orkPS17y9KRsoyLVW9\"}},\"inCartQuantity\":0,\"extendMap\":{\"asb2\":\"APgD4nmWuUr4j0O9P0LxaXn8GK28nr6Xz5-SCuPKGXLUb12fGk9qtSyWweft2rWLocFhxIA3FOe_Mr-AmwKf4lY3DvNAO0E3kIVSd3jeyJ8dXG2LdALP5A2i2-xSfkxvXA\",\"qtyDiscountNotify\":\"true\",\"spsDiscountNotify\":\"true\"}}}},\"sku\":4292539552,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\",\"items\":[{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-5/7254260645.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\"}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-e/7234661678.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"NOtwWPm9VcvBQNMjSowKyXGFp7BJ5OTyGnyvDt2587X3\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-t/7234661693.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"w0tgjV3P0cVpZPq1t5gAW27FVm9AmniXr5LJkc1GXoWZ\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-k/7214391632.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"57twJpLRgc3p2lggCxrVlj8c554pJvu9LNn6YTQlZynD\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-d/7214391229.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"NOtwWPm9VcpG52J2F2WvgYmhxl9nDvU88GqvESOnR74O\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-t/7254260921.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"Z8tX689xPSXYm5nlcODl4yQcAXrqYYs5WVoXDUgEYvEl\"}}}}]},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\",\"favoriteProductMoleculeV2\":{\"id\":\"4292539552\",\"isFav\":false,\"favLink\":\"favoriteBatchAddItems\",\"unfavLink\":\"favoriteBatchDeleteItems\",\"trackingInfo\":{\"click\":{\"actionType\":\"favorite\",\"key\":\"28t0YZz6KUZXPn2s173nvocL7orkPS17y9KRsoyLVW9\"}},\"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"},\"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"28t0YZz6KUZXPn2s173nvocL7orkPS17y9KRsoyLVW9\"},\"click\":{\"actionType\":\"click\",\"key\":\"28t0YZz6KUZXPn2s173nvocL7orkPS17y9KRsoyLVW9\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"28t0YZz6KUZXPn2s173nvocL7orkPS17y9KRsoyLVW9\"},\"view\":{\"actionType\":\"view\",\"key\":\"28t0YZz6KUZXPn2s173nvocL7orkPS17y9KRsoyLVW9\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\",\"link\":\"/product/serebryanyy-tokoprovodyashchiy-kley-provod-0-2-ml-elektroprovodyashchaya-pasta-kraska-dlya-remonta-2977930878/?at=36tWk9zx7ujpYyN9sEwPQjZUKqBR5ysQKNmYWuGYoJKz\",\"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"2977930878\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\",\"priceV2\":{\"price\":[{\"text\":\"192 ₽\",\"textStyle\":\"PRICE\"},{\"text\":\"1 161 ₽\",\"textStyle\":\"ORIGINAL_PRICE\"}],\"discount\":\"−83%\",\"priceStyle\":{\"styleType\":\"CARD_PRICE\"},\"preset\":\"SIZE_500\"}},{\"type\":\"textDS\",\"textDS\":{\"text\":\"Серебряный токопроводящий клей-провод 0,2 мл, электропроводящая паста, краска для ремонта печатных плат\",\"textColor\":\"textPrimary\",\"maxLines\":3,\"preset\":\"PRESET_CUSTOM\",\"typographyToken\":\"tsBody500Medium\",\"testInfo\":{\"automatizationId\":\"tile-name\"}},\"id\":\"name\"},{\"type\":\"labelListV2\",\"labelListV2\":{\"items\":[{\"type\":\"icon\",\"icon\":{\"icon\":{\"icon\":\"ic_s_star_filled_compact\",\"tintColor\":\"graphicRating\"},\"leftPadding\":-2}},{\"type\":\"text\",\"text\":{\"text\":\"4.9\",\"textColor\":\"textPremium\",\"leftPadding\":2}},{\"type\":\"icon\",\"icon\":{\"icon\":{\"icon\":\"ic_s_dialog_filled_compact\",\"tintColor\":\"graphicTertiary\"},\"leftPadding\":4}},{\"type\":\"text\",\"text\":{\"text\":\"17 отзывов\",\"textColor\":\"textSecondary\",\"leftPadding\":2}}],\"verticalIndents\":{\"top\":2,\"bottom\":2},\"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\",\"addToCart\":{\"skuId\":\"2977930878\",\"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\",\"id\":\"addToCart\",\"params\":{\"id\":\"2977930878\",\"quantity\":\"1\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\",\"key\":\"36tWk9zx7ujpYyN9sEwPQjZUKqBR5ysQKNmYWuGYoJKz\"}},\"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}},\"icon\":\"ic_s_grocery_cart_filled\",\"title\":\"22 августа\"},\"quantityButton\":{\"maxItems\":700,\"updateCartAction\":{\"id\":\"2977930878\",\"quantity\":1}},\"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\",\"key\":\"36tWk9zx7ujpYyN9sEwPQjZUKqBR5ysQKNmYWuGYoJKz\"}},\"inCartQuantity\":0,\"extendMap\":{\"asb2\":\"APgDs-JqagKIHN1C6-kdfs2tEzOjdJHE-bYQGf8jCE867ro7FcbAdkuLAO5lrrQvZrjWhBftR0Kz41Log1vHshUYPsoRXqZbbWMxk_OICaexRRQMBNiYg7lXpRoAJghAlg\",\"qtyDiscountNotify\":\"true\",\"spsDiscountNotify\":\"true\"}}}},\"sku\":2977930878,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\",\"items\":[{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-q/7277354270.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\"}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-s/7277354704.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"28t0YZz6KU2ABNmyTGVz6XpTvpEgAxi0P0W8KunRP99x\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-d/7277354869.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"jYtZrGQAlUjlV9RoTQ4y9k6tYY0NYRCQlnjZ3TQlwr8n\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-t/7277354777.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"gpt43wZNPi3r3k1LugmN1NWiQ5XKBgc1EgP5lHq7Q9BD\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-d/12221647105.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"pZtp2O3yQH4wgxBiJKpggCOwBOVRcjrM2QxHgZN6Yj\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-2/12221648102.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"28t0YZz6KU1p8zXWI0678JotxNvG95U4POPwBc9NRo0v\"}}}}]},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\",\"favoriteProductMoleculeV2\":{\"id\":\"2977930878\",\"isFav\":false,\"favLink\":\"favoriteBatchAddItems\",\"unfavLink\":\"favoriteBatchDeleteItems\",\"trackingInfo\":{\"click\":{\"actionType\":\"favorite\",\"key\":\"36tWk9zx7ujpYyN9sEwPQjZUKqBR5ysQKNmYWuGYoJKz\"}},\"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"},\"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"36tWk9zx7ujpYyN9sEwPQjZUKqBR5ysQKNmYWuGYoJKz\"},\"click\":{\"actionType\":\"click\",\"key\":\"36tWk9zx7ujpYyN9sEwPQjZUKqBR5ysQKNmYWuGYoJKz\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"36tWk9zx7ujpYyN9sEwPQjZUKqBR5ysQKNmYWuGYoJKz\"},\"view\":{\"actionType\":\"view\",\"key\":\"36tWk9zx7ujpYyN9sEwPQjZUKqBR5ysQKNmYWuGYoJKz\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\",\"link\":\"/product/serebryanaya-kley-pasta-0-2-ml-dlya-remonta-plat-15-5-sm-novinka-1-sht-5081697067/?at=MZtvrk49xuQmNq6vsP0vM9lhOYLvlJhQ6M91kIz9RWRG\",\"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"5081697067\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\",\"priceV2\":{\"price\":[{\"text\":\"184 ₽\",\"textStyle\":\"PRICE\"},{\"text\":\"1 631 ₽\",\"textStyle\":\"ORIGINAL_PRICE\"}],\"discount\":\"−88%\",\"priceStyle\":{\"styleType\":\"SALE_PRICE\",\"gradient\":{\"startColor\":\"#F1117E\",\"endColor\":\"#F1117E\"}},\"preset\":\"SIZE_500\"}},{\"type\":\"textDS\",\"textDS\":{\"text\":\"999 шт осталось\",\"textColor\":\"textAccent\",\"maxLines\":1,\"preset\":\"PRESET_CUSTOM\",\"typographyToken\":\"tsBodyControl400Small\",\"topPadding\":\"PADDING_100\",\"bottomPadding\":\"PADDING_100\",\"testInfo\":{\"automatizationId\":\"tile-blackFridayStockbar\"}}},{\"type\":\"textDS\",\"textDS\":{\"text\":\"Серебряная клей-паста 0.2 мл для ремонта плат, 15.5 см, новинка, 1 шт.\",\"textColor\":\"textPrimary\",\"maxLines\":2,\"preset\":\"PRESET_CUSTOM\",\"typographyToken\":\"tsBody500Medium\",\"testInfo\":{\"automatizationId\":\"tile-name\"}},\"id\":\"name\"}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\",\"addToCart\":{\"skuId\":\"5081697067\",\"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\",\"id\":\"addToCart\",\"params\":{\"id\":\"5081697067\",\"quantity\":\"1\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\",\"key\":\"MZtvrk49xuQmNq6vsP0vM9lhOYLvlJhQ6M91kIz9RWRG\"}},\"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}},\"icon\":\"ic_s_grocery_cart_filled\",\"title\":\"9 августа\"},\"quantityButton\":{\"maxItems\":700,\"updateCartAction\":{\"id\":\"5081697067\",\"quantity\":1}},\"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\",\"key\":\"MZtvrk49xuQmNq6vsP0vM9lhOYLvlJhQ6M91kIz9RWRG\"}},\"inCartQuantity\":0,\"extendMap\":{\"asb2\":\"APgDuXV4wwkwoVFGJt9wSFz1YeeugLAU37HgviIbFHXxeRvFVAxmn26mUtw-Qo8dQnaOUtWnXcPOgfIZkdR8X4xW2HjUD9OCqExkfQPMinvyKImxpasaI8jNsUuzo1ipvg\",\"qtyDiscountNotify\":\"true\",\"spsDiscountNotify\":\"true\"}}}},\"sku\":5081697067,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\",\"items\":[{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-p/12812409709.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\"}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-q/7277354270.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"OgtE8Zmw5uJGo5ylTjy0gWKiMR7PDswxmGJ6hXJyPkR\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-d/7277354869.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"oZt6nP38lfn6QOVgT7oWvg9SpO1YO1T3g7M4vC7zMg9Y\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-s/7277354704.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"XQtkQDoGBhLnk5L1tByqpOgSNVYzOZFK3x9BZsQNxnY0\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-t/7277354777.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"J8tgJAEypcVDX9wRUEQ55B0s5BLMo3uLlWDnYsMgR9Kp\"}}}}],\"leftBottomBadgeV2\":{\"text\":\"Распродажа\",\"leftIcon\":\"ic_s_hot_filled_compact\",\"size\":\"SIZE_500\",\"styleType\":\"CUSTOM\",\"common\":{\"testInfo\":{\"automatizationId\":\"badge-marketingSuperHigh\"}},\"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"#f1117eff\"},\"leftGraphicColor\":\"#ffffffff\",\"textColor\":\"#ffffffff\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\",\"favoriteProductMoleculeV2\":{\"id\":\"5081697067\",\"isFav\":false,\"favLink\":\"favoriteBatchAddItems\",\"unfavLink\":\"favoriteBatchDeleteItems\",\"trackingInfo\":{\"click\":{\"actionType\":\"favorite\",\"key\":\"MZtvrk49xuQmNq6vsP0vM9lhOYLvlJhQ6M91kIz9RWRG\"}},\"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"},\"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"MZtvrk49xuQmNq6vsP0vM9lhOYLvlJhQ6M91kIz9RWRG\"},\"click\":{\"actionType\":\"click\",\"key\":\"MZtvrk49xuQmNq6vsP0vM9lhOYLvlJhQ6M91kIz9RWRG\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"MZtvrk49xuQmNq6vsP0vM9lhOYLvlJhQ6M91kIz9RWRG\"},\"view\":{\"actionType\":\"view\",\"key\":\"MZtvrk49xuQmNq6vsP0vM9lhOYLvlJhQ6M91kIz9RWRG\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\",\"link\":\"/product/provodyashchaya-pasta-dlya-bystrogo-naneseniya-chernyy-100-g-3962952927/?at=Eqtk705n1hBlBqM2C9NO1P6f3nKLQAiNNwQ5kC5q51rO\",\"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"3962952927\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\",\"priceV2\":{\"price\":[{\"text\":\"233 ₽\",\"textStyle\":\"PRICE\"}],\"priceStyle\":{\"styleType\":\"CARD_PRICE\"},\"preset\":\"SIZE_500\"}},{\"type\":\"textDS\",\"textDS\":{\"text\":\"Проводящая паста для быстрого нанесения, Черный 100 г\",\"textColor\":\"textPrimary\",\"maxLines\":3,\"preset\":\"PRESET_CUSTOM\",\"typographyToken\":\"tsBody500Medium\",\"testInfo\":{\"automatizationId\":\"tile-name\"}},\"id\":\"name\"},{\"type\":\"labelListV2\",\"labelListV2\":{\"items\":[{\"type\":\"icon\",\"icon\":{\"icon\":{\"icon\":\"ic_s_star_filled_compact\",\"tintColor\":\"graphicRating\"},\"leftPadding\":-2}},{\"type\":\"text\",\"text\":{\"text\":\"5.0\",\"textColor\":\"textPremium\",\"leftPadding\":2}},{\"type\":\"icon\",\"icon\":{\"icon\":{\"icon\":\"ic_s_dialog_filled_compact\",\"tintColor\":\"graphicTertiary\"},\"leftPadding\":4}},{\"type\":\"text\",\"text\":{\"text\":\"2 отзыва\",\"textColor\":\"textSecondary\",\"leftPadding\":2}}],\"verticalIndents\":{\"top\":2,\"bottom\":2},\"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\",\"addToCart\":{\"skuId\":\"3962952927\",\"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\",\"id\":\"addToCart\",\"params\":{\"id\":\"3962952927\",\"quantity\":\"1\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\",\"key\":\"Eqtk705n1hBlBqM2C9NO1P6f3nKLQAiNNwQ5kC5q51rO\"}},\"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}},\"icon\":\"ic_s_grocery_cart_filled\",\"title\":\"9 августа\"},\"quantityButton\":{\"maxItems\":700,\"updateCartAction\":{\"id\":\"3962952927\",\"quantity\":1}},\"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\",\"key\":\"Eqtk705n1hBlBqM2C9NO1P6f3nKLQAiNNwQ5kC5q51rO\"}},\"inCartQuantity\":0,\"extendMap\":{\"asb2\":\"APgDkKbDk8GhbUNhOyejit6wdrsPRyX6kED5dPast-iVE8DzcaDH7j8e9tIdQ2t6npf7-Rty1N0xuXAUxw4Do52C5E4cHOrW1PTV8T90_83ZjW2ZWRCigIvitdVawSm2Qg\",\"qtyDiscountNotify\":\"true\",\"spsDiscountNotify\":\"true\"}}}},\"sku\":3962952927,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\",\"items\":[{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-c/9830996364.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\"}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-q/9830995226.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"NOtwWPm9Vcl6Jqp5TVxG0BKcjk6p40UXWmpRvC6oz4EG\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-g/9830996296.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"99tr0NExRI1GNq68umOygnYi2vBjpKTP6pLG3I78PmDG\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-t/8477548193.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"oZt6nP38lf2AYwB0s7mmy0mf69vG0QsW4438DHMZWDk4\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-8/8477548460.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"vQtr9Lz4OIjgxz10sGZqEKMuKXxBDEsYQxn9LI9zyOl6\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-a/8477548894.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"vQtr9Lz4OIzwwVORCXyxlGmhWMJxqrHYLD00Wulxzw2w\"}}}}]},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\",\"favoriteProductMoleculeV2\":{\"id\":\"3962952927\",\"isFav\":false,\"favLink\":\"favoriteBatchAddItems\",\"unfavLink\":\"favoriteBatchDeleteItems\",\"trackingInfo\":{\"click\":{\"actionType\":\"favorite\",\"key\":\"Eqtk705n1hBlBqM2C9NO1P6f3nKLQAiNNwQ5kC5q51rO\"}},\"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"},\"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"Eqtk705n1hBlBqM2C9NO1P6f3nKLQAiNNwQ5kC5q51rO\"},\"click\":{\"actionType\":\"click\",\"key\":\"Eqtk705n1hBlBqM2C9NO1P6f3nKLQAiNNwQ5kC5q51rO\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"Eqtk705n1hBlBqM2C9NO1P6f3nKLQAiNNwQ5kC5q51rO\"},\"view\":{\"actionType\":\"view\",\"key\":\"Eqtk705n1hBlBqM2C9NO1P6f3nKLQAiNNwQ5kC5q51rO\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\",\"link\":\"/product/serebryanyy-tokoprovodyashchiy-kley-provod-0-2-ml-elektroprovodyashchaya-pasta-kraska-dlya-remonta-3466864481/?at=NOtwWPm9Vcm5G3A0SVx38KAtMRR6zQCpA9nlvSJD4NKA\",\"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"3466864481\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\",\"priceV2\":{\"price\":[{\"text\":\"425 ₽\",\"textStyle\":\"PRICE\"}],\"priceStyle\":{\"styleType\":\"CARD_PRICE\"},\"preset\":\"SIZE_500\"}},{\"type\":\"textDS\",\"textDS\":{\"text\":\"Серебряный токопроводящий клей-провод 0,2 мл, электропроводящая паста, краска для ремонта печатных плат\",\"textColor\":\"textPrimary\",\"maxLines\":3,\"preset\":\"PRESET_CUSTOM\",\"typographyToken\":\"tsBody500Medium\",\"testInfo\":{\"automatizationId\":\"tile-name\"}},\"id\":\"name\"}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\",\"addToCart\":{\"skuId\":\"3466864481\",\"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\",\"id\":\"addToCart\",\"params\":{\"id\":\"3466864481\",\"quantity\":\"1\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\",\"key\":\"NOtwWPm9Vcm5G3A0SVx38KAtMRR6zQCpA9nlvSJD4NKA\"}},\"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}},\"icon\":\"ic_s_grocery_cart_filled\",\"title\":\"11 августа\"},\"quantityButton\":{\"maxItems\":100,\"updateCartAction\":{\"id\":\"3466864481\",\"quantity\":1}},\"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\",\"key\":\"NOtwWPm9Vcm5G3A0SVx38KAtMRR6zQCpA9nlvSJD4NKA\"}},\"inCartQuantity\":0,\"extendMap\":{\"asb2\":\"APgDJUBhLNnf9qLPtba8vHMJksLn9LTv3dJSFglMdvn6PHME6TwdW25xBc9Ly5ghcrgs3RNHuXZcgx8hehbwRqW1nrnnoygnIbbmFJkVOS6EYp0Tc4khdkvOr4OOQ5lnmQ\",\"qtyDiscountNotify\":\"true\",\"spsDiscountNotify\":\"true\"}}}},\"sku\":3466864481,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\",\"items\":[{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-w/8945453156.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\"}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-5/8945456045.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"MZtvrk49xu4L338NHA47zjluN8pAgWtPxlDoQcBwLYkx\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-6/8945454930.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"XQtkQDoGBhnB26gmC7By74czlR8ypURvw8Yi4K3DLP\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-p/8945453761.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"vQtr9Lz4OIj363GmF9Ko65Bi4X06OAtv2VY0VFmmkn5O\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-v/8945456863.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"QktJQlj9Bc1Qlzk3SrNn5KzsBrr0M2CXMv4oyi9XZn40\"}}}}]},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\",\"favoriteProductMoleculeV2\":{\"id\":\"3466864481\",\"isFav\":false,\"favLink\":\"favoriteBatchAddItems\",\"unfavLink\":\"favoriteBatchDeleteItems\",\"trackingInfo\":{\"click\":{\"actionType\":\"favorite\",\"key\":\"NOtwWPm9Vcm5G3A0SVx38KAtMRR6zQCpA9nlvSJD4NKA\"}},\"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"},\"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"NOtwWPm9Vcm5G3A0SVx38KAtMRR6zQCpA9nlvSJD4NKA\"},\"click\":{\"actionType\":\"click\",\"key\":\"NOtwWPm9Vcm5G3A0SVx38KAtMRR6zQCpA9nlvSJD4NKA\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"NOtwWPm9Vcm5G3A0SVx38KAtMRR6zQCpA9nlvSJD4NKA\"},\"view\":{\"actionType\":\"view\",\"key\":\"NOtwWPm9Vcm5G3A0SVx38KAtMRR6zQCpA9nlvSJD4NKA\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\",\"link\":\"/product/ruchka-dlya-naneseniya-tokoprovodyashchey-serebryanoy-kraski-vysokoy-kontsentratsii-zhidkaya-0-5-ml-3127546716/?at=vQtr9Lz4OIJVNl66IwGEzQPhy6qYXrtO4WVjNTvAgKx2\",\"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"3127546716\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\",\"priceV2\":{\"price\":[{\"text\":\"290 ₽\",\"textStyle\":\"PRICE\"}],\"priceStyle\":{\"styleType\":\"CARD_PRICE\"},\"preset\":\"SIZE_500\"}},{\"type\":\"textDS\",\"textDS\":{\"text\":\"Ручка для нанесения токопроводящей серебряной краски высокой концентрации (жидкая) -0,5 мл\",\"textColor\":\"textPrimary\",\"maxLines\":3,\"preset\":\"PRESET_CUSTOM\",\"typographyToken\":\"tsBody500Medium\",\"testInfo\":{\"automatizationId\":\"tile-name\"}},\"id\":\"name\"},{\"type\":\"labelListV2\",\"labelListV2\":{\"items\":[{\"type\":\"icon\",\"icon\":{\"icon\":{\"icon\":\"ic_s_star_filled_compact\",\"tintColor\":\"graphicRating\"},\"leftPadding\":-2}},{\"type\":\"text\",\"text\":{\"text\":\"5.0\",\"textColor\":\"textPremium\",\"leftPadding\":2}},{\"type\":\"icon\",\"icon\":{\"icon\":{\"icon\":\"ic_s_dialog_filled_compact\",\"tintColor\":\"graphicTertiary\"},\"leftPadding\":4}},{\"type\":\"text\",\"text\":{\"text\":\"1 отзыв\",\"textColor\":\"textSecondary\",\"leftPadding\":2}}],\"verticalIndents\":{\"top\":2,\"bottom\":2},\"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\",\"addToCart\":{\"skuId\":\"3127546716\",\"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\",\"id\":\"addToCart\",\"params\":{\"id\":\"3127546716\",\"quantity\":\"1\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\",\"key\":\"vQtr9Lz4OIJVNl66IwGEzQPhy6qYXrtO4WVjNTvAgKx2\"}},\"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}},\"icon\":\"ic_s_grocery_cart_filled\",\"title\":\"12 августа\"},\"quantityButton\":{\"maxItems\":700,\"updateCartAction\":{\"id\":\"3127546716\",\"quantity\":1}},\"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\",\"key\":\"vQtr9Lz4OIJVNl66IwGEzQPhy6qYXrtO4WVjNTvAgKx2\"}},\"inCartQuantity\":0,\"extendMap\":{\"asb2\":\"APgDLD4YohD1I4Pq3fo2KifHrUZv20SUWOm9L9TbXjmIapfpWdvmF8EAr6jOmYpiHvQnOK-fk6usWbUgJylNm9V19a5eubzbaovypqW3M7k_6LU_JUQuf7zDujNt5fe77g\",\"qtyDiscountNotify\":\"true\",\"spsDiscountNotify\":\"true\"}}}},\"sku\":3127546716,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\",\"items\":[{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-g/6825280048.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\"}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-n/6832568579.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"NOtwWPm9VcW6QELptZVmODIqyw6mYF83MN8xfRzG9G3\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-m/6832568686.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"Z8tX689xPSyAkOpvuy74mqoUZrMQW3TZBPWlptnv1MN6\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-o/6832568148.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"Rlty60qQnFylBAmPIRVjMgFD4YPGmiBNn4RVT6mkBq2\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-f/6832568571.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"A6tGQlAVrcPqr734tPy13WOumyjm6ghxNWQJ9TP4Zqyp\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-d/6832567705.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"08tYxgw4Jcrxk2lZcmNjmRUY97gj6hrQ4YZ4Hq1jjlN\"}}}}]},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\",\"favoriteProductMoleculeV2\":{\"id\":\"3127546716\",\"isFav\":false,\"favLink\":\"favoriteBatchAddItems\",\"unfavLink\":\"favoriteBatchDeleteItems\",\"trackingInfo\":{\"click\":{\"actionType\":\"favorite\",\"key\":\"vQtr9Lz4OIJVNl66IwGEzQPhy6qYXrtO4WVjNTvAgKx2\"}},\"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"},\"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"vQtr9Lz4OIJVNl66IwGEzQPhy6qYXrtO4WVjNTvAgKx2\"},\"click\":{\"actionType\":\"click\",\"key\":\"vQtr9Lz4OIJVNl66IwGEzQPhy6qYXrtO4WVjNTvAgKx2\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"vQtr9Lz4OIJVNl66IwGEzQPhy6qYXrtO4WVjNTvAgKx2\"},\"view\":{\"actionType\":\"view\",\"key\":\"vQtr9Lz4OIJVNl66IwGEzQPhy6qYXrtO4WVjNTvAgKx2\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\",\"link\":\"/product/1-shtuka-tokoprovodyashchaya-ruchka-circuit-chernilnaya-kraska-tokoprovodyashchaya-ruchka-s-kraskoy-1987226552/?at=oZt6nP38lf6D92P0TEmnBL5tqpVOBQS7q0KrYhg3KxjN\",\"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"1987226552\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\",\"priceV2\":{\"price\":[{\"text\":\"423 ₽\",\"textStyle\":\"PRICE\"}],\"priceStyle\":{\"styleType\":\"CARD_PRICE\"},\"preset\":\"SIZE_500\"}},{\"type\":\"textDS\",\"textDS\":{\"text\":\"(1 штука) Токопроводящая ручка Circuit, чернильная краска, токопроводящая ручка с краской (ночная)-медного цвета-3 грамма чернил\",\"textColor\":\"textPrimary\",\"maxLines\":3,\"preset\":\"PRESET_CUSTOM\",\"typographyToken\":\"tsBody500Medium\",\"testInfo\":{\"automatizationId\":\"tile-name\"}},\"id\":\"name\"},{\"type\":\"labelListV2\",\"labelListV2\":{\"items\":[{\"type\":\"icon\",\"icon\":{\"icon\":{\"icon\":\"ic_s_star_filled_compact\",\"tintColor\":\"graphicNeutral\"},\"leftPadding\":-2}},{\"type\":\"text\",\"text\":{\"text\":\"3.5\",\"textColor\":\"textPremium\",\"leftPadding\":2}},{\"type\":\"icon\",\"icon\":{\"icon\":{\"icon\":\"ic_s_dialog_filled_compact\",\"tintColor\":\"graphicTertiary\"},\"leftPadding\":4}},{\"type\":\"text\",\"text\":{\"text\":\"2 отзыва\",\"textColor\":\"textSecondary\",\"leftPadding\":2}}],\"verticalIndents\":{\"top\":2,\"bottom\":2},\"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\",\"addToCart\":{\"skuId\":\"1987226552\",\"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\",\"id\":\"addToCart\",\"params\":{\"id\":\"1987226552\",\"quantity\":\"1\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\",\"key\":\"oZt6nP38lf6D92P0TEmnBL5tqpVOBQS7q0KrYhg3KxjN\"}},\"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}},\"icon\":\"ic_s_grocery_cart_filled\",\"title\":\"14 августа\"},\"quantityButton\":{\"maxItems\":700,\"updateCartAction\":{\"id\":\"1987226552\",\"quantity\":1}},\"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\",\"key\":\"oZt6nP38lf6D92P0TEmnBL5tqpVOBQS7q0KrYhg3KxjN\"}},\"inCartQuantity\":0,\"extendMap\":{\"asb2\":\"APgDQ2mzEGFCMBS6cV6nsZLa1ZsFfkDWTfmHEkECLwIMAaAtu867P1pAyZ6QP7MtVpkylXiNTG9nK29SzI3_2nDe0fd0NXW_E8B91JKVxgGzraj9DHV40LmE_SxHcgI-_g\",\"qtyDiscountNotify\":\"true\",\"spsDiscountNotify\":\"true\"}}}},\"sku\":1987226552,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\",\"items\":[{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-m/6932932906.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\"}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-e/7333399814.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"83tBGPpQOiMzygARtor0OmlCmw7Y8EcOpBlXEtRoj51p\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-i/7209486630.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"Rlty60qQnF99W3XYC9997ElI83YwDKcRmvLWxHLYLKY9\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-z/7209486539.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"vQtr9Lz4OIgWp2kwcVv04RzuXm4PBnhvD6W1ES37WwRl\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-v/7209487147.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"pZtp2O3yQHxQEWxXfEW4W9Xu4ym6wQI8NDovPtoQzlgQ\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-i/7209486270.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"WPtNEXmxzinWxx6JHojgAQmUPY46z3iO0ANVUnlRKNV\"}}}}]},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\",\"favoriteProductMoleculeV2\":{\"id\":\"1987226552\",\"isFav\":false,\"favLink\":\"favoriteBatchAddItems\",\"unfavLink\":\"favoriteBatchDeleteItems\",\"trackingInfo\":{\"click\":{\"actionType\":\"favorite\",\"key\":\"oZt6nP38lf6D92P0TEmnBL5tqpVOBQS7q0KrYhg3KxjN\"}},\"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"},\"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"oZt6nP38lf6D92P0TEmnBL5tqpVOBQS7q0KrYhg3KxjN\"},\"click\":{\"actionType\":\"click\",\"key\":\"oZt6nP38lf6D92P0TEmnBL5tqpVOBQS7q0KrYhg3KxjN\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"oZt6nP38lf6D92P0TEmnBL5tqpVOBQS7q0KrYhg3KxjN\"},\"view\":{\"actionType\":\"view\",\"key\":\"oZt6nP38lf6D92P0TEmnBL5tqpVOBQS7q0KrYhg3KxjN\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\",\"link\":\"/product/serebryanyy-tokoprovodyashchiy-kley-provod-0-2-ml-elektroprovodyashchaya-pasta-kraska-dlya-remonta-3240687556/?at=79tngV1yEuWJgyMLc8VWp41SLDz6GyIvPW98Ri8qWWK5\",\"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"3240687556\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\",\"priceV2\":{\"price\":[{\"text\":\"153 ₽\",\"textStyle\":\"PRICE\"},{\"text\":\"332 ₽\",\"textStyle\":\"ORIGINAL_PRICE\"}],\"discount\":\"−53%\",\"priceStyle\":{\"styleType\":\"SALE_PRICE\",\"gradient\":{\"startColor\":\"#F1117E\",\"endColor\":\"#F1117E\"}},\"preset\":\"SIZE_500\"}},{\"type\":\"textDS\",\"textDS\":{\"text\":\"Серебряный токопроводящий клей-провод 0,2 мл, электропроводящая паста, краска для ремонта печатных плат\",\"textColor\":\"textPrimary\",\"maxLines\":3,\"preset\":\"PRESET_CUSTOM\",\"typographyToken\":\"tsBody500Medium\",\"testInfo\":{\"automatizationId\":\"tile-name\"}},\"id\":\"name\"},{\"type\":\"labelListV2\",\"labelListV2\":{\"items\":[{\"type\":\"icon\",\"icon\":{\"icon\":{\"icon\":\"ic_s_star_filled_compact\",\"tintColor\":\"graphicNeutral\"},\"leftPadding\":-2}},{\"type\":\"text\",\"text\":{\"text\":\"3.7\",\"textColor\":\"textPremium\",\"leftPadding\":2}},{\"type\":\"icon\",\"icon\":{\"icon\":{\"icon\":\"ic_s_dialog_filled_compact\",\"tintColor\":\"graphicTertiary\"},\"leftPadding\":4}},{\"type\":\"text\",\"text\":{\"text\":\"4 отзыва\",\"textColor\":\"textSecondary\",\"leftPadding\":2}}],\"verticalIndents\":{\"top\":2,\"bottom\":2},\"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\",\"addToCart\":{\"skuId\":\"3240687556\",\"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\",\"id\":\"addToCart\",\"params\":{\"id\":\"3240687556\",\"quantity\":\"1\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\",\"key\":\"79tngV1yEuWJgyMLc8VWp41SLDz6GyIvPW98Ri8qWWK5\"}},\"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}},\"icon\":\"ic_s_grocery_cart_filled\",\"title\":\"21 августа\"},\"quantityButton\":{\"maxItems\":700,\"updateCartAction\":{\"id\":\"3240687556\",\"quantity\":1}},\"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\",\"key\":\"79tngV1yEuWJgyMLc8VWp41SLDz6GyIvPW98Ri8qWWK5\"}},\"inCartQuantity\":0,\"extendMap\":{\"asb2\":\"APgDo93kZ0ChKnJ85dZBdYganbc298-FdU7pVF2Xj4ba_xkfS78ziiN5Io-8KpvBfyoodGOCB_H8alrh4NsdP5wWv7sTvCH2Rb4vwck7V1xkTjSPzk_r1uBMjeNoHkHRTQ\",\"qtyDiscountNotify\":\"true\",\"spsDiscountNotify\":\"true\"}}}},\"sku\":3240687556,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\",\"items\":[{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-c/8358900096.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\"}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-e/8358902798.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"28t0YZz6KU0y4GzMT3nRmkRiEyx5qvc19LYgwcWGRWgz\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-e/8358902654.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"mqtkxPN61hGWmn72Ix79NylhKE1kEqCkO4DALtEvO6vA\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-a/8358901894.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"QktJQlj9BcrK5gByi1V08PjhA8mNE6ILZABE4uZxkYnW\"}}}},{\"type\":\"image\",\"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-s/8506487476.jpg\",\"contentMode\":\"SCALE_ASPECT_FIT\",\"trackingInfo\":{\"view\":{\"actionType\":\"view\",\"key\":\"DqtD9JlMjf65rjBKHJnnERZfJyz25XcPq9lD1T7kGxvK\"}}}}],\"leftBottomBadgeV2\":{\"text\":\"Распродажа\",\"leftIcon\":\"ic_s_hot_filled_compact\",\"size\":\"SIZE_500\",\"styleType\":\"CUSTOM\",\"common\":{\"testInfo\":{\"automatizationId\":\"badge-marketingSuperHigh\"}},\"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"#f1117eff\"},\"leftGraphicColor\":\"#ffffffff\",\"textColor\":\"#ffffffff\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\",\"favoriteProductMoleculeV2\":{\"id\":\"3240687556\",\"isFav\":false,\"favLink\":\"favoriteBatchAddItems\",\"unfavLink\":\"favoriteBatchDeleteItems\",\"trackingInfo\":{\"click\":{\"actionType\":\"favorite\",\"key\":\"79tngV1yEuWJgyMLc8VWp41SLDz6GyIvPW98Ri8qWWK5\"}},\"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"},\"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"79tngV1yEuWJgyMLc8VWp41SLDz6GyIvPW98Ri8qWWK5\"},\"click\":{\"actionType\":\"click\",\"key\":\"79tngV1yEuWJgyMLc8VWp41SLDz6GyIvPW98Ri8qWWK5\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"79tngV1yEuWJgyMLc8VWp41SLDz6GyIvPW98Ri8qWWK5\"},\"view\":{\"actionType\":\"view\",\"key\":\"79tngV1yEuWJgyMLc8VWp41SLDz6GyIvPW98Ri8qWWK5\"}}}],\"templates\":null,\"cols\":12,\"imageHeight\":500,\"columnsCount\":4,\"page\":9}",
+    "separator-3669747-default-9": "{\"height\":12}"
+  },
+  "browser": {
+    "ip": "95.25.28.15",
+    "isDesktop": true,
+    "platform": "desktop",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "prevLocation": "https://www.ozon.ru/search/?__rr=1&abt_att=1&from_global=true&text=%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B0%2C+%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%82%2C+%D1%82%D0%BE%D0%BA%D0%BE%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B0%D1%8F",
+    "useSW": true,
+    "trackResources": true,
+    "webp": true,
+    "device": "desktop",
+    "age": "modern",
+    "cspNonce": "2b00cae5-8d96-460a-b409-a560affbd2ec",
+    "family": "Chrome",
+    "majorVersion": 138,
+    "cdnImgHostname": "ir.ozone.ru",
+    "cdnVideoHostname": "v-1.ozone.ru",
+    "cdnOriginalImgHostname": "io.ozone.ru",
+    "cdnStaticHostname": "st.ozone.ru",
+    "avif": true
+  },
+  "client": {
+    "platform": "desktop",
+    "marketplaceDomain": "ozon.ru"
+  },
+  "layoutTrackingInfo": "{\"layoutId\":149755,\"layoutVersion\":7,\"pageType\":\"search\",\"layoutContainer\":\"default\",\"layoutPageIndex\":9,\"deviceType\":\"desktop\",\"platform\":\"site\",\"templateType\":\"desktop\",\"marketplaceId\":1,\"requestId\":\"ed1644033f0db1c64c1bec14b78652fb\",\"userWwId\":1}",
+  "location": {
+    "current": {
+      "areaId": 15870,
+      "areaType": 4,
+      "city": "Волгоград",
+      "country": "Россия",
+      "countryCode": "RUS",
+      "countryId": 1,
+      "fias": "a52b7389-0cfe-46fb-ae15-298652a64cf8",
+      "fullName": "Волгоград, Волгоградская область",
+      "name": "Волгоград",
+      "timeZoneUtcname": "UTC+3",
+      "geoCoordinate": {},
+      "uid": "a52b7389-0cfe-46fb-ae15-298652a64cf8"
+    }
+  },
+  "seo": {
+    "title": "краска, графит, токопроводящая - купить на OZON",
+    "meta": [
+      {
+        "content": "краска, графит, токопроводящая – покупайте на OZON по выгодным ценам! Быстрая и бесплатная доставка, большой ассортимент продуктов. Бонусы и кэшбэк. Распродажи, скидки и акции. Реальные отзывы покупателей.",
+        "name": "description"
+      },
+      {
+        "content": "краска, графит, токопроводящая - купить на OZON",
+        "property": "og:title"
+      },
+      {
+        "content": "краска, графит, токопроводящая – покупайте на OZON по выгодным ценам! Быстрая и бесплатная доставка, большой ассортимент продуктов. Бонусы и кэшбэк. Распродажи, скидки и акции. Реальные отзывы покупателей.",
+        "property": "og:description"
+      },
+      {
+        "content": "https://ir.ozone.ru/s3/cms/logo/og_ozon_ru.png",
+        "property": "og:image"
+      },
+      {
+        "content": "noindex, nofollow",
+        "name": "robots"
+      },
+      {
+        "content": "website",
+        "property": "og:type"
+      },
+      {
+        "content": "1211635852237386",
+        "property": "fb:app_id"
+      }
+    ]
+  },
+  "shared": "{\"context\":\"ozon\",\"catalog\":{\"totalPages\":10,\"currentPage\":9}}",
+  "nextPage": "/search/?__rr=1&abt_att=1&from_global=true&layout_container=default&layout_page_index=10&page=10&paginator_token=3635012&search_page_state=s3YOIjIKhM1tF2J69pzFC23kfjo-GOanQLE-9cQOA3OFGdbYnRjAIHNuN3oSupPPREVz6478U3FDP8996WZ8Hksf-mrLuWAM008FL6fX7Q7phGqPfgFYpzFmbraRi8f7l9LX1lM%3D&start_page_id=9b18a87b2a98dc0662de04ccec8534ea&text=%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B0%2C+%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%82%2C+%D1%82%D0%BE%D0%BA%D0%BE%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B0%D1%8F",
+  "prevPage": "/search/?__rr=1&abt_att=1&from_global=true&layout_page_index=8&page=9&paginator_token=3635012&search_page_state=zSP6SXuXy9TqyZoUwUT6uD9KPQGmk9JYC1zQYF1CN6hF9--yauxFSJUZIP5kVmnp8XDEgggcFFg1ngjk0Fhnodex4_gXV7uZKZ9xBjtmmHeXDtN2IF2FyUZstSLTQPeyhyJF-8g%3D&start_page_id=9b18a87b2a98dc0662de04ccec8534ea&text=%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B0%2C+%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%82%2C+%D1%82%D0%BE%D0%BA%D0%BE%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B0%D1%8F",
+  "segments": [
+    1
+  ],
+  "pageInfo": {
+    "url": "/search/?__rr=1&abt_att=1&from_global=true&layout_container=default&layout_page_index=9&page=9&paginator_token=3635012&search_page_state=zSP6SXuXy9TqyZoUwUT6uD9KPQGmk9JYC1zQYF1CN6hF9--yauxFSJUZIP5kVmnp8XDEgggcFFg1ngjk0Fhnodex4_gXV7uZKZ9xBjtmmHeXDtN2IF2FyUZstSLTQPeyhyJF-8g%3D&start_page_id=9b18a87b2a98dc0662de04ccec8534ea&text=%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B0%2C+%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%82%2C+%D1%82%D0%BE%D0%BA%D0%BE%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B0%D1%8F",
+    "layoutId": 149755,
+    "layoutVersion": 7,
+    "pageType": "search",
+    "referer": "https://www.ozon.ru/search/?__rr=1&abt_att=1&from_global=true&text=%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B0%2C+%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%82%2C+%D1%82%D0%BE%D0%BA%D0%BE%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B0%D1%8F",
+    "pageTypeTracking": "search"
+  },
+  "trackingPayloads": {
+    "0Vig1R5xSXnY5c4uXEJ8r-eMbyBJwHwg": "{\"layoutId\":149755,\"layoutVersion\":7,\"pageType\":\"search\",\"layoutContainer\":\"default\",\"layoutPageIndex\":9,\"deviceType\":\"desktop\",\"platform\":\"site\",\"templateType\":\"desktop\",\"marketplaceId\":1,\"requestId\":\"ed1644033f0db1c64c1bec14b78652fb\",\"userWwId\":1}"
+  },
+  "pageToken": "0Vig1R5xSXnY5c4uXEJ8r-eMbyBJwHwg",
+  "serverTiming": [
+    {
+      "duration": 7,
+      "name": "Resolve"
+    },
+    {
+      "duration": 89,
+      "name": "Widgets"
+    },
+    {
+      "duration": 101,
+      "name": "Total"
+    },
+    {
+      "duration": 101,
+      "name": "ComposerTotal"
+    },
+    {
+      "duration": 5,
+      "name": "ComposerInternal"
+    }
+  ],
+  "userToken": "19ig1V3pBQIqaL014kXexHPK3zVKfUE4",
+  "experimentsConfig": {
+    "gtmDelay2000": true,
+    "useCrossorigin": true,
+    "swDisableReinitSPA": true,
+    "enableVersionFallbackLogs": true,
+    "prefetchAssetsSW": true,
+    "usePreloadImagesPDPGallery": true,
+    "trackMediaPlayerMetricsRum4": true,
+    "mergeUrlLogger": true,
+    "imgPixelatedRender": true,
+    "clearCacheOnNextLoad": true,
+    "prefetchWebGalleryVideoSW": true,
+    "enableSpeculationRules": true,
+    "prerenderCheckoutSW": true,
+    "detectHeadlessRum4": true,
+    "entrypointPrerenderHome": true,
+    "enableTrackerLogs": true,
+    "disableWidgetTracking": true,
+    "earlyHintsEnabled": true,
+    "withPerformanceMarks": true,
+    "useNewSwPath": true,
+    "trackImagesRum4": true,
+    "cpmTrackerEnabled": true,
+    "prefetchListPhotosVideoSW": true,
+    "newPaginationRum4": true,
+    "enableSummaryV2": true,
+    "isModern": true,
+    "linkAsyncWidgets": true,
+    "disableVersionFallback": true,
+    "enableCertEvents": true,
+    "enableVideoPrefetchSW": true,
+    "enableTrackerInfoLogs": true,
+    "lowerGalleryImageQuality": true,
+    "prerenderHomePageSW": true,
+    "allyMode": true,
+    "isTrinityEvent": true,
+    "disableProductClickEvent": true,
+    "enableDevtools": true,
+    "prerenderCartPageSW": true,
+    "s3PublicPath": true,
+    "fingerprinting": true,
+    "entrypointCacheControl": true,
+    "isCdnFonts": true,
+    "enableSWCaching": true,
+    "fastDeliveryDeploy": true,
+    "disableSendWidgetViewCE": true,
+    "trackLcpElement": true
+  },
+  "requestID": "ed1644033f0db1c64c1bec14b78652fb",
+  "verticalInfo": {
+    "catalog": {
+      "publicPath": "https://st.ozone.ru/s3/assets-66613/f0247c31/",
+      "initial": [
+        "microfront/catalog-search.js"
+      ],
+      "experimentsConfig": null
+    },
+    "common": {
+      "publicPath": "https://st.ozone.ru/assets/f72387c7/",
+      "initial": [
+        "detached/common/entry.common.js"
+      ],
+      "experimentsConfig": null
+    },
+    "products": {
+      "publicPath": "https://st.ozone.ru/assets/f72387c7/",
+      "initial": [
+        "detached/navi/entry.products.js"
+      ],
+      "experimentsConfig": null
+    },
+    "composer": {
+      "publicPath": "https://st.ozone.ru/assets/f72387c7/",
+      "initial": [],
+      "experimentsConfig": null
+    },
+    "cms": {
+      "publicPath": "https://st.ozone.ru/s3/assets-27147/6b9533d1/",
+      "initial": [
+        "microfront/catalog-menu-cms-lottery-shell-uw.js"
+      ],
+      "experimentsConfig": null
+    }
+  },
+  "resolveParams": {
+    "cdn_video_hostname": "v-1.ozone.ru",
+    "cdn_original_img_hostname": "io.ozone.ru",
+    "cdn_video_pdp_hostname": "vp-1.ozone.ru",
+    "request.url.domain.level2": "ozon.ru",
+    "app.type.text": "bx",
+    "cdn_static_hostname": "st.ozone.ru",
+    "cdn_user_content_hostname": "cdn1.ozonusercontent.com",
+    "cdn_img_hostname": "ir.ozone.ru",
+    "cdn_video_tile_hostname": "vt-1.ozone.ru",
+    "app.type": 1,
+    "cdn_video_review_hostname": "vr-1.ozone.ru",
+    "current.time": "2026-07-22T20:09:15.871182629Z"
+  }
+}
