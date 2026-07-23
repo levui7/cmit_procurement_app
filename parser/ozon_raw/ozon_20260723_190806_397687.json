@@ -1,0 +1,249 @@
+{
+  "layout": [
+    {
+      "component": "separator",
+      "params": "{\"height\":12}",
+      "stateId": "separator-3669747-default-10",
+      "version": 1,
+      "vertical": "cms",
+      "widgetTrackingInfo": "{\"name\":\"cms.separator\",\"vertical\":\"cms\",\"component\":\"separator\",\"version\":1,\"id\":3669747,\"revisionId\":4185617}",
+      "etag": "ea35b7694a8dbcb3",
+      "widgetToken": "0Gyg1TbMj3sj-kc1DO49bcGY07SpKQhC",
+      "name": "cms.separator",
+      "id": 3669747,
+      "isTrackingOn": true,
+      "isStatic": true
+    },
+    {
+      "component": "tileGridDesktop",
+      "params": "{}",
+      "stateId": "tileGridDesktop-3669724-default-10",
+      "version": 1,
+      "vertical": "products",
+      "widgetTrackingInfo": "{\"name\":\"catalog.searchResultsV2\",\"vertical\":\"products\",\"component\":\"tileGridDesktop\",\"version\":1,\"originName\":\"catalog.searchResultsV2\",\"originVertical\":\"catalog\",\"originComponent\":\"searchResultsV2\",\"originVersion\":1,\"id\":3669724,\"revisionId\":4185508,\"index\":1}",
+      "widgetToken": "0Gyg1T0UnDWzhuISpYODvooVEW2bWCp0",
+      "timeSpent": 89,
+      "name": "catalog.searchResultsV2",
+      "id": 3669724,
+      "isTrackingOn": true
+    }
+  ],
+  "widgetStates": {
+    "tileGridDesktop-3669724-default-10": "{\"options\":{\"theme\":\"DEFAULT\"},\"sharedData\":{},\"items\":[{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/plata-maketnaya-breadboard-33-45mm-syb-170-belyy-s-provodami-dupont-20sm-papa-papa-3799056049/?at=Y7tj7NXOQtPlmxVDcVwKjzNUWz8jlrt2g63m7sGrX9x8\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"3799056049\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"469 ₽\", \"textStyle\":\"PRICE\"}], \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Плата макетная breadboard 33*45мм SYB-170 белый, с проводами Dupont 20см папа-папа\", \"textColor\":\"textPrimary\", \"maxLines\":3, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"3799056049\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"3799056049\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"Y7tj7NXOQtPlmxVDcVwKjzNUWz8jlrt2g63m7sGrX9x8\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"1 августа\", \"sellerIcon\":{\"sellerIcon\":\"ic_m_status_points_filled\", \"sellerIconBackground\":\"graphicMarketing\", \"tileBackground\":\"layerFloor1\", \"sellerIconTint\":\"graphicLightKey\", \"testInfo\":{\"automatizationId\":\"premium-seller-icon\"}}}, \"quantityButton\":{\"maxItems\":8, \"updateCartAction\":{\"id\":\"3799056049\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"Y7tj7NXOQtPlmxVDcVwKjzNUWz8jlrt2g63m7sGrX9x8\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APkD7SO38hhY6hYUeMuoRh5JNh6kJRy4HA4JUtpahWxm98h4GL1P4tarsGsXDWFS_HKf6xI2FG4qptW_HqyTumsiFLgcw0zbMiGlG59rmy07wa8DyxHCf4mDqLmv8UGw\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":3799056049,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-s/9837727336.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}], \"leftBottomBadgeV2\":{\"text\":\"Осталось 8 шт\", \"size\":\"SIZE_500\", \"styleType\":\"CUSTOM\", \"common\":{\"testInfo\":{\"automatizationId\":\"badge-stock\"}}, \"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"bgAttentionPrimary\"}, \"textColor\":\"#FFFFFF\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"3799056049\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"Y7tj7NXOQtPlmxVDcVwKjzNUWz8jlrt2g63m7sGrX9x8\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"Y7tj7NXOQtPlmxVDcVwKjzNUWz8jlrt2g63m7sGrX9x8\"},\"click\":{\"actionType\":\"click\",\"key\":\"Y7tj7NXOQtPlmxVDcVwKjzNUWz8jlrt2g63m7sGrX9x8\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"Y7tj7NXOQtPlmxVDcVwKjzNUWz8jlrt2g63m7sGrX9x8\"},\"view\":{\"actionType\":\"view\",\"key\":\"Y7tj7NXOQtPlmxVDcVwKjzNUWz8jlrt2g63m7sGrX9x8\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/maketnaya-plata-830-otverstiy-mb-102-v-komplekte-s-elektronnymi-komponentami-dlya-nachinayushchih-5090439983/?at=28t0YRQOvsL3B7NLfmVN5AACPMoY0kFBjZVRjtOGK8G4\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"5090439983\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"508 ₽\", \"textStyle\":\"PRICE\"}, {\"text\":\"1 655 ₽\", \"textStyle\":\"ORIGINAL_PRICE\"}], \"discount\":\"−69%\", \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Макетная плата 830 отверстий MB-102 в комплекте с электронными компонентами для начинающих\", \"textColor\":\"textPrimary\", \"maxLines\":3, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"5090439983\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"5090439983\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"28t0YRQOvsL3B7NLfmVN5AACPMoY0kFBjZVRjtOGK8G4\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"26 августа\"}, \"quantityButton\":{\"maxItems\":99, \"updateCartAction\":{\"id\":\"5090439983\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"28t0YRQOvsL3B7NLfmVN5AACPMoY0kFBjZVRjtOGK8G4\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APkDX5FdGMReg5QkQ8dZDr5azDNXeF7ygLiKKRqpSdErh3xDpaps-xvK-KKef56D0byGj7ehiPNbP5JgMrgPEmlqzBSFDplwP26fuhqKQTPwgJcytUBIGX0LukaWXqhh\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":5090439983,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-b/12608719823.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-d/12608722669.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"lRt6rAlpyuvw96vRUy8wZK1hxLX2AJT898DzksYJn5mQ\"}}}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-b/12608715179.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-1/12608722225.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-1/12608725969.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-9/12608723133.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"ywtA103kgcxDp0o5fA2oZA4Sg3QXD6tMXlqpPF3gOlr6\"}}}}], \"leftBottomBadgeV2\":{\"text\":\"Новинка\", \"size\":\"SIZE_500\", \"styleType\":\"CUSTOM\", \"common\":{\"testInfo\":{\"automatizationId\":\"badge-novel\"}}, \"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"bgPositivePrimary\"}, \"textColor\":\"textLightKey\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"5090439983\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"28t0YRQOvsL3B7NLfmVN5AACPMoY0kFBjZVRjtOGK8G4\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"28t0YRQOvsL3B7NLfmVN5AACPMoY0kFBjZVRjtOGK8G4\"},\"click\":{\"actionType\":\"click\",\"key\":\"28t0YRQOvsL3B7NLfmVN5AACPMoY0kFBjZVRjtOGK8G4\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"28t0YRQOvsL3B7NLfmVN5AACPMoY0kFBjZVRjtOGK8G4\"},\"view\":{\"actionType\":\"view\",\"key\":\"28t0YRQOvsL3B7NLfmVN5AACPMoY0kFBjZVRjtOGK8G4\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/plata-maketnaya-breadboard-33-45mm-syb-170-siniy-5shtuk-3799057308/?at=A6tGQn52gcQAyREBTE0QqBzFZNErx1FVAv1DPCA3wPqy\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"3799057308\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"522 ₽\", \"textStyle\":\"PRICE\"}], \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"labelListV2\", \"labelListV2\":{\"items\":[{\"type\":\"text\", \"text\":{\"text\":\"104 ₽ / шт\", \"textColor\":\"textPrimary\"}}], \"verticalIndents\":{\"top\":2, \"bottom\":2}, \"testInfo\":{\"automatizationId\":\"tile-list-labels\"}}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Плата макетная breadboard 33*45мм SYB-170 синий, 5штук\", \"textColor\":\"textPrimary\", \"maxLines\":2, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"3799057308\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"3799057308\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"A6tGQn52gcQAyREBTE0QqBzFZNErx1FVAv1DPCA3wPqy\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"1 августа\", \"sellerIcon\":{\"sellerIcon\":\"ic_m_status_points_filled\", \"sellerIconBackground\":\"graphicMarketing\", \"tileBackground\":\"layerFloor1\", \"sellerIconTint\":\"graphicLightKey\", \"testInfo\":{\"automatizationId\":\"premium-seller-icon\"}}}, \"quantityButton\":{\"maxItems\":1, \"updateCartAction\":{\"id\":\"3799057308\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"A6tGQn52gcQAyREBTE0QqBzFZNErx1FVAv1DPCA3wPqy\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APkDzEv2gkgVrimDBgTxB2ZqMZjBzSuI-LmsSwZZls7TuaVXpapbU-Nn1gP27H2ZTvhdmYQgqrE47I2f_JQPyyeGZ8zkGVUSJc6sKmNiNZoLpys8reJvpcD63WnHHJyx\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":3799057308,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-j/9838783135.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}], \"leftBottomBadgeV2\":{\"text\":\"Осталась 1 шт\", \"size\":\"SIZE_500\", \"styleType\":\"CUSTOM\", \"common\":{\"testInfo\":{\"automatizationId\":\"badge-stock\"}}, \"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"bgAttentionPrimary\"}, \"textColor\":\"#FFFFFF\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"3799057308\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"A6tGQn52gcQAyREBTE0QqBzFZNErx1FVAv1DPCA3wPqy\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"A6tGQn52gcQAyREBTE0QqBzFZNErx1FVAv1DPCA3wPqy\"},\"click\":{\"actionType\":\"click\",\"key\":\"A6tGQn52gcQAyREBTE0QqBzFZNErx1FVAv1DPCA3wPqy\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"A6tGQn52gcQAyREBTE0QqBzFZNErx1FVAv1DPCA3wPqy\"},\"view\":{\"actionType\":\"view\",\"key\":\"A6tGQn52gcQAyREBTE0QqBzFZNErx1FVAv1DPCA3wPqy\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/plata-maketnaya-breadboard-33-45mm-syb-170-siniy-s-provodami-dupont-20sm-papa-papa-3799058782/?at=r2t4q1OopsVJRJ7lc4lXQmLiWXRQrPt4mr37QFOYNQ6E\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"3799058782\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"469 ₽\", \"textStyle\":\"PRICE\"}], \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Плата макетная breadboard 33*45мм SYB-170 синий, с проводами Dupont 20см папа-папа\", \"textColor\":\"textPrimary\", \"maxLines\":3, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"3799058782\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"3799058782\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"r2t4q1OopsVJRJ7lc4lXQmLiWXRQrPt4mr37QFOYNQ6E\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"1 августа\", \"sellerIcon\":{\"sellerIcon\":\"ic_m_status_points_filled\", \"sellerIconBackground\":\"graphicMarketing\", \"tileBackground\":\"layerFloor1\", \"sellerIconTint\":\"graphicLightKey\", \"testInfo\":{\"automatizationId\":\"premium-seller-icon\"}}}, \"quantityButton\":{\"maxItems\":5, \"updateCartAction\":{\"id\":\"3799058782\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"r2t4q1OopsVJRJ7lc4lXQmLiWXRQrPt4mr37QFOYNQ6E\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APkDrslZuEHH2iRvyGEcZTcciuOCEixBjYh9F7-bF9uPVCwIZeA464fwbcS_TwkHxuUWI-jsua7LWnujhb-xmYOwr0Izz7-EPciQ-yWrxcvERvatUNTuebLNfLdfVgIX\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":3799058782,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-b/9838582247.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}], \"leftBottomBadgeV2\":{\"text\":\"Осталось 5 шт\", \"size\":\"SIZE_500\", \"styleType\":\"CUSTOM\", \"common\":{\"testInfo\":{\"automatizationId\":\"badge-stock\"}}, \"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"bgAttentionPrimary\"}, \"textColor\":\"#FFFFFF\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"3799058782\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"r2t4q1OopsVJRJ7lc4lXQmLiWXRQrPt4mr37QFOYNQ6E\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"r2t4q1OopsVJRJ7lc4lXQmLiWXRQrPt4mr37QFOYNQ6E\"},\"click\":{\"actionType\":\"click\",\"key\":\"r2t4q1OopsVJRJ7lc4lXQmLiWXRQrPt4mr37QFOYNQ6E\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"r2t4q1OopsVJRJ7lc4lXQmLiWXRQrPt4mr37QFOYNQ6E\"},\"view\":{\"actionType\":\"view\",\"key\":\"r2t4q1OopsVJRJ7lc4lXQmLiWXRQrPt4mr37QFOYNQ6E\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/bespaechnaya-maketnaya-plata-breadboard-400-tochek-prozrachnaya-5118170042/?at=w0tgjAn97szqyBQPs9Jjqj3fY6K8NQCKNlg8EIYPZk8R\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"5118170042\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"244 ₽\", \"textStyle\":\"PRICE\"}], \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Беспаечная макетная плата (breadboard) 400 точек, прозрачная\", \"textColor\":\"textPrimary\", \"maxLines\":3, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"5118170042\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"5118170042\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"w0tgjAn97szqyBQPs9Jjqj3fY6K8NQCKNlg8EIYPZk8R\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"25 августа\"}, \"quantityButton\":{\"maxItems\":50, \"updateCartAction\":{\"id\":\"5118170042\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"w0tgjAn97szqyBQPs9Jjqj3fY6K8NQCKNlg8EIYPZk8R\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APkDGxWSSzKXEHIVWrcv_cHHZWgea7qa_BnrIodxyU65jJKnY42s-tCENMcBaewQGko0TdzVxvoaIC5vxGTLZDc3NHYzaMBalC4bOheQBIuHYT8jiyBI3nI7WeoC6ej-\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":5118170042,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-c/12703335636.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-y/12703331482.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"83tBGzgLluEqpWEPhz0yoR0cPPVRGLSWOjpvQFBw1YZY\"}}}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-n/12703341047.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-a/12703332790.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-x/12703335333.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-1/12703334941.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"VvtzJ5897UoZrOOyiDWnly6T3Wv9gJSAwXA6wHpVBLrj\"}}}}], \"leftBottomBadgeV2\":{\"text\":\"Новинка\", \"size\":\"SIZE_500\", \"styleType\":\"CUSTOM\", \"common\":{\"testInfo\":{\"automatizationId\":\"badge-novel\"}}, \"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"bgPositivePrimary\"}, \"textColor\":\"textLightKey\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"5118170042\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"w0tgjAn97szqyBQPs9Jjqj3fY6K8NQCKNlg8EIYPZk8R\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"w0tgjAn97szqyBQPs9Jjqj3fY6K8NQCKNlg8EIYPZk8R\"},\"click\":{\"actionType\":\"click\",\"key\":\"w0tgjAn97szqyBQPs9Jjqj3fY6K8NQCKNlg8EIYPZk8R\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"w0tgjAn97szqyBQPs9Jjqj3fY6K8NQCKNlg8EIYPZk8R\"},\"view\":{\"actionType\":\"view\",\"key\":\"w0tgjAn97szqyBQPs9Jjqj3fY6K8NQCKNlg8EIYPZk8R\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/plata-maketnaya-breadboard-33-45mm-syb-170-belyy-5shtuk-3799059070/?at=jYtZr30P2sVrED16tOv71QqI8AQvWEinPn9kXIwJD8PK\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"3799059070\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"499 ₽\", \"textStyle\":\"PRICE\"}], \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"labelListV2\", \"labelListV2\":{\"items\":[{\"type\":\"text\", \"text\":{\"text\":\"100 ₽ / шт\", \"textColor\":\"textPrimary\"}}], \"verticalIndents\":{\"top\":2, \"bottom\":2}, \"testInfo\":{\"automatizationId\":\"tile-list-labels\"}}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Плата макетная breadboard 33*45мм SYB-170 белый, 5штук\", \"textColor\":\"textPrimary\", \"maxLines\":2, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"3799059070\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"3799059070\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"jYtZr30P2sVrED16tOv71QqI8AQvWEinPn9kXIwJD8PK\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"1 августа\", \"sellerIcon\":{\"sellerIcon\":\"ic_m_status_points_filled\", \"sellerIconBackground\":\"graphicMarketing\", \"tileBackground\":\"layerFloor1\", \"sellerIconTint\":\"graphicLightKey\", \"testInfo\":{\"automatizationId\":\"premium-seller-icon\"}}}, \"quantityButton\":{\"maxItems\":3, \"updateCartAction\":{\"id\":\"3799059070\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"jYtZr30P2sVrED16tOv71QqI8AQvWEinPn9kXIwJD8PK\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APkDmUGURODaVsyIHCzlqmKObkuTkx9efwla86ubd00qIXkyj6oiM1UsLqZCRzhvZAtHJn35rzHGXPRaoP5V6EeA7quUm950opHNlzbE1odea0aLWOyVQjuSpReZP5Q3\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":3799059070,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-o/9839174784.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}], \"leftBottomBadgeV2\":{\"text\":\"Осталось 3 шт\", \"size\":\"SIZE_500\", \"styleType\":\"CUSTOM\", \"common\":{\"testInfo\":{\"automatizationId\":\"badge-stock\"}}, \"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"bgAttentionPrimary\"}, \"textColor\":\"#FFFFFF\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"3799059070\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"jYtZr30P2sVrED16tOv71QqI8AQvWEinPn9kXIwJD8PK\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"jYtZr30P2sVrED16tOv71QqI8AQvWEinPn9kXIwJD8PK\"},\"click\":{\"actionType\":\"click\",\"key\":\"jYtZr30P2sVrED16tOv71QqI8AQvWEinPn9kXIwJD8PK\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"jYtZr30P2sVrED16tOv71QqI8AQvWEinPn9kXIwJD8PK\"},\"view\":{\"actionType\":\"view\",\"key\":\"jYtZr30P2sVrED16tOv71QqI8AQvWEinPn9kXIwJD8PK\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/plata-maketnaya-breadboard-33-45mm-syb-170-zelenyy-s-provodami-dupont-20sm-papa-papa-3799060770/?at=GRt2709Gmtl6WqE1CrAWlNjcW0pWYmHRXBzzNTYkLzQ0\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"3799060770\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"469 ₽\", \"textStyle\":\"PRICE\"}], \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Плата макетная breadboard 33*45мм SYB-170 зеленый, с проводами Dupont 20см папа-папа\", \"textColor\":\"textPrimary\", \"maxLines\":3, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"3799060770\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"3799060770\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"GRt2709Gmtl6WqE1CrAWlNjcW0pWYmHRXBzzNTYkLzQ0\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"1 августа\", \"sellerIcon\":{\"sellerIcon\":\"ic_m_status_points_filled\", \"sellerIconBackground\":\"graphicMarketing\", \"tileBackground\":\"layerFloor1\", \"sellerIconTint\":\"graphicLightKey\", \"testInfo\":{\"automatizationId\":\"premium-seller-icon\"}}}, \"quantityButton\":{\"maxItems\":2, \"updateCartAction\":{\"id\":\"3799060770\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"GRt2709Gmtl6WqE1CrAWlNjcW0pWYmHRXBzzNTYkLzQ0\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APkDZfS_XM7f7HrlSpVS5iJG85b-exb1k-hlUGh7lAyGoPp-SuBtLh1R-4ToSARsdeI9QhvMAft9eXnFLUVn1L37aqPpgmjmBCzAoxYlPv76O9XEYEwMbozeD9o6M_h0\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":3799060770,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-w/9838124888.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}], \"leftBottomBadgeV2\":{\"text\":\"Осталось 2 шт\", \"size\":\"SIZE_500\", \"styleType\":\"CUSTOM\", \"common\":{\"testInfo\":{\"automatizationId\":\"badge-stock\"}}, \"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"bgAttentionPrimary\"}, \"textColor\":\"#FFFFFF\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"3799060770\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"GRt2709Gmtl6WqE1CrAWlNjcW0pWYmHRXBzzNTYkLzQ0\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"GRt2709Gmtl6WqE1CrAWlNjcW0pWYmHRXBzzNTYkLzQ0\"},\"click\":{\"actionType\":\"click\",\"key\":\"GRt2709Gmtl6WqE1CrAWlNjcW0pWYmHRXBzzNTYkLzQ0\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"GRt2709Gmtl6WqE1CrAWlNjcW0pWYmHRXBzzNTYkLzQ0\"},\"view\":{\"actionType\":\"view\",\"key\":\"GRt2709Gmtl6WqE1CrAWlNjcW0pWYmHRXBzzNTYkLzQ0\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/plata-maketnaya-breadboard-33-45mm-syb-170-belyy-s-provodami-dupont-20sm-papa-papa-papa-mama-3799058604/?at=J8tgJ1o5RsBWMO3KcQpx8vQILMNj3RsL7qmBVsRLAPMV\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"3799058604\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"593 ₽\", \"textStyle\":\"PRICE\"}], \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Плата макетная breadboard 33*45мм SYB-170 белый, с проводами Dupont 20см папа-папа/папа-мама\", \"textColor\":\"textPrimary\", \"maxLines\":3, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"3799058604\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"3799058604\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"J8tgJ1o5RsBWMO3KcQpx8vQILMNj3RsL7qmBVsRLAPMV\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"1 августа\", \"sellerIcon\":{\"sellerIcon\":\"ic_m_status_points_filled\", \"sellerIconBackground\":\"graphicMarketing\", \"tileBackground\":\"layerFloor1\", \"sellerIconTint\":\"graphicLightKey\", \"testInfo\":{\"automatizationId\":\"premium-seller-icon\"}}}, \"quantityButton\":{\"maxItems\":8, \"updateCartAction\":{\"id\":\"3799058604\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"J8tgJ1o5RsBWMO3KcQpx8vQILMNj3RsL7qmBVsRLAPMV\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APkDpKGdNxd7FEA42NCWc-rVdio6kIqOcopKEq48zdAUdw-E3l-1dmdaZPEIqE-M0iXFjHlO6L71TAcVVqHHqt4d0RfYk9ik6XjTkA42gQOjCMIGwE5Cs0GJe3cxWq-g\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":3799058604,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-s/9837781048.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}], \"leftBottomBadgeV2\":{\"text\":\"Осталось 8 шт\", \"size\":\"SIZE_500\", \"styleType\":\"CUSTOM\", \"common\":{\"testInfo\":{\"automatizationId\":\"badge-stock\"}}, \"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"bgAttentionPrimary\"}, \"textColor\":\"#FFFFFF\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"3799058604\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"J8tgJ1o5RsBWMO3KcQpx8vQILMNj3RsL7qmBVsRLAPMV\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"J8tgJ1o5RsBWMO3KcQpx8vQILMNj3RsL7qmBVsRLAPMV\"},\"click\":{\"actionType\":\"click\",\"key\":\"J8tgJ1o5RsBWMO3KcQpx8vQILMNj3RsL7qmBVsRLAPMV\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"J8tgJ1o5RsBWMO3KcQpx8vQILMNj3RsL7qmBVsRLAPMV\"},\"view\":{\"actionType\":\"view\",\"key\":\"J8tgJ1o5RsBWMO3KcQpx8vQILMNj3RsL7qmBVsRLAPMV\"}}}],\"templates\":null,\"cols\":12,\"imageHeight\":500,\"columnsCount\":4,\"page\":10}",
+    "separator-3669747-default-10": "{\"height\":12}"
+  },
+  "browser": {
+    "ip": "95.25.28.15",
+    "isDesktop": true,
+    "platform": "desktop",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "prevLocation": "https://www.ozon.ru/search/?__rr=1&abt_att=1&from_global=true&text=%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D0%BD%D0%B0%D1%8F+%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%2C+breadboard%2C+830",
+    "useSW": true,
+    "trackResources": true,
+    "webp": true,
+    "device": "desktop",
+    "age": "modern",
+    "cspNonce": "cde17b31-9342-42af-a4a4-a782250c92f7",
+    "family": "Chrome",
+    "majorVersion": 138,
+    "cdnImgHostname": "ir.ozone.ru",
+    "cdnVideoHostname": "v-1.ozone.ru",
+    "cdnOriginalImgHostname": "io.ozone.ru",
+    "cdnStaticHostname": "st.ozone.ru",
+    "avif": true
+  },
+  "client": {
+    "platform": "desktop",
+    "marketplaceDomain": "ozon.ru"
+  },
+  "layoutTrackingInfo": "{\"layoutId\":149755,\"layoutVersion\":7,\"pageType\":\"search\",\"layoutContainer\":\"default\",\"layoutPageIndex\":10,\"deviceType\":\"desktop\",\"platform\":\"site\",\"templateType\":\"desktop\",\"marketplaceId\":1,\"requestId\":\"cc9c8a70cfba092456fd4483dc9ddc59\",\"userWwId\":1}",
+  "location": {
+    "current": {
+      "areaId": 15870,
+      "areaType": 4,
+      "city": "Волгоград",
+      "country": "Россия",
+      "countryCode": "RUS",
+      "countryId": 1,
+      "fias": "a52b7389-0cfe-46fb-ae15-298652a64cf8",
+      "fullName": "Волгоград, Волгоградская область",
+      "name": "Волгоград",
+      "timeZoneUtcname": "UTC+3",
+      "geoCoordinate": {},
+      "uid": "a52b7389-0cfe-46fb-ae15-298652a64cf8"
+    }
+  },
+  "seo": {
+    "title": "макетная плата, breadboard, 830 - купить на OZON",
+    "meta": [
+      {
+        "content": "макетная плата, breadboard, 830 – покупайте на OZON по выгодным ценам! Быстрая и бесплатная доставка, большой ассортимент продуктов. Бонусы и кэшбэк. Распродажи, скидки и акции. Реальные отзывы покупателей.",
+        "name": "description"
+      },
+      {
+        "content": "макетная плата, breadboard, 830 - купить на OZON",
+        "property": "og:title"
+      },
+      {
+        "content": "макетная плата, breadboard, 830 – покупайте на OZON по выгодным ценам! Быстрая и бесплатная доставка, большой ассортимент продуктов. Бонусы и кэшбэк. Распродажи, скидки и акции. Реальные отзывы покупателей.",
+        "property": "og:description"
+      },
+      {
+        "content": "https://ir.ozone.ru/s3/cms/logo/og_ozon_ru.png",
+        "property": "og:image"
+      },
+      {
+        "content": "noindex, nofollow",
+        "name": "robots"
+      },
+      {
+        "content": "website",
+        "property": "og:type"
+      },
+      {
+        "content": "1211635852237386",
+        "property": "fb:app_id"
+      }
+    ]
+  },
+  "shared": "{\"context\":\"ozon\",\"catalog\":{\"totalPages\":11,\"currentPage\":10}}",
+  "nextPage": "/search/?__rr=1&abt_att=1&from_global=true&layout_container=default&layout_page_index=11&page=11&paginator_token=3635012&search_page_state=62zNxu9OYHkewikTGVvcBNXPd7mHiw1jjXol69sNzTt7PceCn_qzcarw-n-spDdsORrL1OEYmwl0pIQrTcCkEYdX8S-D6Cmayzp8cmgh9GgX_uBaXYBMxAI_hoyjakhvh2nDpyQ%3D&start_page_id=3a38c9c29daa3d0afd82b239b52b2576&text=%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D0%BD%D0%B0%D1%8F+%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%2C+breadboard%2C+830",
+  "prevPage": "/search/?__rr=1&abt_att=1&from_global=true&layout_page_index=9&page=10&paginator_token=3635012&search_page_state=_PxrNAQy2GKymcjK1ZidDaSeSH8e7yEq9RTEE1swUt5DG465Snnyp5FtFx5eD9Mr-tnYcHIbDDE9uc_cCFe_Z_q1cfrrKEBmUD1F9CRNuj3GXC1EqhtjATo0VRtdwBKHCuvNbfo%3D&start_page_id=3a38c9c29daa3d0afd82b239b52b2576&text=%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D0%BD%D0%B0%D1%8F+%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%2C+breadboard%2C+830",
+  "segments": [
+    1
+  ],
+  "pageInfo": {
+    "url": "/search/?__rr=1&abt_att=1&from_global=true&layout_container=default&layout_page_index=10&page=10&paginator_token=3635012&search_page_state=_PxrNAQy2GKymcjK1ZidDaSeSH8e7yEq9RTEE1swUt5DG465Snnyp5FtFx5eD9Mr-tnYcHIbDDE9uc_cCFe_Z_q1cfrrKEBmUD1F9CRNuj3GXC1EqhtjATo0VRtdwBKHCuvNbfo%3D&start_page_id=3a38c9c29daa3d0afd82b239b52b2576&text=%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D0%BD%D0%B0%D1%8F+%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%2C+breadboard%2C+830",
+    "layoutId": 149755,
+    "layoutVersion": 7,
+    "pageType": "search",
+    "referer": "https://www.ozon.ru/search/?__rr=1&abt_att=1&from_global=true&text=%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D0%BD%D0%B0%D1%8F+%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%2C+breadboard%2C+830",
+    "pageTypeTracking": "search"
+  },
+  "trackingPayloads": {
+    "0Wyg1RIq57re2DkwWRfMtPS1k3rl0DFv": "{\"layoutId\":149755,\"layoutVersion\":7,\"pageType\":\"search\",\"layoutContainer\":\"default\",\"layoutPageIndex\":10,\"deviceType\":\"desktop\",\"platform\":\"site\",\"templateType\":\"desktop\",\"marketplaceId\":1,\"requestId\":\"cc9c8a70cfba092456fd4483dc9ddc59\",\"userWwId\":1}"
+  },
+  "pageToken": "0Wyg1RIq57re2DkwWRfMtPS1k3rl0DFv",
+  "serverTiming": [
+    {
+      "duration": 6,
+      "name": "Resolve"
+    },
+    {
+      "duration": 90,
+      "name": "Widgets"
+    },
+    {
+      "duration": 102,
+      "name": "Total"
+    },
+    {
+      "duration": 102,
+      "name": "ComposerTotal"
+    },
+    {
+      "duration": 4,
+      "name": "ComposerInternal"
+    }
+  ],
+  "userToken": "1ayg1PnTwqClK_UdXCzWYorco8hgzhQ-",
+  "experimentsConfig": {
+    "entrypointCacheControl": true,
+    "imgPixelatedRender": true,
+    "gtmDelay2000": true,
+    "isModern": true,
+    "prerenderCartPageSW": true,
+    "prefetchWebGalleryVideoSW": true,
+    "enableCertEvents": true,
+    "useCrossorigin": true,
+    "fastDeliveryDeploy": true,
+    "enableVersionFallbackLogs": true,
+    "trackFetchXHRRequestsRum4": true,
+    "detectHeadlessRum4": true,
+    "disableVersionFallback": true,
+    "enableTrackerLogs": true,
+    "enableVideoPrefetchSW": true,
+    "enableSWCaching": true,
+    "useNewSwPath": true,
+    "enableSummaryV2": true,
+    "cpmTrackerEnabled": true,
+    "lowerGalleryImageQuality": true,
+    "swDisableReinitSPA": true,
+    "linkAsyncWidgets": true,
+    "earlyHintsEnabled": true,
+    "s3PublicPath": true,
+    "disableWidgetTracking": true,
+    "entrypointPrerenderHome": true,
+    "isCdnFonts": true,
+    "disableSendWidgetViewCE": true,
+    "trackMediaPlayerMetricsRum4": true,
+    "mergeUrlLogger": true,
+    "allyMode": true,
+    "enableSpeculationRules": true,
+    "withPerformanceMarks": true,
+    "clearCacheOnNextLoad": true,
+    "enableDevtools": true,
+    "newPaginationRum4": true,
+    "prerenderHomePageSW": true,
+    "prefetchAssetsSW": true,
+    "isTrinityEvent": true,
+    "prefetchListPhotosVideoSW": true,
+    "prerenderCheckoutSW": true,
+    "disableProductClickEvent": true,
+    "trackImagesRum4": true,
+    "fingerprinting": true,
+    "enableTrackerInfoLogs": true,
+    "trackLcpElement": true,
+    "usePreloadImagesPDPGallery": true
+  },
+  "requestID": "cc9c8a70cfba092456fd4483dc9ddc59",
+  "verticalInfo": {
+    "cms": {
+      "publicPath": "https://st.ozone.ru/s3/assets-27147/6b9533d1/",
+      "initial": [
+        "microfront/catalog-menu-cms-lottery-shell-uw.js"
+      ],
+      "experimentsConfig": null
+    },
+    "products": {
+      "publicPath": "https://st.ozone.ru/assets/7ee37bd5/",
+      "initial": [
+        "detached/navi/entry.products.js"
+      ],
+      "experimentsConfig": null
+    },
+    "catalog": {
+      "publicPath": "https://st.ozone.ru/s3/assets-66613/f0247c31/",
+      "initial": [
+        "microfront/catalog-search.js"
+      ],
+      "experimentsConfig": null
+    },
+    "common": {
+      "publicPath": "https://st.ozone.ru/assets/7ee37bd5/",
+      "initial": [
+        "detached/common/entry.common.js"
+      ],
+      "experimentsConfig": null
+    },
+    "composer": {
+      "publicPath": "https://st.ozone.ru/assets/7ee37bd5/",
+      "initial": [],
+      "experimentsConfig": null
+    }
+  },
+  "resolveParams": {
+    "cdn_static_hostname": "st.ozone.ru",
+    "cdn_video_tile_hostname": "vt-1.ozone.ru",
+    "current.time": "2026-07-23T16:08:05.993061771Z",
+    "request.url.domain.level2": "ozon.ru",
+    "cdn_user_content_hostname": "cdn1.ozonusercontent.com",
+    "cdn_video_pdp_hostname": "vp-1.ozone.ru",
+    "cdn_video_hostname": "v-1.ozone.ru",
+    "cdn_video_review_hostname": "vr-1.ozone.ru",
+    "cdn_img_hostname": "ir.ozone.ru",
+    "app.type.text": "bx",
+    "cdn_original_img_hostname": "io.ozone.ru",
+    "app.type": 1
+  }
+}
