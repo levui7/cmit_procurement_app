@@ -5,6 +5,7 @@ from backend.database import get_session
 from backend.models import ProcurementItem, InternalProduct
 from parser.parser_service import search_and_save_to_db
 
+
 def run_parsing_for_request(request_id: int):
     """
     Проходит по всем позициям заявки и запускает для них парсинг.
@@ -12,40 +13,42 @@ def run_parsing_for_request(request_id: int):
     """
     db = get_session()
     try:
-        # 1. Получаем все товары, добавленные в эту заявку
         items = db.query(ProcurementItem).filter(
             ProcurementItem.request_id == request_id
         ).all()
         
         if not items:
-            print(f" Заявка #{request_id} пуста. Парсинг не требуется.")
+            print(f"Заявка #{request_id} пуста.")
             return False
             
-        print(f" Запуск парсинга для {len(items)} позиций заявки #{request_id}")
+        print(f"Запуск парсинга для {len(items)} позиций заявки #{request_id}")
         
-        # 2. Для каждого товара находим его название/ключевые слова и парсим
         for item in items:
             product = db.query(InternalProduct).filter(
                 InternalProduct.id == item.internal_product_id
             ).first()
             
             if product:
-                # Используем ключевые слова, если есть, иначе берем название
                 query = product.keywords if product.keywords else product.name
-                print(f"Ищем: '{query}' (Внутренний ID: {product.id})")
+                print(f"Ищем: '{query}' (ID: {product.id})")
                 
-                # Вызываем твой работающий парсер!
-                search_and_save_to_db(
-                    query=query,
-                    internal_product_id=product.id,
-                    marketplace="ozon"
-                )
+                # OZON
+                print("   -> Ozon...")
+                search_and_save_to_db(query=query, internal_product_id=product.id, marketplace="ozon")
                 
-        print(f"Парсинг для заявки #{request_id} успешно завершен")
+                # WILDBERRIES
+                print("   -> Wildberries...")
+                search_and_save_to_db(query=query, internal_product_id=product.id, marketplace="wb")
+                
+                # ALIEXPRESS
+                print("   -> AliExpress...")
+                search_and_save_to_db(query=query, internal_product_id=product.id, marketplace="ali")
+                
+        print(f"Парсинг для заявки #{request_id} завершен")
         return True
         
     except Exception as e:
-        print(f"Критическая ошибка при парсинге заявки #{request_id}: {e}")
+        print(f"Ошибка: {e}")
         return False
     finally:
         db.close()
