@@ -1,0 +1,253 @@
+{
+  "layout": [
+    {
+      "component": "separator",
+      "params": "{\"height\":12}",
+      "stateId": "separator-3669747-default-7",
+      "version": 1,
+      "vertical": "cms",
+      "widgetTrackingInfo": "{\"name\":\"cms.separator\",\"vertical\":\"cms\",\"component\":\"separator\",\"version\":1,\"id\":3669747,\"revisionId\":4185617}",
+      "etag": "ea35b7694a8dbcb3",
+      "widgetToken": "0HSg1TbMj3sj-kc1DO49bcGY07SpKQhC",
+      "name": "cms.separator",
+      "id": 3669747,
+      "isTrackingOn": true,
+      "isStatic": true
+    },
+    {
+      "component": "tileGridDesktop",
+      "params": "{}",
+      "stateId": "tileGridDesktop-3669724-default-7",
+      "version": 1,
+      "vertical": "products",
+      "widgetTrackingInfo": "{\"name\":\"catalog.searchResultsV2\",\"vertical\":\"products\",\"component\":\"tileGridDesktop\",\"version\":1,\"originName\":\"catalog.searchResultsV2\",\"originVertical\":\"catalog\",\"originComponent\":\"searchResultsV2\",\"originVersion\":1,\"id\":3669724,\"revisionId\":4185508,\"index\":1}",
+      "widgetToken": "0HSg1T0UnDWzhuISpYODvooVEW2bWCp0",
+      "timeSpent": 118,
+      "name": "catalog.searchResultsV2",
+      "id": 3669724,
+      "isTrackingOn": true
+    }
+  ],
+  "widgetStates": {
+    "tileGridDesktop-3669724-default-7": "{\"options\":{\"theme\":\"DEFAULT\"},\"sharedData\":{},\"items\":[{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/servoprivod-mg995-mg996r-4252599569/?at=mqtkx622BFK7zJxNH9DzK61i34DWZKf4JYkJmsmW0GoL\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"4252599569\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"277 ₽\", \"textStyle\":\"PRICE\"}, {\"text\":\"435 ₽\", \"textStyle\":\"ORIGINAL_PRICE\"}], \"discount\":\"−36%\", \"priceStyle\":{\"styleType\":\"SALE_PRICE\", \"gradient\":{\"startColor\":\"#F1117E\", \"endColor\":\"#F1117E\"}}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"1 998 шт осталось\", \"textColor\":\"textAccent\", \"maxLines\":1, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBodyControl400Small\", \"topPadding\":\"PADDING_100\", \"bottomPadding\":\"PADDING_100\", \"testInfo\":{\"automatizationId\":\"tile-blackFridayStockbar\"}}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Сервопривод MG995 MG996R\", \"textColor\":\"textPrimary\", \"maxLines\":2, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"4252599569\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"4252599569\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"mqtkx622BFK7zJxNH9DzK61i34DWZKf4JYkJmsmW0GoL\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"13 августа\"}, \"quantityButton\":{\"maxItems\":700, \"updateCartAction\":{\"id\":\"4252599569\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"mqtkx622BFK7zJxNH9DzK61i34DWZKf4JYkJmsmW0GoL\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APoDTMdy1MWNyQBdjXHc3idj476a21SgZlvXxoj8jQr-K_9wLvevp-8ekNQvuJxiVf-f7bZhTsrdSLLZyWAPZXQ6iy68DA_aKrJk8u3ihi3RJ6A_Sl-c-tk_L6076SE1pA\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":4252599569,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-5/7314842237.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-8/7314842456.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"vQtr94XXpuox6wByu2ykx6otoRzwGJh6QDDnEH8r8A05\"}}}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-s/7314841396.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-3/7314841551.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-y/7314841438.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-7/7314842167.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"DqtD9MPPNIm7JOy5S9mv9vmHK1zqzrsPGyoMQtrroxVm\"}}}}], \"leftBottomBadgeV2\":{\"text\":\"Распродажа\", \"leftIcon\":\"ic_s_hot_filled_compact\", \"size\":\"SIZE_500\", \"styleType\":\"CUSTOM\", \"common\":{\"testInfo\":{\"automatizationId\":\"badge-marketingSuperHigh\"}}, \"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"#f1117eff\"}, \"leftGraphicColor\":\"#ffffffff\", \"textColor\":\"#ffffffff\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"4252599569\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"mqtkx622BFK7zJxNH9DzK61i34DWZKf4JYkJmsmW0GoL\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"mqtkx622BFK7zJxNH9DzK61i34DWZKf4JYkJmsmW0GoL\"},\"click\":{\"actionType\":\"click\",\"key\":\"mqtkx622BFK7zJxNH9DzK61i34DWZKf4JYkJmsmW0GoL\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"mqtkx622BFK7zJxNH9DzK61i34DWZKf4JYkJmsmW0GoL\"},\"view\":{\"actionType\":\"view\",\"key\":\"mqtkx622BFK7zJxNH9DzK61i34DWZKf4JYkJmsmW0GoL\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/servoprivod-mg995-mg996r-1865331894/?at=k2toE4NN8s32q738fwgRm71s8MW3z8CA3n4wpC0WXR5z\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"1865331894\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"279 ₽\", \"textStyle\":\"PRICE\"}, {\"text\":\"483 ₽\", \"textStyle\":\"ORIGINAL_PRICE\"}], \"discount\":\"−42%\", \"priceStyle\":{\"styleType\":\"SALE_PRICE\", \"gradient\":{\"startColor\":\"#F1117E\", \"endColor\":\"#F1117E\"}}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"1 998 шт осталось\", \"textColor\":\"textAccent\", \"maxLines\":1, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBodyControl400Small\", \"topPadding\":\"PADDING_100\", \"bottomPadding\":\"PADDING_100\", \"testInfo\":{\"automatizationId\":\"tile-blackFridayStockbar\"}}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Сервопривод MG995 MG996R\", \"textColor\":\"textPrimary\", \"maxLines\":2, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"},{\"type\":\"labelListV2\", \"labelListV2\":{\"items\":[{\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_star_filled_compact\", \"tintColor\":\"graphicRating\"}, \"leftPadding\":-2}}, {\"type\":\"text\", \"text\":{\"text\":\"5.0\", \"textColor\":\"textPremium\", \"leftPadding\":2}}, {\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_dialog_filled_compact\", \"tintColor\":\"graphicTertiary\"}, \"leftPadding\":4}}, {\"type\":\"text\", \"text\":{\"text\":\"1 отзыв\", \"textColor\":\"textSecondary\", \"leftPadding\":2}}], \"verticalIndents\":{\"top\":2, \"bottom\":2}, \"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"1865331894\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"1865331894\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"k2toE4NN8s32q738fwgRm71s8MW3z8CA3n4wpC0WXR5z\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"11 августа\"}, \"quantityButton\":{\"maxItems\":700, \"updateCartAction\":{\"id\":\"1865331894\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"k2toE4NN8s32q738fwgRm71s8MW3z8CA3n4wpC0WXR5z\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APoDspEZmrSKsnjPWAas4646TNZ-0YPwkz_p7WtL4EpSwYtiQqy_lagZ6rd9t7Gopz7Zd3XwNmRdWCRkmHs1SJcWc7EuBxvzROoXGa8AReswrRJSqTFmnQv9Vv6SVSBf7g\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":1865331894,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-e/7314841706.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-8/7314842456.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"mqtkx622BFPO4rYXhNA17mRUzGB6qAcYY28W2Tj5xn45\"}}}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-3/7314841551.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-s/7314841396.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-y/7314841438.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-7/7314842167.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"WPtNExkkRio2xz23S7q8Kg1uKkL29ztYwOKZKFWER5zg\"}}}}], \"leftBottomBadgeV2\":{\"text\":\"Распродажа\", \"leftIcon\":\"ic_s_hot_filled_compact\", \"size\":\"SIZE_500\", \"styleType\":\"CUSTOM\", \"common\":{\"testInfo\":{\"automatizationId\":\"badge-marketingSuperHigh\"}}, \"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"#f1117eff\"}, \"leftGraphicColor\":\"#ffffffff\", \"textColor\":\"#ffffffff\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"1865331894\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"k2toE4NN8s32q738fwgRm71s8MW3z8CA3n4wpC0WXR5z\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"k2toE4NN8s32q738fwgRm71s8MW3z8CA3n4wpC0WXR5z\"},\"click\":{\"actionType\":\"click\",\"key\":\"k2toE4NN8s32q738fwgRm71s8MW3z8CA3n4wpC0WXR5z\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"k2toE4NN8s32q738fwgRm71s8MW3z8CA3n4wpC0WXR5z\"},\"view\":{\"actionType\":\"view\",\"key\":\"k2toE4NN8s32q738fwgRm71s8MW3z8CA3n4wpC0WXR5z\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/mg995-d1360-servoprivod-360-gradusov-s-metallicheskim-reduktorom-i-vysokim-krutyashchim-momentom-3618994400/?at=ywtA1JnnquDr4pOkTVPvPkAHDjEj55hWxJrn3sJ8r0r7\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"3618994400\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"3 306 ₽\", \"textStyle\":\"PRICE\"}, {\"text\":\"6 486 ₽\", \"textStyle\":\"ORIGINAL_PRICE\"}], \"discount\":\"−49%\", \"priceStyle\":{\"styleType\":\"SALE_PRICE\", \"gradient\":{\"startColor\":\"#F1117E\", \"endColor\":\"#F1117E\"}}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"11 шт осталось\", \"textColor\":\"textAccent\", \"maxLines\":1, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBodyControl400Small\", \"topPadding\":\"PADDING_100\", \"bottomPadding\":\"PADDING_100\", \"testInfo\":{\"automatizationId\":\"tile-blackFridayStockbar\"}}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"MG995 (D1360), Сервопривод 360 градусов с металлическим редуктором и высоким крутящим моментом, 10 шт.\", \"textColor\":\"textPrimary\", \"maxLines\":2, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"},{\"type\":\"labelListV2\", \"labelListV2\":{\"items\":[{\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_star_filled_compact\", \"tintColor\":\"graphicRating\"}, \"leftPadding\":-2}}, {\"type\":\"text\", \"text\":{\"text\":\"4.5\", \"textColor\":\"textPremium\", \"leftPadding\":2}}, {\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_dialog_filled_compact\", \"tintColor\":\"graphicTertiary\"}, \"leftPadding\":4}}, {\"type\":\"text\", \"text\":{\"text\":\"8 отзывов\", \"textColor\":\"textSecondary\", \"leftPadding\":2}}], \"verticalIndents\":{\"top\":2, \"bottom\":2}, \"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"3618994400\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"3618994400\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"ywtA1JnnquDr4pOkTVPvPkAHDjEj55hWxJrn3sJ8r0r7\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"5 августа\"}, \"quantityButton\":{\"maxItems\":11, \"updateCartAction\":{\"id\":\"3618994400\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"ywtA1JnnquDr4pOkTVPvPkAHDjEj55hWxJrn3sJ8r0r7\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APoDdVgOWf_m7Te-BiiTvS3LRxG3nz89cNGLV-qsnO5VtkIpcuHG0mK3hil5M4vyUi76up6kIXA_Jk8HMw_r9oecuFiygiAk1grScdjo26e0l5684hTOq8orFu92rzVpFA\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":3618994400,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-1/9251540965.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-g/9251477188.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"WPtNExkkRip7Lj4zTjN9kGDhBRn7JqI19oy91uz8wgOx\"}}}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-e/9251476898.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"K8tZo9JJzSLGMOJrI8lvYjyF24zk5WhNYzJJjHXXLq0B\"}}}}], \"leftBottomBadgeV2\":{\"text\":\"Распродажа\", \"leftIcon\":\"ic_s_hot_filled_compact\", \"size\":\"SIZE_500\", \"styleType\":\"CUSTOM\", \"common\":{\"testInfo\":{\"automatizationId\":\"badge-marketingSuperHigh\"}}, \"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"#f1117eff\"}, \"leftGraphicColor\":\"#ffffffff\", \"textColor\":\"#ffffffff\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"3618994400\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"ywtA1JnnquDr4pOkTVPvPkAHDjEj55hWxJrn3sJ8r0r7\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"ywtA1JnnquDr4pOkTVPvPkAHDjEj55hWxJrn3sJ8r0r7\"},\"click\":{\"actionType\":\"click\",\"key\":\"ywtA1JnnquDr4pOkTVPvPkAHDjEj55hWxJrn3sJ8r0r7\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"ywtA1JnnquDr4pOkTVPvPkAHDjEj55hWxJrn3sJ8r0r7\"},\"view\":{\"actionType\":\"view\",\"key\":\"ywtA1JnnquDr4pOkTVPvPkAHDjEj55hWxJrn3sJ8r0r7\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/servoprivod-mg995-mg996r-3248479219/?at=PjtJwZll8crRgy6GSowqAW0tvVonVpcL6N0zkcgB6qKX\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"3248479219\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"236 ₽\", \"textStyle\":\"PRICE\"}, {\"text\":\"447 ₽\", \"textStyle\":\"ORIGINAL_PRICE\"}], \"discount\":\"−47%\", \"priceStyle\":{\"styleType\":\"SALE_PRICE\", \"gradient\":{\"startColor\":\"#F1117E\", \"endColor\":\"#F1117E\"}}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"1 998 шт осталось\", \"textColor\":\"textAccent\", \"maxLines\":1, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBodyControl400Small\", \"topPadding\":\"PADDING_100\", \"bottomPadding\":\"PADDING_100\", \"testInfo\":{\"automatizationId\":\"tile-blackFridayStockbar\"}}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Сервопривод MG995 MG996R\", \"textColor\":\"textPrimary\", \"maxLines\":2, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"},{\"type\":\"labelListV2\", \"labelListV2\":{\"items\":[{\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_star_filled_compact\", \"tintColor\":\"graphicRating\"}, \"leftPadding\":-2}}, {\"type\":\"text\", \"text\":{\"text\":\"4.3\", \"textColor\":\"textPremium\", \"leftPadding\":2}}, {\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_dialog_filled_compact\", \"tintColor\":\"graphicTertiary\"}, \"leftPadding\":4}}, {\"type\":\"text\", \"text\":{\"text\":\"6 отзывов\", \"textColor\":\"textSecondary\", \"leftPadding\":2}}], \"verticalIndents\":{\"top\":2, \"bottom\":2}, \"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"3248479219\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"3248479219\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"PjtJwZll8crRgy6GSowqAW0tvVonVpcL6N0zkcgB6qKX\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"13 августа\"}, \"quantityButton\":{\"maxItems\":700, \"updateCartAction\":{\"id\":\"3248479219\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"PjtJwZll8crRgy6GSowqAW0tvVonVpcL6N0zkcgB6qKX\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APoDgXQws5TeP--EHrcUiDs7o1Y6A_-y94ycDUlkNsE60OQavyF7gsxh_BPUpMJaCyVarMRwJOSX8ntZziUg43g12dorM3FFlyjyQjJuKha06MuJasjA8gSyEMKgVhLHWw\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":3248479219,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-e/7314841706.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-8/7314842456.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"k2toE4NN8sNrnXjqigjkxXxf5yPB4GiNyjDn1UmrLWNO\"}}}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-s/7314841396.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-3/7314841551.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-y/7314841438.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-7/7314842167.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"gpt43NkkOT6M35PmcErovO0SzDgJ3jsBQ1oO4C6pmJXG\"}}}}], \"leftBottomBadgeV2\":{\"text\":\"Распродажа\", \"leftIcon\":\"ic_s_hot_filled_compact\", \"size\":\"SIZE_500\", \"styleType\":\"CUSTOM\", \"common\":{\"testInfo\":{\"automatizationId\":\"badge-marketingSuperHigh\"}}, \"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"#f1117eff\"}, \"leftGraphicColor\":\"#ffffffff\", \"textColor\":\"#ffffffff\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"3248479219\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"PjtJwZll8crRgy6GSowqAW0tvVonVpcL6N0zkcgB6qKX\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"PjtJwZll8crRgy6GSowqAW0tvVonVpcL6N0zkcgB6qKX\"},\"click\":{\"actionType\":\"click\",\"key\":\"PjtJwZll8crRgy6GSowqAW0tvVonVpcL6N0zkcgB6qKX\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"PjtJwZll8crRgy6GSowqAW0tvVonVpcL6N0zkcgB6qKX\"},\"view\":{\"actionType\":\"view\",\"key\":\"PjtJwZll8crRgy6GSowqAW0tvVonVpcL6N0zkcgB6qKX\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/servomashinka-jx-servo-pdi-2205mg-21t-dlya-mjx-tsifrovaya-s-metallicheskimi-shesternyami-2794210163/?at=A6tGQVYYLcBJzy1AIPr83p5FQWB7j8tQpkpG1sjxQRr7\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"2794210163\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"880 ₽\", \"textStyle\":\"PRICE\"}], \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Сервомашинка JX Servo PDI-2205MG 21T для MJX цифровая с металлическими шестернями\", \"textColor\":\"textPrimary\", \"maxLines\":3, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"},{\"type\":\"labelListV2\", \"labelListV2\":{\"items\":[{\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_star_filled_compact\", \"tintColor\":\"graphicRating\"}, \"leftPadding\":-2}}, {\"type\":\"text\", \"text\":{\"text\":\"5.0\", \"textColor\":\"textPremium\", \"leftPadding\":2}}, {\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_dialog_filled_compact\", \"tintColor\":\"graphicTertiary\"}, \"leftPadding\":4}}, {\"type\":\"text\", \"text\":{\"text\":\"2 отзыва\", \"textColor\":\"textSecondary\", \"leftPadding\":2}}], \"verticalIndents\":{\"top\":2, \"bottom\":2}, \"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"2794210163\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"2794210163\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"A6tGQVYYLcBJzy1AIPr83p5FQWB7j8tQpkpG1sjxQRr7\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"30 июля\"}, \"quantityButton\":{\"maxItems\":23, \"updateCartAction\":{\"id\":\"2794210163\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"A6tGQVYYLcBJzy1AIPr83p5FQWB7j8tQpkpG1sjxQRr7\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APoDwdcqde88fW1Zwf7vNc3SkdrXNw81GrM2ndQU1DZDxnqb-S05wz6mOXvsh9Cg3VC9hdRuSASIxY8kncbBvqbDSFxbTCJPVjauuT_0QdYKXWffREXUuGSo6cPbgLFV9A\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":2794210163,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-z/7494254135.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-c/7494247128.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"pZtp2yDD1i3B41VKh4rpPLzugrlGqEILJlr8gc4ROWMV\"}}}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-t/7494239081.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-3/7494246327.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"36tWkxBB6h5jJorXcB6ywV4CE21XNEfjypJNNtPWBNPD\"}}}}]},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"2794210163\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"A6tGQVYYLcBJzy1AIPr83p5FQWB7j8tQpkpG1sjxQRr7\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"A6tGQVYYLcBJzy1AIPr83p5FQWB7j8tQpkpG1sjxQRr7\"},\"click\":{\"actionType\":\"click\",\"key\":\"A6tGQVYYLcBJzy1AIPr83p5FQWB7j8tQpkpG1sjxQRr7\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"A6tGQVYYLcBJzy1AIPr83p5FQWB7j8tQpkpG1sjxQRr7\"},\"view\":{\"actionType\":\"view\",\"key\":\"A6tGQVYYLcBJzy1AIPr83p5FQWB7j8tQpkpG1sjxQRr7\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/oz01m-5-sht-lot-metallicheskiy-rulevoy-mehanizm-diskovyy-stent-25-t-servoprivod-kruglyy-tip-1913856837/?at=oZt6n844jFMJg9BXUEO7wYBHBEYj2Zfo3z5qnf7KELD8\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"1913856837\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"181 ₽\", \"textStyle\":\"PRICE\"}, {\"text\":\"463 ₽\", \"textStyle\":\"ORIGINAL_PRICE\"}], \"discount\":\"−60%\", \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"OZ01M 5 шт./лот, металлический рулевой механизм, дисковый стент, 25 т, сервопривод, круглый тип для MG995 MG996R RC Robot Car\", \"textColor\":\"textPrimary\", \"maxLines\":3, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"},{\"type\":\"labelListV2\", \"labelListV2\":{\"items\":[{\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_star_filled_compact\", \"tintColor\":\"graphicRating\"}, \"leftPadding\":-2}}, {\"type\":\"text\", \"text\":{\"text\":\"5.0\", \"textColor\":\"textPremium\", \"leftPadding\":2}}, {\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_dialog_filled_compact\", \"tintColor\":\"graphicTertiary\"}, \"leftPadding\":4}}, {\"type\":\"text\", \"text\":{\"text\":\"9 отзывов\", \"textColor\":\"textSecondary\", \"leftPadding\":2}}], \"verticalIndents\":{\"top\":2, \"bottom\":2}, \"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"1913856837\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"1913856837\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"oZt6n844jFMJg9BXUEO7wYBHBEYj2Zfo3z5qnf7KELD8\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"11 августа\"}, \"quantityButton\":{\"maxItems\":524, \"updateCartAction\":{\"id\":\"1913856837\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"oZt6n844jFMJg9BXUEO7wYBHBEYj2Zfo3z5qnf7KELD8\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APoDfx8UFqLjQ0MTIplz0J6KHEiLb0IyZKui9JTFRcG5a5VsSkaaxUjPvbduXKmF8wIg3lNEQSqg6mxM2Z5WX2qgk2D9H60pd7wQ7WfnkJK72LrXxQsClN3ijSi39lKMUg\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":1913856837,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-9/6399481245.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-2/6399481310.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"J8tgJyXX3IM8n6kFBZ2nOmhmNB8EviplgBkKT3oPwqA\"}}}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-7/6399481243.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-8/6399481244.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-b/6399481247.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-d/6399481285.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"BrtzGAoopCn8V6rWS7YKrPWsG1qpjMIWl9z1wCKLA9yr\"}}}}]},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"1913856837\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"oZt6n844jFMJg9BXUEO7wYBHBEYj2Zfo3z5qnf7KELD8\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"oZt6n844jFMJg9BXUEO7wYBHBEYj2Zfo3z5qnf7KELD8\"},\"click\":{\"actionType\":\"click\",\"key\":\"oZt6n844jFMJg9BXUEO7wYBHBEYj2Zfo3z5qnf7KELD8\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"oZt6n844jFMJg9BXUEO7wYBHBEYj2Zfo3z5qnf7KELD8\"},\"view\":{\"actionType\":\"view\",\"key\":\"oZt6n844jFMJg9BXUEO7wYBHBEYj2Zfo3z5qnf7KELD8\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/mg995-sg5010-mehanicheskiy-dvigatel-c-mehanicheskim-privodom-serebristyy-5064120089/?at=oZt6n844jFoR3y3NTPwLEJ6s8V0E1T96w0PDSMRrqP3\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"5064120089\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"367 ₽\", \"textStyle\":\"PRICE\"}], \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"MG995 SG5010 Механический двигатель C механическим приводом-Серебристый\", \"textColor\":\"textPrimary\", \"maxLines\":3, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"5064120089\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"5064120089\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"oZt6n844jFoR3y3NTPwLEJ6s8V0E1T96w0PDSMRrqP3\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"8 августа\"}, \"quantityButton\":{\"maxItems\":700, \"updateCartAction\":{\"id\":\"5064120089\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"oZt6n844jFoR3y3NTPwLEJ6s8V0E1T96w0PDSMRrqP3\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APoDENrBfcZt6gQFR3IvnpcOvHRjCfehtb0QgT6TBTalXBlvqKF2HJkWbPYQf9E8LVMMR2Jg1u1vYvXLxSQNqyMXaLuJqy8sznUd-PPSzKlqdwa81sbU-oW_n7mGBcQ12Q\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":5064120089,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-k/8672222612.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-z/8672222663.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"MZtvr9llMsJzy6n3T2pQE4oS8pNAvZTjW7lyJfJKGkxr\"}}}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-1/8672221549.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-f/8672223291.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-v/8672222515.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-9/8672221917.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"A6tGQVYYLcP3QZQqsXyWPRDi8BvOQzHV9MZk3Tr9XXnQ\"}}}}], \"leftBottomBadgeV2\":{\"text\":\"Цена что надо\", \"leftIcon\":\"ic_s_like_filled_compact\", \"size\":\"SIZE_500\", \"styleType\":\"CUSTOM\", \"common\":{\"testInfo\":{\"automatizationId\":\"badge-priceIndex\"}}, \"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"bgPositivePrimary\"}, \"leftGraphicColor\":\"graphicLightKey\", \"textColor\":\"textLightKey\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"5064120089\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"oZt6n844jFoR3y3NTPwLEJ6s8V0E1T96w0PDSMRrqP3\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"oZt6n844jFoR3y3NTPwLEJ6s8V0E1T96w0PDSMRrqP3\"},\"click\":{\"actionType\":\"click\",\"key\":\"oZt6n844jFoR3y3NTPwLEJ6s8V0E1T96w0PDSMRrqP3\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"oZt6n844jFoR3y3NTPwLEJ6s8V0E1T96w0PDSMRrqP3\"},\"view\":{\"actionType\":\"view\",\"key\":\"oZt6n844jFoR3y3NTPwLEJ6s8V0E1T96w0PDSMRrqP3\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/kronshteyn-dlya-servoprivodov-mg995-mg996r-2-osevoy-dlya-sozdaniya-robotizirovannyh-manipulyatorov-i-3559166019/?at=VvtzJXvvNCo6mo5VIZ92nBQtOY0on4cDlV5v3iYqr917\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"3559166019\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"318 ₽\", \"textStyle\":\"PRICE\"}, {\"text\":\"1 044 ₽\", \"textStyle\":\"ORIGINAL_PRICE\"}], \"discount\":\"−69%\", \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Кронштейн для сервоприводов MG995/MG996R (2-осевой), для создания роботизированных манипуляторов и поворотных механизмов.\", \"textColor\":\"textPrimary\", \"maxLines\":3, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"},{\"type\":\"labelListV2\", \"labelListV2\":{\"items\":[{\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_star_filled_compact\", \"tintColor\":\"graphicRating\"}, \"leftPadding\":-2}}, {\"type\":\"text\", \"text\":{\"text\":\"5.0\", \"textColor\":\"textPremium\", \"leftPadding\":2}}, {\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_dialog_filled_compact\", \"tintColor\":\"graphicTertiary\"}, \"leftPadding\":4}}, {\"type\":\"text\", \"text\":{\"text\":\"3 отзыва\", \"textColor\":\"textSecondary\", \"leftPadding\":2}}], \"verticalIndents\":{\"top\":2, \"bottom\":2}, \"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"3559166019\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"3559166019\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"VvtzJXvvNCo6mo5VIZ92nBQtOY0on4cDlV5v3iYqr917\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"10 августа\"}, \"quantityButton\":{\"maxItems\":27, \"updateCartAction\":{\"id\":\"3559166019\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"VvtzJXvvNCo6mo5VIZ92nBQtOY0on4cDlV5v3iYqr917\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APoDzhs8H9veI_s3tZQmbggs3CIr1CPzQNXTxdBy2RUWWt7gttmNahiJTDSMCIru9if8JsYxW7PEk_kFcLeKEMaYEg8pE01vIAjTKbBCPXU8X24bjwJs3CBXbO10kEe0Sw\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":3559166019,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-r/6793845687.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-0/6793845768.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"83tBGQrrDh2gM8lLsqK6rpAsmP968Qhgj21RQu51qVLJ\"}}}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-b/6793845743.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-l/6793845573.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-f/6793845639.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-0/6793846236.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"36tWkxBB6hvqmMnRcxXQzDKsyJ1l1LIQPZO2ktXzJAvB\"}}}}]},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"3559166019\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"VvtzJXvvNCo6mo5VIZ92nBQtOY0on4cDlV5v3iYqr917\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"VvtzJXvvNCo6mo5VIZ92nBQtOY0on4cDlV5v3iYqr917\"},\"click\":{\"actionType\":\"click\",\"key\":\"VvtzJXvvNCo6mo5VIZ92nBQtOY0on4cDlV5v3iYqr917\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"VvtzJXvvNCo6mo5VIZ92nBQtOY0on4cDlV5v3iYqr917\"},\"view\":{\"actionType\":\"view\",\"key\":\"VvtzJXvvNCo6mo5VIZ92nBQtOY0on4cDlV5v3iYqr917\"}}}],\"templates\":null,\"cols\":12,\"imageHeight\":500,\"columnsCount\":4,\"page\":7}",
+    "separator-3669747-default-7": "{\"height\":12}"
+  },
+  "browser": {
+    "ip": "95.25.28.15",
+    "isDesktop": true,
+    "platform": "desktop",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "prevLocation": "https://www.ozon.ru/search/?__rr=1&abt_att=1&from_global=true&text=%D1%81%D0%B5%D1%80%D0%B2%D0%BE%D0%BF%D1%80%D0%B8%D0%B2%D0%BE%D0%B4%2C+MG995%2C+%D1%81%D0%B5%D1%80%D0%B2%D0%BE%2C+%D0%BC%D0%BE%D1%82%D0%BE%D1%80",
+    "useSW": true,
+    "trackResources": true,
+    "webp": true,
+    "device": "desktop",
+    "age": "modern",
+    "cspNonce": "b75d74cc-4af2-4513-8514-3aeb349d9e69",
+    "family": "Chrome",
+    "majorVersion": 138,
+    "cdnImgHostname": "ir.ozone.ru",
+    "cdnVideoHostname": "v-1.ozone.ru",
+    "cdnOriginalImgHostname": "io.ozone.ru",
+    "cdnStaticHostname": "st.ozone.ru",
+    "avif": true
+  },
+  "client": {
+    "platform": "desktop",
+    "marketplaceDomain": "ozon.ru"
+  },
+  "layoutTrackingInfo": "{\"layoutId\":149755,\"layoutVersion\":7,\"pageType\":\"search\",\"layoutContainer\":\"default\",\"layoutPageIndex\":7,\"deviceType\":\"desktop\",\"platform\":\"site\",\"templateType\":\"desktop\",\"marketplaceId\":1,\"requestId\":\"8bb12514d82a5c9a3a9f9cfd9da3977c\",\"userWwId\":1}",
+  "location": {
+    "current": {
+      "areaId": 15870,
+      "areaType": 4,
+      "city": "Волгоград",
+      "country": "Россия",
+      "countryCode": "RUS",
+      "countryId": 1,
+      "fias": "a52b7389-0cfe-46fb-ae15-298652a64cf8",
+      "fullName": "Волгоград, Волгоградская область",
+      "name": "Волгоград",
+      "timeZoneUtcname": "UTC+3",
+      "geoCoordinate": {},
+      "uid": "a52b7389-0cfe-46fb-ae15-298652a64cf8"
+    }
+  },
+  "seo": {
+    "title": "сервопривод, MG995, серво, мотор - купить на OZON",
+    "meta": [
+      {
+        "content": "сервопривод, MG995, серво, мотор – покупайте на OZON по выгодным ценам! Быстрая и бесплатная доставка, большой ассортимент продуктов. Бонусы и кэшбэк. Распродажи, скидки и акции. Реальные отзывы покупателей.",
+        "name": "description"
+      },
+      {
+        "content": "сервопривод, MG995, серво, мотор - купить на OZON",
+        "property": "og:title"
+      },
+      {
+        "content": "сервопривод, MG995, серво, мотор – покупайте на OZON по выгодным ценам! Быстрая и бесплатная доставка, большой ассортимент продуктов. Бонусы и кэшбэк. Распродажи, скидки и акции. Реальные отзывы покупателей.",
+        "property": "og:description"
+      },
+      {
+        "content": "https://ir.ozone.ru/s3/cms/logo/og_ozon_ru.png",
+        "property": "og:image"
+      },
+      {
+        "content": "noindex, nofollow",
+        "name": "robots"
+      },
+      {
+        "content": "website",
+        "property": "og:type"
+      },
+      {
+        "content": "1211635852237386",
+        "property": "fb:app_id"
+      }
+    ]
+  },
+  "shared": "{\"context\":\"ozon\",\"catalog\":{\"totalPages\":8,\"currentPage\":7}}",
+  "nextPage": "/search/?__rr=1&__rr=1&abt_att=1&from_global=true&layout_container=default&layout_page_index=8&page=8&paginator_token=3635012&search_page_state=y9T_ARScafJ4vlcU51-9pkms6yc8Sx_T5VhkCkc6tVsIDPYfo0x9N2Zg9QlK-9Fo96B7yoRLYJdUOZzij9TS1wjEK99Iy4BLEo058zOttKOcxlku9wDDgMlX5HOU1MlESAHpA4g%3D&start_page_id=c5d4aa8501945ef237fd71986d69dba5&text=%D1%81%D0%B5%D1%80%D0%B2%D0%BE%D0%BF%D1%80%D0%B8%D0%B2%D0%BE%D0%B4%2C+MG995%2C+%D1%81%D0%B5%D1%80%D0%B2%D0%BE%2C+%D0%BC%D0%BE%D1%82%D0%BE%D1%80",
+  "prevPage": "/search/?__rr=1&__rr=1&abt_att=1&from_global=true&layout_page_index=6&page=7&paginator_token=3635012&search_page_state=6oX0PAUxrygEYc7_WDK6sd_2Q_ygcP9SPerP_lqlvXJoBvEDlZYLIbYuqSXihwjezcU1ONlqOt2kahuA2ngI5yott7OneqoJuBewqDzGuaRJlSOQ7wqvXEMM3RYr2EbtjlPQwNk%3D&start_page_id=c5d4aa8501945ef237fd71986d69dba5&text=%D1%81%D0%B5%D1%80%D0%B2%D0%BE%D0%BF%D1%80%D0%B8%D0%B2%D0%BE%D0%B4%2C+MG995%2C+%D1%81%D0%B5%D1%80%D0%B2%D0%BE%2C+%D0%BC%D0%BE%D1%82%D0%BE%D1%80",
+  "segments": [
+    1
+  ],
+  "pageInfo": {
+    "url": "/search/?__rr=1&__rr=1&abt_att=1&from_global=true&layout_container=default&layout_page_index=7&page=7&paginator_token=3635012&search_page_state=6oX0PAUxrygEYc7_WDK6sd_2Q_ygcP9SPerP_lqlvXJoBvEDlZYLIbYuqSXihwjezcU1ONlqOt2kahuA2ngI5yott7OneqoJuBewqDzGuaRJlSOQ7wqvXEMM3RYr2EbtjlPQwNk%3D&start_page_id=c5d4aa8501945ef237fd71986d69dba5&text=%D1%81%D0%B5%D1%80%D0%B2%D0%BE%D0%BF%D1%80%D0%B8%D0%B2%D0%BE%D0%B4%2C+MG995%2C+%D1%81%D0%B5%D1%80%D0%B2%D0%BE%2C+%D0%BC%D0%BE%D1%82%D0%BE%D1%80",
+    "layoutId": 149755,
+    "layoutVersion": 7,
+    "pageType": "search",
+    "referer": "https://www.ozon.ru/search/?__rr=1&abt_att=1&from_global=true&text=%D1%81%D0%B5%D1%80%D0%B2%D0%BE%D0%BF%D1%80%D0%B8%D0%B2%D0%BE%D0%B4%2C+MG995%2C+%D1%81%D0%B5%D1%80%D0%B2%D0%BE%2C+%D0%BC%D0%BE%D1%82%D0%BE%D1%80",
+    "pageTypeTracking": "search"
+  },
+  "trackingPayloads": {
+    "0XSg1VSDsqjx_ELm-X8i7u9KoN6dUfRb": "{\"layoutId\":149755,\"layoutVersion\":7,\"pageType\":\"search\",\"layoutContainer\":\"default\",\"layoutPageIndex\":7,\"deviceType\":\"desktop\",\"platform\":\"site\",\"templateType\":\"desktop\",\"marketplaceId\":1,\"requestId\":\"8bb12514d82a5c9a3a9f9cfd9da3977c\",\"userWwId\":1}"
+  },
+  "pageToken": "0XSg1VSDsqjx_ELm-X8i7u9KoN6dUfRb",
+  "serverTiming": [
+    {
+      "duration": 5,
+      "name": "Resolve"
+    },
+    {
+      "duration": 119,
+      "name": "Widgets"
+    },
+    {
+      "duration": 129,
+      "name": "Total"
+    },
+    {
+      "duration": 129,
+      "name": "ComposerTotal"
+    },
+    {
+      "duration": 3,
+      "name": "ComposerInternal"
+    }
+  ],
+  "userToken": "1bSg1RKS1wP28tJ0sg1_ZBpLEcMjE_AF",
+  "experimentsConfig": {
+    "enableVersionFallbackLogs": true,
+    "enableSummaryV2": true,
+    "trackAssetsRum4": true,
+    "mergeUrlLogger": true,
+    "isModern": true,
+    "isTrinityEvent": true,
+    "enableSpeculationRules": true,
+    "linkAsyncWidgets": true,
+    "trackImagesRum4": true,
+    "enableVideoPrefetchSW": true,
+    "newPaginationRum4": true,
+    "cpmTrackerEnabled": true,
+    "prerenderHomePageSW": true,
+    "imgPixelatedRender": true,
+    "enableDevtools": true,
+    "isCdnFonts": true,
+    "swDisableReinitSPA": true,
+    "prerenderCartPageSW": true,
+    "enableTrackerInfoLogs": true,
+    "entrypointPrerenderHome": true,
+    "enableCertEvents": true,
+    "enableSWCaching": true,
+    "detectHeadlessRum4": true,
+    "useCrossorigin": true,
+    "allyMode": true,
+    "trackVideosRum4": true,
+    "earlyHintsEnabled": true,
+    "disableVersionFallback": true,
+    "trackLcpElement": true,
+    "entrypointCacheControl": true,
+    "trackMessengerRum4": true,
+    "s3PublicPath": true,
+    "prerenderCheckoutSW": true,
+    "disableSendWidgetViewCE": true,
+    "withPerformanceMarks": true,
+    "lowerGalleryImageQuality": true,
+    "prefetchListPhotosVideoSW": true,
+    "prefetchAssetsSW": true,
+    "trackVideosForTileRum4": false,
+    "usePreloadImagesPDPGallery": true,
+    "trackMapInitActions": true,
+    "useNewSwPath": true,
+    "prefetchWebGalleryVideoSW": true,
+    "fastDeliveryDeploy": true,
+    "disableWidgetTracking": true,
+    "disableProductClickEvent": true,
+    "trackMediaPlayerMetricsRum4": true,
+    "enableTrackerLogs": true,
+    "trackScripts": false,
+    "fingerprinting": true,
+    "gtmDelay2000": true
+  },
+  "requestID": "8bb12514d82a5c9a3a9f9cfd9da3977c",
+  "verticalInfo": {
+    "catalog": {
+      "publicPath": "https://st.ozone.ru/s3/assets-66613/26877a5f/",
+      "initial": [
+        "microfront/catalog-search.js"
+      ],
+      "experimentsConfig": null
+    },
+    "common": {
+      "publicPath": "https://st.ozone.ru/assets/e801a3c6/",
+      "initial": [
+        "detached/common/entry.common.js"
+      ],
+      "experimentsConfig": null
+    },
+    "composer": {
+      "publicPath": "https://st.ozone.ru/assets/e801a3c6/",
+      "initial": [],
+      "experimentsConfig": null
+    },
+    "cms": {
+      "publicPath": "https://st.ozone.ru/s3/assets-27147/6b9533d1/",
+      "initial": [
+        "microfront/catalog-menu-cms-lottery-shell-uw.js"
+      ],
+      "experimentsConfig": null
+    },
+    "products": {
+      "publicPath": "https://st.ozone.ru/assets/e801a3c6/",
+      "initial": [
+        "detached/navi/entry.products.js"
+      ],
+      "experimentsConfig": null
+    }
+  },
+  "resolveParams": {
+    "cdn_img_hostname": "ir.ozone.ru",
+    "cdn_original_img_hostname": "io.ozone.ru",
+    "cdn_user_content_hostname": "cdn1.ozonusercontent.com",
+    "cdn_video_pdp_hostname": "vp-1.ozone.ru",
+    "app.type.text": "bx",
+    "cdn_static_hostname": "st.ozone.ru",
+    "current.time": "2026-07-24T13:33:43.482027672Z",
+    "app.type": 1,
+    "cdn_video_review_hostname": "vr-1.ozone.ru",
+    "cdn_video_hostname": "v-1.ozone.ru",
+    "cdn_video_tile_hostname": "vt-1.ozone.ru",
+    "request.url.domain.level2": "ozon.ru"
+  }
+}

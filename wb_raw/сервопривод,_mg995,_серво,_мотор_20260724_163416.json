@@ -1,0 +1,235 @@
+{
+    "metadata": {
+        "catalog_type": "catalog-merger",
+        "catalog_value": "preset=601356793&_st0=bWc5OTU=&_st1=0YHQtdGA0LLQvg==;0YHQtdGA0YvQuQ==",
+        "normquery": "моторчик сервопривода",
+        "search_result": {},
+        "name": "сервопривод, MG995, серво, мотор",
+        "rmi": "3",
+        "title": "сервопривод, MG995, серво, мотор",
+        "rs": 72,
+        "context": [
+            "comparison",
+            "ai_chat"
+        ],
+        "kcl": "MiCaVcE6HGv/eYkYaNybvDBVuukoOA1sjc0k8eWakteYVxj2pGP1GXDK0WTDaxTRLVY",
+        "preset_normquery_map": {
+            "601356793": "моторчик сервопривода"
+        }
+    },
+    "products": [
+        {
+            "id": 794033182,
+            "__sort": 156,
+            "ksort": 0,
+            "root": 844382037,
+            "kindId": 0,
+            "brand": "",
+            "brandId": 0,
+            "siteBrandId": 0,
+            "colors": [],
+            "subjectId": 6863,
+            "subjectParentId": 2050,
+            "semanticId": [
+                197,
+                214,
+                5,
+                188,
+                313,
+                791,
+                179
+            ],
+            "name": "Металл серво руль 25T серебро 5 шт. арт. 119",
+            "entity": "расходные материалы",
+            "matchId": 0,
+            "supplier": "Веллум Астра",
+            "supplierId": 250070259,
+            "supplierRating": 4.4,
+            "supplierFlags": 6080,
+            "pics": 2,
+            "picsUpdate": 0,
+            "rating": 0,
+            "reviewRating": 0,
+            "nmReviewRating": 0,
+            "feedbacks": 0,
+            "nmFeedbacks": 0,
+            "volume": 2,
+            "weight": 0.1,
+            "viewFlags": 1572864,
+            "sizes": [
+                {
+                    "name": "",
+                    "origName": "0",
+                    "rank": 0,
+                    "optionId": 1179852005,
+                    "wh": 326033,
+                    "time1": 316,
+                    "time2": 221,
+                    "dtype": 2774548873217,
+                    "price": {
+                        "basic": 130100,
+                        "product": 79700,
+                        "logistics": 0,
+                        "return": 0,
+                        "cashback": 0
+                    },
+                    "saleConditions": 134217730,
+                    "payload": "A8ATyzCkxb4Ey/JauMR3ThsccQRNNF25p4aFyPeQQGVypRXv1MPb1jNyimgcOdJUdecxNm83hTEjVnKRKdQGepIqZKqcCrWXTy+7xAidpA7ilW9Pqqec/pgKWwW8n863TLhpBhas79nioSqhTPE+lANrXdJ7mj1Vm7eubqqHwnkGwRUJ3LvoGQJFB2h8xv85gkbp5cvZFnEfGBfxXgfQAsr70t2Isue6jI4JR05DuK5GBTzDBgve9Ujhk5mpkE0ooBJcCA8HUHfwQBISs4hjE6onMpE7gp/x5eGiIGyVXmA"
+                }
+            ],
+            "totalQuantity": 49,
+            "time1": 316,
+            "time2": 221,
+            "wh": 326033,
+            "dtype": 2774548873217,
+            "dist": 9049,
+            "meta": {
+                "tokens": [],
+                "presetId": 601356793
+            }
+        },
+        {
+            "__msort": 100982,
+            "mrel": 9082,
+            "mksort": 9970,
+            "normTokenScore": 0.32499598706566807,
+            "id": 243986104,
+            "root": 219206498,
+            "kindId": 0,
+            "brand": "",
+            "brandId": 0,
+            "siteBrandId": 0,
+            "colors": [],
+            "subjectId": 8530,
+            "subjectParentId": 1162,
+            "semanticId": [
+                57,
+                96,
+                335,
+                220,
+                671,
+                4154,
+                24
+            ],
+            "name": "Сервопривод MG995R угол 360 момент 8,5-10 кг см",
+            "entity": "комплектующие для чпу",
+            "matchId": 150644883,
+            "supplier": "КомпактТул",
+            "supplierId": 82341,
+            "supplierRating": 4.8,
+            "supplierFlags": 12224,
+            "pics": 3,
+            "picsUpdate": 0,
+            "rating": 5,
+            "reviewRating": 4.7,
+            "nmReviewRating": 4.7,
+            "feedbacks": 7,
+            "nmFeedbacks": 7,
+            "volume": 1,
+            "weight": 0.08,
+            "viewFlags": 1335296,
+            "sizes": [
+                {
+                    "name": "",
+                    "origName": "0",
+                    "rank": 0,
+                    "optionId": 382804155,
+                    "wh": 212032,
+                    "time1": 21,
+                    "time2": 28,
+                    "dtype": 6614249635841,
+                    "price": {
+                        "basic": 109000,
+                        "product": 65700,
+                        "logistics": 0,
+                        "return": 0,
+                        "cashback": 0
+                    },
+                    "saleConditions": 134217728,
+                    "payload": "AyOKTc8Z961k2bY0gNy+0BzRMYQ/RgwdN1Bz67Dd57e9fl65CKOJHVm7TW2sIv0Wj0chuXrGGJl18f9pg7JChGnd7q+brMjYKki01PAvR+Mbg5P2b0R4FMPAzJ2VCee/uq+8JGCgsFC+tlT3H4zxMeYB5Nz1fK/9buGw/uLLVSgV3VcpQH+HoCfnfeMEp7XKwgAcT7fagfZEWeg7i6AoOr9aGIfST9pdsVSRnF0QUCELV8kqe3Pl/7thLiZ3htiuxBgSTswMxEmrGIioKmtlvzZKYpldJqIj6q7zF4aHF8Jq"
+                }
+            ],
+            "totalQuantity": 41,
+            "time1": 21,
+            "time2": 28,
+            "wh": 212032,
+            "dtype": 6614249635841,
+            "dist": 28,
+            "meta": {
+                "tokens": []
+            }
+        },
+        {
+            "__msort": 94470,
+            "mrel": 9083,
+            "mksort": 29,
+            "normTokenScore": 0.3250080952578765,
+            "id": 243971446,
+            "root": 219195015,
+            "kindId": 0,
+            "brand": "",
+            "brandId": 0,
+            "siteBrandId": 0,
+            "colors": [],
+            "subjectId": 8530,
+            "subjectParentId": 1162,
+            "semanticId": [
+                57,
+                96,
+                335,
+                220,
+                671,
+                4154,
+                24
+            ],
+            "name": "Сервопривод MG995",
+            "entity": "комплектующие для чпу",
+            "matchId": 127855098,
+            "supplier": "КомпактТул",
+            "supplierId": 82341,
+            "supplierRating": 4.8,
+            "supplierFlags": 12224,
+            "pics": 3,
+            "picsUpdate": 0,
+            "rating": 0,
+            "reviewRating": 0,
+            "nmReviewRating": 0,
+            "feedbacks": 0,
+            "nmFeedbacks": 0,
+            "volume": 1,
+            "weight": 0.08,
+            "viewFlags": 1335296,
+            "sizes": [
+                {
+                    "name": "",
+                    "origName": "0",
+                    "rank": 0,
+                    "optionId": 382782809,
+                    "wh": 212032,
+                    "time1": 21,
+                    "time2": 28,
+                    "dtype": 6614249635841,
+                    "price": {
+                        "basic": 109000,
+                        "product": 65700,
+                        "logistics": 0,
+                        "return": 0,
+                        "cashback": 0
+                    },
+                    "saleConditions": 134217728,
+                    "payload": "A4NooyAEqxPRt5lP69f/I2qEadv8cRXSp4tVeBwZyvOEIgVlQiXPW3wVYuW2yqtyZjBs6No2584LS6jd1LVw5pidNVXlbJ5+9KyGeA1cP6+0FqccUhOQSCScOV/Upi2HzAtHnezQ+/35mbCD0OR/VOz30+osQG5M5G1n4eoEUhJlvoxBEFFuNR2QBo/HfbnzIlwJErkAQ6ORbCK3cEjrqCTxx/ha6VsTfFP81lMiuLbmk07XNbG4NTpL0bkSkyyQhVNomJYuuMpIEY4rTCj/eU/zOx4mJeYPHZbVL0iEV03C"
+                }
+            ],
+            "totalQuantity": 25,
+            "time1": 21,
+            "time2": 28,
+            "wh": 212032,
+            "dtype": 6614249635841,
+            "dist": 28,
+            "meta": {
+                "tokens": []
+            }
+        }
+    ],
+    "total": 4
+}

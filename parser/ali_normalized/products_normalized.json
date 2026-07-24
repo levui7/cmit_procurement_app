@@ -1,11 +1,11 @@
 [
   {
-    "id": 1005011872716284,
-    "title": "Драйвер шагового двигателя DM542 DM556 для моторов Nema17 Nema23  XLWLH 20-50В DC 1-5.6А",
-    "url": "https://aliexpress.ru/item/1005011872716284.html?sku_id=12000056833689864",
-    "price": 689,
-    "rating": 4.2,
-    "orders": 178,
+    "id": 1005008118273956,
+    "title": "Оригинальный цифровой сервопривод OCSERVO OCS-D1101",
+    "url": "https://aliexpress.ru/item/1005008118273956.html?sku_id=12000043864417816",
+    "price": 3100,
+    "rating": 5.0,
+    "orders": 49,
     "delivery": {
       "free": false,
       "next_day": false,
@@ -13,12 +13,25 @@
     }
   },
   {
-    "id": 1005009089595859,
-    "title": "Мини драйвер двигателя постоянного тока L298N  MX1508",
-    "url": "https://aliexpress.ru/item/1005009089595859.html?sku_id=12000047884735811",
-    "price": 251,
+    "id": 1005012129172354,
+    "title": "AGFRC A81BMWP 55KG Водонепроницаемый сервопривод",
+    "url": "https://aliexpress.ru/item/1005012129172354.html?sku_id=12000057574067592",
+    "price": 10701,
+    "rating": 5.0,
+    "orders": 21,
+    "delivery": {
+      "free": false,
+      "next_day": false,
+      "choice": false
+    }
+  },
+  {
+    "id": 1005005532819921,
+    "title": "Сервопривод HLTNC 130ST M15025 3,8 кВт  для ЧПУ",
+    "url": "https://aliexpress.ru/item/1005005532819921.html?sku_id=12000033456272604",
+    "price": 43949,
     "rating": 4.9,
-    "orders": 246,
+    "orders": 185,
     "delivery": {
       "free": false,
       "next_day": false,
@@ -26,12 +39,12 @@
     }
   },
   {
-    "id": 1005008773475692,
-    "title": "Мини драйвер двигателя постоянного тока L298N  MX1508 1.5А 2 канала",
-    "url": "https://aliexpress.ru/item/1005008773475692.html?sku_id=12000046615302405",
-    "price": 151,
-    "rating": 4.6,
-    "orders": 581,
+    "id": 1005003259778404,
+    "title": "Беспроводной сервопривод OCSERVO OCS-201HV",
+    "url": "https://aliexpress.ru/item/1005003259778404.html?sku_id=12000027769168238",
+    "price": 2931,
+    "rating": 5.0,
+    "orders": 85,
     "delivery": {
       "free": false,
       "next_day": false,
@@ -39,11 +52,37 @@
     }
   },
   {
-    "id": 1005008901828150,
-    "title": "Модуль драйвера L298N CHD",
-    "url": "https://aliexpress.ru/item/1005008901828150.html?sku_id=12000047130130434",
-    "price": 31,
-    "rating": 4.3,
+    "id": 1005006629612419,
+    "title": "Сервопривод Lichuan EtherCAT 220V 600Вт 1.91 Нм",
+    "url": "https://aliexpress.ru/item/1005006629612419.html?sku_id=12000037870308273",
+    "price": 20139,
+    "rating": 5.0,
+    "orders": 6,
+    "delivery": {
+      "free": false,
+      "next_day": false,
+      "choice": false
+    }
+  },
+  {
+    "id": 1005010755996431,
+    "title": "Драйвер PCA9685 16 каналов + Сервоприводы SG90/MG90S",
+    "url": "https://aliexpress.ru/item/1005010755996431.html?sku_id=12000053407013900",
+    "price": 1489,
+    "rating": 5.0,
+    "orders": 86,
+    "delivery": {
+      "free": false,
+      "next_day": false,
+      "choice": false
+    }
+  },
+  {
+    "id": 1005005048325289,
+    "title": "Сервопривод YUN DUAN ASD-B3 750Вт/1кВт/1.5кВт",
+    "url": "https://aliexpress.ru/item/1005005048325289.html?sku_id=12000048265727646",
+    "price": 30382,
+    "rating": 5.0,
     "orders": 33,
     "delivery": {
       "free": false,
@@ -52,64 +91,142 @@
     }
   },
   {
-    "id": 1005012068236824,
-    "title": "Модуль драйвера двигателя L298N 5/10 шт.",
-    "url": "https://aliexpress.ru/item/1005012068236824.html?sku_id=12000057567526029",
-    "price": 842,
+    "id": 32816213888,
+    "title": "OCSERVO OCS-D1102 Цифровой микро сервопривод",
+    "url": "https://aliexpress.ru/item/32816213888.html?sku_id=12000033819940986",
+    "price": 2709,
+    "rating": 4.8,
+    "orders": 113,
+    "delivery": {
+      "free": false,
+      "next_day": false,
+      "choice": false
+    }
+  },
+  {
+    "id": 1005012454396647,
+    "title": "Планетарный редуктор 6.35/8 мм, высокомоментный, для шагового двигателя Nema 23 57 мм, сервопривода 60 мм 400 Вт",
+    "url": "https://aliexpress.ru/item/1005012454396647.html?sku_id=12000058430698978",
+    "price": 11049,
+    "rating": 5.0,
+    "orders": 6,
+    "delivery": {
+      "free": false,
+      "next_day": false,
+      "choice": false
+    }
+  },
+  {
+    "id": 1005005632721915,
+    "title": "OCSERVO Бесщеточный сервопривод 25кгсм",
+    "url": "https://aliexpress.ru/item/1005005632721915.html?sku_id=12000033962090834",
+    "price": 3719,
+    "rating": 4.6,
+    "orders": 220,
+    "delivery": {
+      "free": false,
+      "next_day": false,
+      "choice": false
+    }
+  },
+  {
+    "id": 1005012006498403,
+    "title": "Металлические сервоприводы PTK 25T 15T для FUTABA RC",
+    "url": "https://aliexpress.ru/item/1005012006498403.html?sku_id=12000057268844462",
+    "price": 499,
+    "rating": 5.0,
+    "orders": 16,
+    "delivery": {
+      "free": false,
+      "next_day": false,
+      "choice": false
+    }
+  },
+  {
+    "id": 1005009456151637,
+    "title": "Сервопривод MF5005v2  BLDC",
+    "url": "https://aliexpress.ru/item/1005009456151637.html?sku_id=12000049159872414",
+    "price": 5909,
+    "rating": null,
+    "orders": 13,
+    "delivery": {
+      "free": false,
+      "next_day": false,
+      "choice": false
+    }
+  },
+  {
+    "id": 1005010620085853,
+    "title": "Собранный 5-ффектный робот-рука с сервоприводом на пять пальцев, левый и правый бионический захват для ладони для программируемого робота Arduino ESP32",
+    "url": "https://aliexpress.ru/item/1005010620085853.html?sku_id=12000053048018037",
+    "price": 8849,
+    "rating": 5.0,
+    "orders": 14,
+    "delivery": {
+      "free": false,
+      "next_day": false,
+      "choice": false
+    }
+  },
+  {
+    "id": 1005005409415749,
+    "title": "Сервопривод без сердечника Gxservo, полностью металлический высокоскоростной сервопривод без сердечника, 32 кг, 40 кг, 45 к, высокий крутящий момент, водонепроницаемый IPX8, детали для РУ Xmaxx Crawler Robot",
+    "url": "https://aliexpress.ru/item/1005005409415749.html?sku_id=12000032943252757",
+    "price": 3591,
+    "rating": 4.9,
+    "orders": 38,
+    "delivery": {
+      "free": false,
+      "next_day": false,
+      "choice": false
+    }
+  },
+  {
+    "id": 1005005891524688,
+    "title": "HLTNC AC Сервошпиндель мотор с драйвером комплект 3.7KW 5.5KW 7.5KW 380В",
+    "url": "https://aliexpress.ru/item/1005005891524688.html?sku_id=12000034730416657",
+    "price": 69008,
+    "rating": 5.0,
+    "orders": 33,
+    "delivery": {
+      "free": false,
+      "next_day": false,
+      "choice": false
+    }
+  },
+  {
+    "id": 1005005609771922,
+    "title": "AGFRC A11CLS V3 черный микро-сервопривод 1.4кг",
+    "url": "https://aliexpress.ru/item/1005005609771922.html?sku_id=12000033741282379",
+    "price": 3950,
+    "rating": 5.0,
+    "orders": 217,
+    "delivery": {
+      "free": false,
+      "next_day": false,
+      "choice": false
+    }
+  },
+  {
+    "id": 32842716170,
+    "title": "MASTER JIANG Сервомотор 110ST-M06030 1.8 кВт 220В",
+    "url": "https://aliexpress.ru/item/32842716170.html?sku_id=65091463952",
+    "price": 26429,
+    "rating": 5.0,
+    "orders": 5,
+    "delivery": {
+      "free": false,
+      "next_day": false,
+      "choice": false
+    }
+  },
+  {
+    "id": 1005012628879061,
+    "title": "SAVOX SV-1250MG Цифровой сервопривод",
+    "url": "https://aliexpress.ru/item/1005012628879061.html?sku_id=12000058911978754",
+    "price": 6481,
     "rating": null,
     "orders": null,
-    "delivery": {
-      "free": false,
-      "next_day": false,
-      "choice": false
-    }
-  },
-  {
-    "id": 1005009170366022,
-    "title": "Контроллер драйвера двигателя BLDC BLD-750",
-    "url": "https://aliexpress.ru/item/1005009170366022.html?sku_id=12000048184254021",
-    "price": 5109,
-    "rating": null,
-    "orders": null,
-    "delivery": {
-      "free": false,
-      "next_day": false,
-      "choice": false
-    }
-  },
-  {
-    "id": 1005007125159518,
-    "title": "Модуль контроллера TZT L298N для двух шаговых двигателей (1/2/5 шт.)",
-    "url": "https://aliexpress.ru/item/1005007125159518.html?sku_id=12000056795333195",
-    "price": 162,
-    "rating": 5.0,
-    "orders": 522,
-    "delivery": {
-      "free": false,
-      "next_day": false,
-      "choice": false
-    }
-  },
-  {
-    "id": 1005003521993459,
-    "title": "Модуль драйвера двигателя GREATZT L298N для двух двигателей",
-    "url": "https://aliexpress.ru/item/1005003521993459.html?sku_id=12000050048590090",
-    "price": 147,
-    "rating": 5.0,
-    "orders": 65,
-    "delivery": {
-      "free": false,
-      "next_day": false,
-      "choice": false
-    }
-  },
-  {
-    "id": 1005009000438203,
-    "title": "Двухмоторный драйвер TB6612 1A TB6612FNG для микроконтроллера Arduino лучше, чем L298N",
-    "url": "https://aliexpress.ru/item/1005009000438203.html?sku_id=12000047523212225",
-    "price": 100,
-    "rating": null,
-    "orders": 17,
     "delivery": {
       "free": false,
       "next_day": false,
