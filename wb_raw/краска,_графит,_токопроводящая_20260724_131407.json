@@ -1,0 +1,851 @@
+{
+    "metadata": {
+        "catalog_type": "catalog-merger",
+        "catalog_value": "_st0=0LrRgNCw0YHQutCw&_st1=0LPRgNCw0YTQuNGC&_st2=0YLQvtC60L7Qv9GA0L7QstC-0LTRj9GJ0LjQuQ==&relMul=1.0&vecMul=2.417",
+        "search_result": {},
+        "name": "краска, графит, токопроводящая",
+        "rmi": "4",
+        "title": "краска, графит, токопроводящая",
+        "rs": 72,
+        "kcl": "MpQr6sRNfTe9SZhz44nYdAbWyocnpq1d4XCXjHkIgqN+jWLHMFkUXux9hlQAkgwY0G4"
+    },
+    "products": [
+        {
+            "__msort": 125743,
+            "mrel": 9999,
+            "mksort": 9316,
+            "normTokenScore": 0.9999254954552228,
+            "id": 147795326,
+            "root": 125090465,
+            "kindId": 0,
+            "brand": "Fractal Paint",
+            "brandId": 310533957,
+            "siteBrandId": 0,
+            "colors": [
+                {
+                    "name": "серый",
+                    "id": 8421504
+                }
+            ],
+            "subjectId": 7501,
+            "subjectParentId": 8555,
+            "semanticId": [
+                141,
+                22,
+                163,
+                80,
+                226,
+                1914,
+                17
+            ],
+            "name": "Графитовая токопроводящая краска для гальваники 50 мл",
+            "entity": "краски декоративные",
+            "matchId": 184755739,
+            "supplier": "ФРАКТАЛЬНЫЕ КРАСКИ FRACTAL PAINT",
+            "supplierId": 111726,
+            "supplierRating": 4.8,
+            "supplierFlags": 12224,
+            "pics": 12,
+            "picsUpdate": 0,
+            "rating": 5,
+            "reviewRating": 4.8,
+            "nmReviewRating": 4.8,
+            "feedbacks": 422,
+            "nmFeedbacks": 422,
+            "panelPromoId": 1050336,
+            "volume": 2,
+            "weight": 0.07,
+            "viewFlags": 134766609,
+            "sizes": [
+                {
+                    "name": "",
+                    "origName": "0",
+                    "rank": 0,
+                    "optionId": 248384557,
+                    "wh": 302953,
+                    "time1": 8,
+                    "time2": 60,
+                    "dtype": 6614249635841,
+                    "price": {
+                        "basic": 55600,
+                        "product": 30100,
+                        "logistics": 0,
+                        "return": 0,
+                        "cashback": 0
+                    },
+                    "saleConditions": 134217728,
+                    "payload": "AyHuXYspHq4Uq4pN4z46DMLv2ooyl7bhb+N1+OI/h5nIrqBtS97ckksxrJ/R9htWjmXqdybh8wy7Xv6pE3KjeQLOw2t7aTyqL1FER0CSSnAvVOu3VP447jp1pI5bWXah8J+gP4CExMmR1h3OMZJykWz7/sYCHFOlcjdKgiIDFLO7A7hblaiocEtO90pPIuP8XqljTQ0g3Pze13iFIGsR///xNZkxRwIG+WffCO5AdhTOk5K1MfSd0kgHzQnTDtVbNo0tRt8VQ/TyGyfiA1t2bLQGNXC65tBIBSOd"
+                }
+            ],
+            "totalQuantity": 54,
+            "time1": 8,
+            "time2": 60,
+            "wh": 302953,
+            "dtype": 6614249635841,
+            "dist": 483,
+            "meta": {
+                "tokens": []
+            }
+        },
+        {
+            "__msort": 124666,
+            "mrel": 9999,
+            "mksort": 9997,
+            "normTokenScore": 0.9998882431828342,
+            "id": 329076826,
+            "root": 310360652,
+            "kindId": 0,
+            "brand": "Fractal Paint",
+            "brandId": 310533957,
+            "siteBrandId": 0,
+            "colors": [
+                {
+                    "name": "серый",
+                    "id": 8421504
+                }
+            ],
+            "subjectId": 7501,
+            "subjectParentId": 8555,
+            "semanticId": [
+                141,
+                22,
+                163,
+                80,
+                226,
+                1913,
+                16
+            ],
+            "name": "Графитовая краска для гальваники 2х50 мл",
+            "entity": "краски декоративные",
+            "matchId": 195553141,
+            "supplier": "ФРАКТАЛЬНЫЕ КРАСКИ FRACTAL PAINT",
+            "supplierId": 111726,
+            "supplierRating": 4.8,
+            "supplierFlags": 12224,
+            "pics": 10,
+            "picsUpdate": 0,
+            "rating": 5,
+            "reviewRating": 4.8,
+            "nmReviewRating": 4.8,
+            "feedbacks": 30,
+            "nmFeedbacks": 30,
+            "panelPromoId": 1050336,
+            "volume": 2,
+            "weight": 0.13,
+            "viewFlags": 548881,
+            "sizes": [
+                {
+                    "name": "",
+                    "origName": "0",
+                    "rank": 0,
+                    "optionId": 493325609,
+                    "wh": 302953,
+                    "time1": 8,
+                    "time2": 60,
+                    "dtype": 6614249635841,
+                    "price": {
+                        "basic": 81800,
+                        "product": 45800,
+                        "logistics": 0,
+                        "return": 0,
+                        "cashback": 0
+                    },
+                    "saleConditions": 134217728,
+                    "payload": "A47bxtnGV7WXykjkF5wH7bjpIkPh8tJqJRY1PA/H7DvDmyabpclRp1E9zY7f6FbUY6oJcvNaD3l8MYjY6oxvDYOuXYLvbjJhs3TxMrLaAOvRzlfk5rPwLGphFJIqxp7x3MPx3wtXRdqxkjVDna8CMddJcNNz+QQCf3/hI79iqFbvrX1R8ZiEmEhlwzrqxBMVeMkgnRgEdF6SqtofRP01BQuh8RuMZL8o9doHVDzHLcvWV7KXeCrvFwcdKNcqzJ+7JDTFtgpSvYdaleSzn+cYF5mL6+KsNPdZSlNQ5pgHKg"
+                }
+            ],
+            "totalQuantity": 54,
+            "time1": 8,
+            "time2": 60,
+            "wh": 302953,
+            "dtype": 6614249635841,
+            "dist": 483,
+            "meta": {
+                "tokens": []
+            }
+        },
+        {
+            "__msort": 123196,
+            "mrel": 9999,
+            "mksort": 1817,
+            "normTokenScore": 0.9998882431828342,
+            "id": 147795328,
+            "root": 125090465,
+            "kindId": 0,
+            "brand": "Fractal Paint",
+            "brandId": 310533957,
+            "siteBrandId": 0,
+            "colors": [
+                {
+                    "name": "серый",
+                    "id": 8421504
+                }
+            ],
+            "subjectId": 7501,
+            "subjectParentId": 8555,
+            "semanticId": [
+                141,
+                22,
+                163,
+                80,
+                226,
+                1913,
+                16
+            ],
+            "name": "Графитовая токопроводящая краска для гальваники 100 мл",
+            "entity": "краски декоративные",
+            "matchId": 144678615,
+            "supplier": "ФРАКТАЛЬНЫЕ КРАСКИ FRACTAL PAINT",
+            "supplierId": 111726,
+            "supplierRating": 4.8,
+            "supplierFlags": 12224,
+            "pics": 11,
+            "picsUpdate": 0,
+            "rating": 5,
+            "reviewRating": 4.8,
+            "nmReviewRating": 4.8,
+            "feedbacks": 422,
+            "nmFeedbacks": 422,
+            "panelPromoId": 1050336,
+            "volume": 2,
+            "weight": 0.07,
+            "viewFlags": 134766609,
+            "sizes": [
+                {
+                    "name": "",
+                    "origName": "0",
+                    "rank": 0,
+                    "optionId": 248384559,
+                    "wh": 302953,
+                    "time1": 8,
+                    "time2": 60,
+                    "dtype": 6614249635841,
+                    "price": {
+                        "basic": 100000,
+                        "product": 56000,
+                        "logistics": 0,
+                        "return": 0,
+                        "cashback": 0
+                    },
+                    "saleConditions": 134217728,
+                    "payload": "AwU+IzZum6PeL4MbqnAhW/fkdWOVVCkpx2JFsfvPExhwhIeU+oZCzMBIOnuqP7l2OVzRIBOOCy1FjIQUHF6VNl53XxijjoNgDNVQ2WQfKRN2nu06NjCy5xTUcmNyCaV+TUIMTPQkvndx5tdos/1UpYCSsKYYxMmk3zTbIWDFNXE0n8WV6s/1eEt1PypzlPjwZONuO6+xjwyrb6wdgAKVDG2IYpd5gfs5oCO70Rt/aHwTiER967YXfyYJgpYRFXCMdsd0Iae/Pab6wGWXH4EjlLbaRpU1XEb8gZeHKXEQ0Q"
+                }
+            ],
+            "totalQuantity": 54,
+            "time1": 8,
+            "time2": 60,
+            "wh": 302953,
+            "dtype": 6614249635841,
+            "dist": 483,
+            "meta": {
+                "tokens": []
+            }
+        },
+        {
+            "__msort": 121178,
+            "mrel": 9999,
+            "mksort": 1424,
+            "normTokenScore": 0.9998882431828342,
+            "id": 329076827,
+            "root": 310360652,
+            "kindId": 0,
+            "brand": "Fractal Paint",
+            "brandId": 310533957,
+            "siteBrandId": 0,
+            "colors": [
+                {
+                    "name": "серый",
+                    "id": 8421504
+                }
+            ],
+            "subjectId": 7501,
+            "subjectParentId": 8555,
+            "semanticId": [
+                141,
+                22,
+                163,
+                80,
+                226,
+                1913,
+                16
+            ],
+            "name": "Графитовая краска для гальваники 3х50 мл",
+            "entity": "краски декоративные",
+            "matchId": 196891294,
+            "supplier": "ФРАКТАЛЬНЫЕ КРАСКИ FRACTAL PAINT",
+            "supplierId": 111726,
+            "supplierRating": 4.8,
+            "supplierFlags": 12224,
+            "pics": 10,
+            "picsUpdate": 0,
+            "rating": 5,
+            "reviewRating": 4.8,
+            "nmReviewRating": 4.8,
+            "feedbacks": 30,
+            "nmFeedbacks": 30,
+            "volume": 4,
+            "weight": 0.2,
+            "viewFlags": 548881,
+            "sizes": [
+                {
+                    "name": "",
+                    "origName": "0",
+                    "rank": 0,
+                    "optionId": 493325610,
+                    "wh": 302953,
+                    "time1": 8,
+                    "time2": 60,
+                    "dtype": 6614249635841,
+                    "price": {
+                        "basic": 122700,
+                        "product": 71000,
+                        "logistics": 0,
+                        "return": 0,
+                        "cashback": 0
+                    },
+                    "saleConditions": 134217728,
+                    "payload": "A4/G+d9sKaSu4uvlD66ILLh60MjSFJ6LzsJAW5yztOVfxZzbfIZMBkpgF/bbOIu7V4ej5EGPvKLNYNmRi8y3iZ4D7J6Lq9ABpO8VxACsmaZuJfkzm0dQAVm7LrjgkH/8VYAKfPCQ4WuOTZu2LN7/p4Y32aragHUbExypqMilifi6kmGHz9U92HGFInbC67tAosxA13z0ujVEALF6LSZx8aQTk/M5L4okbL/1drhpDOFFRCiFUbWLdGzr+N6Ynq09aera5Bt9L1+0lfQ1rbw740DqjSUfJeQRlpyGG3MPjhAL"
+                }
+            ],
+            "totalQuantity": 54,
+            "time1": 8,
+            "time2": 60,
+            "wh": 302953,
+            "dtype": 6614249635841,
+            "dist": 483,
+            "meta": {
+                "tokens": []
+            }
+        },
+        {
+            "__msort": 121097,
+            "mrel": 9999,
+            "mksort": 2,
+            "normTokenScore": 0.9998882431828342,
+            "id": 329076835,
+            "root": 310360652,
+            "kindId": 0,
+            "brand": "Fractal Paint",
+            "brandId": 310533957,
+            "siteBrandId": 0,
+            "colors": [
+                {
+                    "name": "серый",
+                    "id": 8421504
+                }
+            ],
+            "subjectId": 7501,
+            "subjectParentId": 8555,
+            "semanticId": [
+                141,
+                22,
+                163,
+                80,
+                226,
+                1913,
+                16
+            ],
+            "name": "Графитовая краска для гальваники 5х50 мл",
+            "entity": "краски декоративные",
+            "matchId": 195735247,
+            "supplier": "ФРАКТАЛЬНЫЕ КРАСКИ FRACTAL PAINT",
+            "supplierId": 111726,
+            "supplierRating": 4.8,
+            "supplierFlags": 12224,
+            "pics": 10,
+            "picsUpdate": 0,
+            "rating": 5,
+            "reviewRating": 4.8,
+            "nmReviewRating": 4.8,
+            "feedbacks": 30,
+            "nmFeedbacks": 30,
+            "volume": 6,
+            "weight": 0.33,
+            "viewFlags": 548881,
+            "sizes": [
+                {
+                    "name": "",
+                    "origName": "0",
+                    "rank": 0,
+                    "optionId": 493325621,
+                    "wh": 302953,
+                    "time1": 8,
+                    "time2": 60,
+                    "dtype": 6614249635841,
+                    "price": {
+                        "basic": 204500,
+                        "product": 120300,
+                        "logistics": 0,
+                        "return": 0,
+                        "cashback": 0
+                    },
+                    "saleConditions": 134217728,
+                    "payload": "A0F5TD+3RIaHuxDgOWRW/ElN/0rUZTDAY+/mkB83vlfwfIumZiAALQwfHo1Cea0kNg3TPlo2Il7JavkFjspKA1fI7NuptffchDdlDp7GcNl0lmg0Jb+cjMEdAR0o9IOhU3xFWP1MQQEBo6XaqcI/UEPzDzucYqLNIALRMJpFZKumOooV/p+JzEtmkjtMRZpIqK53uPNW+wG/RWbA0Oyw69FPQw/1Qo4jH0KlWy1/w7J41jKqBv2yfNgmpk5veWugTJYH5NVTS2DCNsBMZBlds6JSbY19NdX0Cq/PdF87qOUl"
+                }
+            ],
+            "totalQuantity": 54,
+            "time1": 8,
+            "time2": 60,
+            "wh": 302953,
+            "dtype": 6614249635841,
+            "dist": 483,
+            "meta": {
+                "tokens": []
+            }
+        },
+        {
+            "__msort": 120925,
+            "mrel": 9999,
+            "mksort": 2,
+            "normTokenScore": 0.9999254954552228,
+            "id": 147795331,
+            "root": 125090465,
+            "kindId": 0,
+            "brand": "Fractal Paint",
+            "brandId": 310533957,
+            "siteBrandId": 0,
+            "colors": [
+                {
+                    "name": "серый",
+                    "id": 8421504
+                }
+            ],
+            "subjectId": 7501,
+            "subjectParentId": 8555,
+            "semanticId": [
+                141,
+                22,
+                163,
+                80,
+                226,
+                1914,
+                17
+            ],
+            "name": "Графитовая токопроводящая краска для гальваники 250 мл",
+            "entity": "краски декоративные",
+            "matchId": 150367702,
+            "supplier": "ФРАКТАЛЬНЫЕ КРАСКИ FRACTAL PAINT",
+            "supplierId": 111726,
+            "supplierRating": 4.8,
+            "supplierFlags": 12224,
+            "pics": 11,
+            "picsUpdate": 0,
+            "rating": 5,
+            "reviewRating": 4.8,
+            "nmReviewRating": 4.8,
+            "feedbacks": 422,
+            "nmFeedbacks": 422,
+            "volume": 4,
+            "weight": 0.2,
+            "viewFlags": 548881,
+            "sizes": [
+                {
+                    "name": "",
+                    "origName": "0",
+                    "rank": 0,
+                    "optionId": 248384562,
+                    "wh": 302953,
+                    "time1": 8,
+                    "time2": 60,
+                    "dtype": 6614249635841,
+                    "price": {
+                        "basic": 244400,
+                        "product": 143800,
+                        "logistics": 0,
+                        "return": 0,
+                        "cashback": 0
+                    },
+                    "saleConditions": 134217728,
+                    "payload": "A/JSLn4JLeHLygzY7A2wVHyr1ALnDTokJG5XmtEM+gqF4BRkSsQNJ1io5M7Xm0l0e93wbj2MgyIR+cOsTq7Hqp8i+Ci1wqB6dFq9H0ODXyDfSq2d2KcdlbXLe/dNnvbrM0fPlr7uimiX6aDLMWm5kL8LKThEyMzsycBMMA+ZUkLaXLg8Usb+akjkO4GFh+4pygXDpCJw3PsirRLP+NQ+sbW8Op/wpZPtQHYeGsFAG1IvEt4IsmzvE7+pLsfQNltXdTvuZ/7W0AgH9pAQUvmiubFfza2pzufL6nZnTk+gwBl4"
+                }
+            ],
+            "totalQuantity": 54,
+            "time1": 8,
+            "time2": 60,
+            "wh": 302953,
+            "dtype": 6614249635841,
+            "dist": 483,
+            "meta": {
+                "tokens": []
+            }
+        },
+        {
+            "__msort": 118344,
+            "mrel": 9999,
+            "mksort": 8,
+            "normTokenScore": 0.9999254954552228,
+            "id": 447619957,
+            "root": 395100908,
+            "kindId": 0,
+            "brand": "",
+            "brandId": 0,
+            "siteBrandId": 0,
+            "colors": [
+                {
+                    "name": "черный",
+                    "id": 0
+                }
+            ],
+            "subjectId": 6875,
+            "subjectParentId": 1284,
+            "semanticId": [
+                3,
+                668,
+                629,
+                762,
+                554,
+                5768,
+                3
+            ],
+            "name": "Графит ГЛ-1 порошковый мелкочешуйчатый 300 грамм",
+            "entity": "порошки для уборки",
+            "matchId": 279262637,
+            "supplier": "Avelkas",
+            "supplierId": 4497659,
+            "supplierRating": 4.9,
+            "supplierFlags": 12224,
+            "pics": 1,
+            "picsUpdate": 0,
+            "rating": 5,
+            "reviewRating": 5,
+            "nmReviewRating": 5,
+            "feedbacks": 2,
+            "nmFeedbacks": 2,
+            "volume": 8,
+            "weight": 0.3,
+            "viewFlags": 1581056,
+            "sizes": [
+                {
+                    "name": "",
+                    "origName": "0",
+                    "rank": 0,
+                    "optionId": 632589479,
+                    "wh": 218720,
+                    "time1": 20,
+                    "time2": 65,
+                    "dtype": 6614249635841,
+                    "price": {
+                        "basic": 173700,
+                        "product": 116500,
+                        "logistics": 0,
+                        "return": 0,
+                        "cashback": 0
+                    },
+                    "saleConditions": 134217728,
+                    "payload": "AwZefZQJUOkxa8VWbl6rVTuvtj6sZnF/nht+cWI0nEvMCmjaR2AniglrXZae9kBfJaTbtFAXHECRdwrtyzeW56pV6AEpksTrgSvaR1uxRaDehcnG5mzYHlag7ZMhhyFA1WdUPodQSghT27Anr4xkxuVhnLN5jNF8CVGa1KsZgxTjNjbe6eVZLgUpOVXfPFnVThDkXqmUbEUPb6JcBKZKO/3/J/d8uXvZfCUA5bmvi7xdCl+IGEvZABIpV3aF1YAkgheSAyI2AC9/p2TDZyExhFIXVC1ruUXbOtDwvijluRMT"
+                }
+            ],
+            "totalQuantity": 1,
+            "time1": 20,
+            "time2": 65,
+            "wh": 218720,
+            "dtype": 6614249635841,
+            "dist": 1150,
+            "meta": {
+                "tokens": []
+            }
+        },
+        {
+            "__msort": 82012,
+            "mrel": 6788,
+            "mksort": 20,
+            "normTokenScore": 0.6787913305497945,
+            "id": 445925533,
+            "root": 440627552,
+            "kindId": 0,
+            "brand": "",
+            "brandId": 0,
+            "siteBrandId": 0,
+            "colors": [],
+            "subjectId": 963,
+            "subjectParentId": 571,
+            "semanticId": [
+                56,
+                666,
+                734,
+                315,
+                285,
+                6259,
+                150
+            ],
+            "name": "Клей токопроводящий Контактол РАДИО (2 г) на графите",
+            "entity": "клей",
+            "matchId": 193481315,
+            "supplier": "Revenue Store",
+            "supplierId": 4237029,
+            "supplierRating": 4.6,
+            "supplierFlags": 12224,
+            "pics": 1,
+            "picsUpdate": 0,
+            "rating": 5,
+            "reviewRating": 5,
+            "nmReviewRating": 5,
+            "feedbacks": 6,
+            "nmFeedbacks": 6,
+            "panelPromoId": 1051549,
+            "volume": 2,
+            "weight": 0.7,
+            "viewFlags": 1581056,
+            "sizes": [
+                {
+                    "name": "",
+                    "origName": "0",
+                    "rank": 0,
+                    "optionId": 630418918,
+                    "wh": 212032,
+                    "time1": 55,
+                    "time2": 28,
+                    "dtype": 6614249635841,
+                    "price": {
+                        "basic": 290000,
+                        "product": 82300,
+                        "logistics": 0,
+                        "return": 0,
+                        "cashback": 0
+                    },
+                    "saleConditions": 134217728,
+                    "payload": "A+4srToeTtsozZtJBxEtWNM6ZUu7eA+oKjNAqfFEs0Qa9zOGOuyPWA/LzC07F1ucm0+Y0BZ3EcXP+sf8shVFQ3XZMyRSxTcYz8mPaMqWT+dkXwWwGB+PDYRNATcgasfm2YLkKqpLsetajEj+ST9Sr9aeUNkPwcBXRVXVdO3rOGKCKYaoQXPxSCTjPsjj6IE25xdZpch5JaEvkVGTwKCQJCHPAjXE6odQ5Trh7I56GzEVgpAz/hpIrF4JrevAGlPQn2+wdJHaOnIk0WJiVkO3PtjgtcE6sUv+YDzRB4E3pnXV"
+                }
+            ],
+            "totalQuantity": 15,
+            "time1": 55,
+            "time2": 28,
+            "wh": 212032,
+            "dtype": 6614249635841,
+            "dist": 28,
+            "meta": {
+                "tokens": []
+            }
+        },
+        {
+            "__msort": 79710,
+            "mrel": 9999,
+            "mksort": 0,
+            "normTokenScore": 0.9999254954552228,
+            "id": 982948500,
+            "root": 1667934742,
+            "kindId": 0,
+            "brand": "",
+            "brandId": 0,
+            "siteBrandId": 0,
+            "colors": [
+                {
+                    "name": "черный",
+                    "id": 0
+                }
+            ],
+            "subjectId": 5342,
+            "subjectParentId": 8555,
+            "semanticId": [
+                141,
+                5,
+                207,
+                303,
+                15,
+                1469,
+                23
+            ],
+            "name": "Порошок графитовый черный токопроводящий 350г",
+            "entity": "",
+            "matchId": 248404180,
+            "supplier": "Находка",
+            "supplierId": 250026493,
+            "supplierRating": 4.6,
+            "supplierFlags": 3072,
+            "pics": 9,
+            "picsUpdate": 0,
+            "rating": 0,
+            "reviewRating": 0,
+            "nmReviewRating": 0,
+            "feedbacks": 0,
+            "nmFeedbacks": 0,
+            "panelPromoId": 1050336,
+            "volume": 15,
+            "weight": 0.5,
+            "viewFlags": 1572864,
+            "sizes": [
+                {
+                    "name": "",
+                    "origName": "0",
+                    "rank": 0,
+                    "optionId": 1471585793,
+                    "wh": 326032,
+                    "time1": 300,
+                    "time2": 221,
+                    "dtype": 2774548873217,
+                    "price": {
+                        "basic": 220100,
+                        "product": 84700,
+                        "logistics": 0,
+                        "return": 0,
+                        "cashback": 0
+                    },
+                    "saleConditions": 134217730,
+                    "payload": "A7fkIRteaAD35ZWuo4edCFl7tMJ4Yu6DZzN61hDZ0itRXavpuZMk7jtGsD0vubtZTh2Y+SdXNbfYzzptCSRpk3VhnXIfHYb/3fHnAGXxwSGK4K6nUfVVTRr44w/m591Za70oS2c5/TM7qqQDDuIoB2sBevp2vvkZVUoWTxJizKJkx52obQwSaQnyGM/4+IGvBIqqh6IhlaYSrlIWNaNb0FD80kPWFDzLYzUuCTVAEDjabj89WtVoQ7CkM1dHyvCCcO8X1O/W4rcaykK28O3PWawjn+k4Olm2UsRcRxIAsNg"
+                }
+            ],
+            "totalQuantity": 54,
+            "time1": 300,
+            "time2": 221,
+            "wh": 326032,
+            "dtype": 2774548873217,
+            "dist": 9049,
+            "meta": {
+                "tokens": []
+            }
+        },
+        {
+            "__msort": 77583,
+            "mrel": 6849,
+            "mksort": 11,
+            "normTokenScore": 0.6849423196159786,
+            "id": 481650470,
+            "root": 395100908,
+            "kindId": 0,
+            "brand": "",
+            "brandId": 0,
+            "siteBrandId": 0,
+            "colors": [
+                {
+                    "name": "черный",
+                    "id": 0
+                }
+            ],
+            "subjectId": 6875,
+            "subjectParentId": 1284,
+            "semanticId": [
+                3,
+                668,
+                629,
+                762,
+                554,
+                5768,
+                3
+            ],
+            "name": "Графит ГЛ-1 порошковый мелкочешуйчатый 1 кг",
+            "entity": "красители для эпоксидной смолы",
+            "matchId": 301072506,
+            "supplier": "Avelkas",
+            "supplierId": 4497659,
+            "supplierRating": 4.9,
+            "supplierFlags": 12224,
+            "pics": 1,
+            "picsUpdate": 0,
+            "rating": 0,
+            "reviewRating": 0,
+            "nmReviewRating": 0,
+            "feedbacks": 0,
+            "nmFeedbacks": 0,
+            "volume": 26,
+            "weight": 1.06,
+            "viewFlags": 1581056,
+            "sizes": [
+                {
+                    "name": "",
+                    "origName": "0",
+                    "rank": 0,
+                    "optionId": 672669329,
+                    "wh": 218720,
+                    "time1": 20,
+                    "time2": 65,
+                    "dtype": 6614249635841,
+                    "price": {
+                        "basic": 435700,
+                        "product": 281400,
+                        "logistics": 0,
+                        "return": 0,
+                        "cashback": 0
+                    },
+                    "saleConditions": 134217728,
+                    "payload": "Ax7HgNob1VxLZNVKa/l2KuWhx9vLJLi7nQvhkTmZGGl+qflK/8QKNVSeyhZHQ5fEI/bCMhd6I/OTpSqxWtUsoqnY5ugC05Gqmu6eoe8GHAq9/DNSFiasTuMXgUUJLMizinmt9QuFy2feDxKsml3NcbiWU7mZzPIhgC6CDXOJRMFzW64wiotSMTsnvu3oqkwJATQ4TNVv0G4ovni+JoDXGAv33YAKdGhfZZBlSSzmgGUO3B/kZqN153x9EgfM+fVIWBnGUttCRe35MJjNt26L4S3SVHjCUrlIK3rJJhdWE8Fa"
+                }
+            ],
+            "totalQuantity": 1,
+            "time1": 20,
+            "time2": 65,
+            "wh": 218720,
+            "dtype": 6614249635841,
+            "dist": 1150,
+            "meta": {
+                "tokens": []
+            }
+        },
+        {
+            "__msort": 76517,
+            "mrel": 6838,
+            "mksort": 723,
+            "normTokenScore": 0.6837656788187526,
+            "id": 401543301,
+            "root": 395100908,
+            "kindId": 0,
+            "brand": "",
+            "brandId": 0,
+            "siteBrandId": 0,
+            "colors": [
+                {
+                    "name": "черный",
+                    "id": 0
+                }
+            ],
+            "subjectId": 6875,
+            "subjectParentId": 1284,
+            "semanticId": [
+                3,
+                668,
+                629,
+                762,
+                554,
+                5768,
+                3
+            ],
+            "name": "Графит ГЛ-1 порошковый мелкочешуйчатый 100 грамм",
+            "entity": "красители для эпоксидной смолы",
+            "matchId": 257298854,
+            "supplier": "Avelkas",
+            "supplierId": 4497659,
+            "supplierRating": 4.9,
+            "supplierFlags": 12224,
+            "pics": 1,
+            "picsUpdate": 0,
+            "rating": 4,
+            "reviewRating": 4,
+            "nmReviewRating": 4,
+            "feedbacks": 4,
+            "nmFeedbacks": 4,
+            "volume": 3,
+            "weight": 0.12,
+            "viewFlags": 1581056,
+            "sizes": [
+                {
+                    "name": "",
+                    "origName": "0",
+                    "rank": 0,
+                    "optionId": 579315196,
+                    "wh": 218720,
+                    "time1": 20,
+                    "time2": 65,
+                    "dtype": 6614249635841,
+                    "price": {
+                        "basic": 125500,
+                        "product": 82900,
+                        "logistics": 0,
+                        "return": 0,
+                        "cashback": 0
+                    },
+                    "saleConditions": 134217728,
+                    "payload": "AwauKzEfmnGBUSLKTm2XvurnDe5dHFcmNkxwVin2oucFqzQGu1i8xLpIdbu8apgTn2M4iZhGB7+4F3Zpa2qbuhnl0ms/Ij0ilyWzloVNsrPjQTmnJpIC4lHVl7rp7I6R0GP3zhZqDSoxzz20cc/5+LXUHd2473DWzT629fhlyO4oTkSa1ESr19ZfJWYD/8iB4v+9C4VagkOqgRLU0phYpM08vZ2bYivagT9RPvho6IbchsWMka179elVkDzu1++rppbYJwlRHOqpGHdMQjChNZt/S3v0QPlw49RfRVJFMzhq"
+                }
+            ],
+            "totalQuantity": 10,
+            "time1": 20,
+            "time2": 65,
+            "wh": 218720,
+            "dtype": 6614249635841,
+            "dist": 1150,
+            "meta": {
+                "tokens": []
+            }
+        }
+    ],
+    "total": 11
+}

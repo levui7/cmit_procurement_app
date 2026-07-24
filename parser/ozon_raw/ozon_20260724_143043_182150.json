@@ -1,0 +1,250 @@
+{
+  "layout": [
+    {
+      "component": "separator",
+      "params": "{\"height\":12}",
+      "stateId": "separator-3669747-default-13",
+      "version": 1,
+      "vertical": "cms",
+      "widgetTrackingInfo": "{\"name\":\"cms.separator\",\"vertical\":\"cms\",\"component\":\"separator\",\"version\":1,\"id\":3669747,\"revisionId\":4185617}",
+      "etag": "ea35b7694a8dbcb3",
+      "widgetToken": "0HKg1TbMj3sj-kc1DO49bcGY07SpKQhC",
+      "name": "cms.separator",
+      "id": 3669747,
+      "isTrackingOn": true,
+      "isStatic": true
+    },
+    {
+      "component": "tileGridDesktop",
+      "params": "{}",
+      "stateId": "tileGridDesktop-3669724-default-13",
+      "version": 1,
+      "vertical": "products",
+      "widgetTrackingInfo": "{\"name\":\"catalog.searchResultsV2\",\"vertical\":\"products\",\"component\":\"tileGridDesktop\",\"version\":1,\"originName\":\"catalog.searchResultsV2\",\"originVertical\":\"catalog\",\"originComponent\":\"searchResultsV2\",\"originVersion\":1,\"id\":3669724,\"revisionId\":4185508,\"index\":1}",
+      "widgetToken": "0HKg1T0UnDWzhuISpYODvooVEW2bWCp0",
+      "timeSpent": 117,
+      "name": "catalog.searchResultsV2",
+      "id": 3669724,
+      "isTrackingOn": true
+    }
+  ],
+  "widgetStates": {
+    "separator-3669747-default-13": "{\"height\":12}",
+    "tileGridDesktop-3669724-default-13": "{\"options\":{\"theme\":\"DEFAULT\"},\"sharedData\":{},\"items\":[{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/modul-l298n-s-dvumya-mostovymi-shagovymi-dvigatelyami-plata-drayvera-2a-25w-3223564952/?at=OgtE8wPx9c80XmOPU9YYzpt78EOxnhO3Q71xTZm35ry\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"3223564952\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"179 ₽\", \"textStyle\":\"PRICE\"}, {\"text\":\"482 ₽\", \"textStyle\":\"ORIGINAL_PRICE\"}], \"discount\":\"−62%\", \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Модуль L298N с двумя мостовыми шаговыми двигателями, плата драйвера 2A/25W,\", \"textColor\":\"textPrimary\", \"maxLines\":3, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"},{\"type\":\"labelListV2\", \"labelListV2\":{\"items\":[{\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_star_filled_compact\", \"tintColor\":\"graphicRating\"}, \"leftPadding\":-2}}, {\"type\":\"text\", \"text\":{\"text\":\"5.0\", \"textColor\":\"textPremium\", \"leftPadding\":2}}, {\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_dialog_filled_compact\", \"tintColor\":\"graphicTertiary\"}, \"leftPadding\":4}}, {\"type\":\"text\", \"text\":{\"text\":\"1 отзыв\", \"textColor\":\"textSecondary\", \"leftPadding\":2}}], \"verticalIndents\":{\"top\":2, \"bottom\":2}, \"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"3223564952\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"3223564952\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"OgtE8wPx9c80XmOPU9YYzpt78EOxnhO3Q71xTZm35ry\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"10 августа\"}, \"quantityButton\":{\"maxItems\":700, \"updateCartAction\":{\"id\":\"3223564952\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"OgtE8wPx9c80XmOPU9YYzpt78EOxnhO3Q71xTZm35ry\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APoDUio4VoBf-1-rPTjnlzejKOwSiOx011pKb8nryoDPKur_2MFHERpzJNtGMvKvUznACxgXNgcW56HPfvle8Krxyith_Bw1Bt_EA7Oe9lra6VfUAATKWPS97rXB-is3Pw\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":3223564952,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-6/7389711690.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-9/7389711081.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"GRt27qy4pcm4ZXzYT68QQZZHYwDxWDHjmEQorTBDNXP7\"}}}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-k/7396418000.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-d/7396417957.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-a/7389711262.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-0/7389710712.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"79tngyPNxtx7Xk22h4E9O6Pun03lWJTG41OpCEDDk6L\"}}}}]},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"3223564952\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"OgtE8wPx9c80XmOPU9YYzpt78EOxnhO3Q71xTZm35ry\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"OgtE8wPx9c80XmOPU9YYzpt78EOxnhO3Q71xTZm35ry\"},\"click\":{\"actionType\":\"click\",\"key\":\"OgtE8wPx9c80XmOPU9YYzpt78EOxnhO3Q71xTZm35ry\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"OgtE8wPx9c80XmOPU9YYzpt78EOxnhO3Q71xTZm35ry\"},\"view\":{\"actionType\":\"view\",\"key\":\"OgtE8wPx9c80XmOPU9YYzpt78EOxnhO3Q71xTZm35ry\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/modul-l298n-s-dvumya-mostovymi-shagovymi-dvigatelyami-plata-drayv-2032378028/?at=6WtZNM3mAcL9vvyVI2J38WRf6PE5q8HMEOgk6i8KWWxl\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"2032378028\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"189 ₽\", \"textStyle\":\"PRICE\"}, {\"text\":\"394 ₽\", \"textStyle\":\"ORIGINAL_PRICE\"}], \"discount\":\"−52%\", \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Модуль L298N С Двумя Мостовыми Шаговыми Двигателями, Плата Драйв\", \"textColor\":\"textPrimary\", \"maxLines\":3, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"},{\"type\":\"labelListV2\", \"labelListV2\":{\"items\":[{\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_star_filled_compact\", \"tintColor\":\"graphicRating\"}, \"leftPadding\":-2}}, {\"type\":\"text\", \"text\":{\"text\":\"5.0\", \"textColor\":\"textPremium\", \"leftPadding\":2}}, {\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_dialog_filled_compact\", \"tintColor\":\"graphicTertiary\"}, \"leftPadding\":4}}, {\"type\":\"text\", \"text\":{\"text\":\"8 отзывов\", \"textColor\":\"textSecondary\", \"leftPadding\":2}}], \"verticalIndents\":{\"top\":2, \"bottom\":2}, \"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"2032378028\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"2032378028\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"6WtZNM3mAcL9vvyVI2J38WRf6PE5q8HMEOgk6i8KWWxl\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"9 августа\"}, \"quantityButton\":{\"maxItems\":577, \"updateCartAction\":{\"id\":\"2032378028\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"6WtZNM3mAcL9vvyVI2J38WRf6PE5q8HMEOgk6i8KWWxl\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APoDYSGqk6oQru_y0LLje9fYdFwn-ArnBhK2YC2HvPlDeqqxUfevVn0JmdszqBNdPm3D0TrKkJgnUKB26OxP56NRBiKGKgMTYqMESkrGSiYKszfgQRCGU5EG4Vy-q6OTxg\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":2032378028,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-6/7389711690.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-9/7389711081.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"DqtD9M6AKc0Kn26VIEV0541Tw8m0J3homgw4Dc40Wxyw\"}}}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-p/7389710809.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-y/7389711142.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-0/7389710712.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-a/7389711262.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"oZt6n8oYLcWVAp40Ugxnn8hqZ5BZDCmM3Qn9fzZ98ZZ\"}}}}]},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"2032378028\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"6WtZNM3mAcL9vvyVI2J38WRf6PE5q8HMEOgk6i8KWWxl\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"6WtZNM3mAcL9vvyVI2J38WRf6PE5q8HMEOgk6i8KWWxl\"},\"click\":{\"actionType\":\"click\",\"key\":\"6WtZNM3mAcL9vvyVI2J38WRf6PE5q8HMEOgk6i8KWWxl\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"6WtZNM3mAcL9vvyVI2J38WRf6PE5q8HMEOgk6i8KWWxl\"},\"view\":{\"actionType\":\"view\",\"key\":\"6WtZNM3mAcL9vvyVI2J38WRf6PE5q8HMEOgk6i8KWWxl\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/2-sht-lot-l298n-upravlenie-privod-dvigatelya-postoyannogo-toka-optsii-l298n-5051956050/?at=XQtkQG6KyhLY6558I95oqGYCzzxkzgIKx9lm8sRyl7Ww\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"5051956050\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"453 ₽\", \"textStyle\":\"PRICE\"}], \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"2 шт/лот L298N Управление/привод двигателя постоянного тока (Опции:L298N)\", \"textColor\":\"textPrimary\", \"maxLines\":3, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"5051956050\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"5051956050\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"XQtkQG6KyhLY6558I95oqGYCzzxkzgIKx9lm8sRyl7Ww\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"4 августа\"}, \"quantityButton\":{\"maxItems\":700, \"updateCartAction\":{\"id\":\"5051956050\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"XQtkQG6KyhLY6558I95oqGYCzzxkzgIKx9lm8sRyl7Ww\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APoDzkI5b-gfWuCY28f5ZqNSaBal4jamPKLXPLWoOx3Ta4L4Q50eUyK9Dpcts5xGwAXyyh4F891MzJXdUwUTtSgyOGxaD8R7BiUuZdr4M6Dx8tWfdsQcNl5O6cdfDa_8tQ\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":5051956050,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-r/12481945767.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-0/10489860792.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"Y7tj7g0lJszVOXpof7oo1mAf8Axolmiq5WDKBuEEzz5X\"}}}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-t/10489859921.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"A6tGQVmO3cnD4OLzfl3yYK2fj6MYAEC8gGP63frBEn21\"}}}}], \"leftBottomBadgeV2\":{\"text\":\"Цена что надо\", \"leftIcon\":\"ic_s_like_filled_compact\", \"size\":\"SIZE_500\", \"styleType\":\"CUSTOM\", \"common\":{\"testInfo\":{\"automatizationId\":\"badge-priceIndex\"}}, \"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"bgPositivePrimary\"}, \"leftGraphicColor\":\"graphicLightKey\", \"textColor\":\"textLightKey\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"5051956050\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"XQtkQG6KyhLY6558I95oqGYCzzxkzgIKx9lm8sRyl7Ww\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"XQtkQG6KyhLY6558I95oqGYCzzxkzgIKx9lm8sRyl7Ww\"},\"click\":{\"actionType\":\"click\",\"key\":\"XQtkQG6KyhLY6558I95oqGYCzzxkzgIKx9lm8sRyl7Ww\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"XQtkQG6KyhLY6558I95oqGYCzzxkzgIKx9lm8sRyl7Ww\"},\"view\":{\"actionType\":\"view\",\"key\":\"XQtkQG6KyhLY6558I95oqGYCzzxkzgIKx9lm8sRyl7Ww\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/dvuhkomplektnyy-modul-drayvera-motora-l298n-dvoynoy-h-most-dlya-dc-shagovogo-motora-plata-4756236577/?at=Y7tj7g0lJsjpzoWztLn1JQpI3qK5MhB8W8NRHXrYL22\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"4756236577\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"275 ₽\", \"textStyle\":\"PRICE\"}, {\"text\":\"590 ₽\", \"textStyle\":\"ORIGINAL_PRICE\"}], \"discount\":\"−53%\", \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Двухкомплектный модуль драйвера мотора L298N, двойной H-мост для DC/шагового мотора, плата управления \\\"Arduino\\\", 2 шт.\", \"textColor\":\"textPrimary\", \"maxLines\":3, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"4756236577\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"4756236577\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"Y7tj7g0lJsjpzoWztLn1JQpI3qK5MhB8W8NRHXrYL22\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"13 августа\"}, \"quantityButton\":{\"maxItems\":88, \"updateCartAction\":{\"id\":\"4756236577\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"Y7tj7g0lJsjpzoWztLn1JQpI3qK5MhB8W8NRHXrYL22\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APoDwdx7AunQlSnd1q403u8ZMg9OqZD1S1TIt0M8XF4cxeDJZTtdvne_CiMgQ_VAk5OknhafVsyLUlaqOE4KLOAkuOtzsKdXMxFDX7nQz9QxaWN7FK446snJamIjzisK2Q\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":4756236577,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-z/8232860483.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-q/7486209242.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"MZtvr9o30cXAlZVxFj5K26Rc3NoBgMTwYkqZqtMjpA7q\"}}}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-f/7563209955.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1/6665976505.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-v/7486212235.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-1/8254932373.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"x6tPlBGv4hqml9lpU7M3E7LUEojV5gIX0xkl1fYXDm5o\"}}}}]},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"4756236577\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"Y7tj7g0lJsjpzoWztLn1JQpI3qK5MhB8W8NRHXrYL22\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"Y7tj7g0lJsjpzoWztLn1JQpI3qK5MhB8W8NRHXrYL22\"},\"click\":{\"actionType\":\"click\",\"key\":\"Y7tj7g0lJsjpzoWztLn1JQpI3qK5MhB8W8NRHXrYL22\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"Y7tj7g0lJsjpzoWztLn1JQpI3qK5MhB8W8NRHXrYL22\"},\"view\":{\"actionType\":\"view\",\"key\":\"Y7tj7g0lJsjpzoWztLn1JQpI3qK5MhB8W8NRHXrYL22\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/modul-l298n-s-dvumya-mostovymi-shagovymi-dvigatelyami-plata-drayvera-2a-25w-3382950824/?at=46tRV6j5QF8knGMAHvVYlP2HE1jP4yUqX7XX3CqgyZXM\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"3382950824\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"197 ₽\", \"textStyle\":\"PRICE\"}, {\"text\":\"953 ₽\", \"textStyle\":\"ORIGINAL_PRICE\"}], \"discount\":\"−79%\", \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Модуль L298N С Двумя Мостовыми Шаговыми Двигателями, Плата Драйвера 2A/25W,\", \"textColor\":\"textPrimary\", \"maxLines\":3, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"},{\"type\":\"labelListV2\", \"labelListV2\":{\"items\":[{\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_star_filled_compact\", \"tintColor\":\"graphicRating\"}, \"leftPadding\":-2}}, {\"type\":\"text\", \"text\":{\"text\":\"5.0\", \"textColor\":\"textPremium\", \"leftPadding\":2}}, {\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_dialog_filled_compact\", \"tintColor\":\"graphicTertiary\"}, \"leftPadding\":4}}, {\"type\":\"text\", \"text\":{\"text\":\"1 отзыв\", \"textColor\":\"textSecondary\", \"leftPadding\":2}}], \"verticalIndents\":{\"top\":2, \"bottom\":2}, \"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"3382950824\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"3382950824\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"46tRV6j5QF8knGMAHvVYlP2HE1jP4yUqX7XX3CqgyZXM\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"9 августа\"}, \"quantityButton\":{\"maxItems\":700, \"updateCartAction\":{\"id\":\"3382950824\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"46tRV6j5QF8knGMAHvVYlP2HE1jP4yUqX7XX3CqgyZXM\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APoDr9SsTgRem7SKaFhyu42_k8sBcCzxFG9UClGRMEDX7H0GF3pMh3A5r6nmVJ2SU7FEGeTcGgFzRSeKzlqYk-DNqliq6K7YtNZoIwwbXbbQ9rNbtH5IPq27f4mGWa04TQ\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":3382950824,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-6/7389711690.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-9/7389711081.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"w0tgjPOxzcB8okLzsK370J0Hnz61MBFqN2B9OIlKzZNj\"}}}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-p/7389710809.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-y/7389711142.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-0/7389710712.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-a/7389711262.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"MZtvr9o30cRzRqX5ig4w3LqH7jwlzvhvopqz7HnN7pA9\"}}}}]},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"3382950824\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"46tRV6j5QF8knGMAHvVYlP2HE1jP4yUqX7XX3CqgyZXM\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"46tRV6j5QF8knGMAHvVYlP2HE1jP4yUqX7XX3CqgyZXM\"},\"click\":{\"actionType\":\"click\",\"key\":\"46tRV6j5QF8knGMAHvVYlP2HE1jP4yUqX7XX3CqgyZXM\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"46tRV6j5QF8knGMAHvVYlP2HE1jP4yUqX7XX3CqgyZXM\"},\"view\":{\"actionType\":\"view\",\"key\":\"46tRV6j5QF8knGMAHvVYlP2HE1jP4yUqX7XX3CqgyZXM\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/elektricheskiy-komponent-dlya-lodki-4941132954/?at=83tBGQJqZU2kzK7lCqvGk0BT7kv75gFDrxY7gH7ynRvA\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"4941132954\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"213 ₽\", \"textStyle\":\"PRICE\"}], \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Электрический компонент для лодки\", \"textColor\":\"textPrimary\", \"maxLines\":3, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"4941132954\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"4941132954\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"83tBGQJqZU2kzK7lCqvGk0BT7kv75gFDrxY7gH7ynRvA\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"12 августа\"}, \"quantityButton\":{\"maxItems\":700, \"updateCartAction\":{\"id\":\"4941132954\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"83tBGQJqZU2kzK7lCqvGk0BT7kv75gFDrxY7gH7ynRvA\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APoDrfjZp5CI6DjEBuRNZzwMC3Lwmceo1RglEsDRug_thNZRaj27Hg8WPZPUBKv1M8-yWILThu0iMp2b8CHN-7cfeKOM6KyLgTXyFhSi0cs2IKb7FWRmP2qUGSZcB1gwvg\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":4941132954,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-6/7775506842.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-v/7775506795.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"WPtNExpqgu2J1EMGu06mg31FP0JmBXF0kr2VvCov8G7k\"}}}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-k/7775506820.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-t/7775506829.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-j/7775506747.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-y/7775506798.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"qQtJQR4NPcEgVkVGi1ADAnVHGOlBXpCYylnQZTp0Mo8W\"}}}}], \"leftBottomBadgeV2\":{\"text\":\"Новинка\", \"size\":\"SIZE_500\", \"styleType\":\"CUSTOM\", \"common\":{\"testInfo\":{\"automatizationId\":\"badge-novel\"}}, \"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"bgPositivePrimary\"}, \"textColor\":\"textLightKey\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"4941132954\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"83tBGQJqZU2kzK7lCqvGk0BT7kv75gFDrxY7gH7ynRvA\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"83tBGQJqZU2kzK7lCqvGk0BT7kv75gFDrxY7gH7ynRvA\"},\"click\":{\"actionType\":\"click\",\"key\":\"83tBGQJqZU2kzK7lCqvGk0BT7kv75gFDrxY7gH7ynRvA\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"83tBGQJqZU2kzK7lCqvGk0BT7kv75gFDrxY7gH7ynRvA\"},\"view\":{\"actionType\":\"view\",\"key\":\"83tBGQJqZU2kzK7lCqvGk0BT7kv75gFDrxY7gH7ynRvA\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/nabor-moduley-drayverov-dvigateley-2-kanala-l298n-mx1508-2-sht-1831163130/?at=oZt6n8oYLc2M5m7BhVlN7yxI9AWg6KC6W8pzlS8A2vXm\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"1831163130\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"322 ₽\", \"textStyle\":\"PRICE\"}], \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\"}},{\"type\":\"labelListV2\", \"labelListV2\":{\"items\":[{\"type\":\"text\", \"text\":{\"text\":\"161 ₽ / шт\", \"textColor\":\"textPrimary\"}}], \"verticalIndents\":{\"top\":2, \"bottom\":2}, \"testInfo\":{\"automatizationId\":\"tile-list-labels\"}}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Набор модулей драйверов двигателей 2 канала L298N MX1508 (2 шт)\", \"textColor\":\"textPrimary\", \"maxLines\":2, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"},{\"type\":\"labelListV2\", \"labelListV2\":{\"items\":[{\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_star_filled_compact\", \"tintColor\":\"graphicRating\"}, \"leftPadding\":-2}}, {\"type\":\"text\", \"text\":{\"text\":\"4.9\", \"textColor\":\"textPremium\", \"leftPadding\":2}}, {\"type\":\"icon\", \"icon\":{\"icon\":{\"icon\":\"ic_s_dialog_filled_compact\", \"tintColor\":\"graphicTertiary\"}, \"leftPadding\":4}}, {\"type\":\"text\", \"text\":{\"text\":\"31 отзыв\", \"textColor\":\"textSecondary\", \"leftPadding\":2}}], \"verticalIndents\":{\"top\":2, \"bottom\":2}, \"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"1831163130\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"1831163130\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"oZt6n8oYLc2M5m7BhVlN7yxI9AWg6KC6W8pzlS8A2vXm\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"Послезавтра\"}, \"quantityButton\":{\"maxItems\":6, \"updateCartAction\":{\"id\":\"1831163130\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"oZt6n8oYLc2M5m7BhVlN7yxI9AWg6KC6W8pzlS8A2vXm\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APoDEzkBm4A_8YZHzqCYeqzjc3D4mTQlLvgpL9GPHGD9QV11G_uIYWPGuX4Zc85xvLqSi6LpcL2DWHWgQLUS2Nmlr1fM1vym_zOkPXE-yecUAiwlqjOdGvoOOvlpozb9aw\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":1831163130,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-d/7269768877.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-w/7285561304.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"pZtp2yloNCB2vpgKuRAQDAlHJKD4NXiyEQQOMUwAq2mq\"}}}}], \"leftBottomBadgeV2\":{\"text\":\"Осталось 6 шт\", \"size\":\"SIZE_500\", \"styleType\":\"CUSTOM\", \"common\":{\"testInfo\":{\"automatizationId\":\"badge-stock\"}}, \"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"bgAttentionPrimary\"}, \"textColor\":\"#FFFFFF\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"1831163130\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"oZt6n8oYLc2M5m7BhVlN7yxI9AWg6KC6W8pzlS8A2vXm\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"oZt6n8oYLc2M5m7BhVlN7yxI9AWg6KC6W8pzlS8A2vXm\"},\"click\":{\"actionType\":\"click\",\"key\":\"oZt6n8oYLc2M5m7BhVlN7yxI9AWg6KC6W8pzlS8A2vXm\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"oZt6n8oYLc2M5m7BhVlN7yxI9AWg6KC6W8pzlS8A2vXm\"},\"view\":{\"actionType\":\"view\",\"key\":\"oZt6n8oYLc2M5m7BhVlN7yxI9AWg6KC6W8pzlS8A2vXm\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/drayver-dvigatelya-l298n-4973535299/?at=Z8tX6xmgVhnJROpPcRB2YDjswJKLxjhmOBA1nfl1K2o1\", \"params\":{\"target\":\"_blank\"}},\"brandLogo\":null,\"id\":\"4973535299\",\"isAdult\":false,\"mainState\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"174 ₽\", \"textStyle\":\"PRICE\"}, {\"text\":\"429 ₽\", \"textStyle\":\"ORIGINAL_PRICE\"}], \"discount\":\"−59%\", \"priceStyle\":{\"styleType\":\"SALE_PRICE\", \"gradient\":{\"startColor\":\"#F1117E\", \"endColor\":\"#F1117E\"}}, \"preset\":\"SIZE_500\"}},{\"type\":\"textDS\", \"textDS\":{\"text\":\"Драйвер двигателя L298N\", \"textColor\":\"textPrimary\", \"maxLines\":3, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBody500Medium\", \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"}],\"multiButton\":{\"ozonButton\":{\"type\":\"addToCart\", \"addToCart\":{\"skuId\":\"4973535299\", \"actionButton\":{\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"id\":\"4973535299\", \"quantity\":\"1\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"Z8tX6xmgVhnJROpPcRB2YDjswJKLxjhmOBA1nfl1K2o1\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}}, \"icon\":\"ic_s_grocery_cart_filled\", \"title\":\"10 августа\"}, \"quantityButton\":{\"maxItems\":700, \"updateCartAction\":{\"id\":\"4973535299\", \"quantity\":1}}, \"theme\":{\"styleWrapper\":{\"style\":\"DEFAULT_PRIMARY\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"Z8tX6xmgVhnJROpPcRB2YDjswJKLxjhmOBA1nfl1K2o1\"}}, \"inCartQuantity\":0, \"extendMap\":{\"asb2\":\"APoDFfpAwVCh1rR4Z-sBnt3qUUsQ3uIXtfkSHC6IAZOMkYCDMq7KTjEhkKvCSIVkScZL-9XK2XpuH3M_j56EUYdHEBWaXS2QsewDOolZJrXNp-5SxrA15fAdv8aomPOBaA\", \"qtyDiscountNotify\":\"true\", \"spsDiscountNotify\":\"true\"}}}},\"sku\":4973535299,\"tileImage\":{\"imageRatio\":\"IMAGE_RATIO_3_4\", \"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-v/7255640263.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-5/7562964893.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"GRt27qy4pc5JkPjS6z5npfXZw8KwsK5wkKQTmGQ8K9\"}}}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-1/7521470965.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-v/7521472759.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-t/7521470165.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}, {\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-j/7255640251.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"16tL4OjGDcwY8JpOt26XoYqHvOGM4BtYoyR2oikpVMK4\"}}}}], \"leftBottomBadgeV2\":{\"text\":\"Распродажа\", \"leftIcon\":\"ic_s_hot_filled_compact\", \"size\":\"SIZE_500\", \"styleType\":\"CUSTOM\", \"common\":{\"testInfo\":{\"automatizationId\":\"badge-marketingSuperHigh\"}}, \"customBadgeStyle\":{\"backgroundColor\":{\"color\":\"#f1117eff\"}, \"leftGraphicColor\":\"#ffffffff\", \"textColor\":\"#ffffffff\"}}},\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"4973535299\", \"isFav\":false, \"favLink\":\"favoriteBatchAddItems\", \"unfavLink\":\"favoriteBatchDeleteItems\", \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"Z8tX6xmgVhnJROpPcRB2YDjswJKLxjhmOBA1nfl1K2o1\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"Z8tX6xmgVhnJROpPcRB2YDjswJKLxjhmOBA1nfl1K2o1\"},\"click\":{\"actionType\":\"click\",\"key\":\"Z8tX6xmgVhnJROpPcRB2YDjswJKLxjhmOBA1nfl1K2o1\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"Z8tX6xmgVhnJROpPcRB2YDjswJKLxjhmOBA1nfl1K2o1\"},\"view\":{\"actionType\":\"view\",\"key\":\"Z8tX6xmgVhnJROpPcRB2YDjswJKLxjhmOBA1nfl1K2o1\"}}}],\"templates\":null,\"cols\":12,\"imageHeight\":500,\"columnsCount\":4,\"page\":13}"
+  },
+  "browser": {
+    "ip": "95.25.28.15",
+    "isDesktop": true,
+    "platform": "desktop",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "prevLocation": "https://www.ozon.ru/search/?__rr=1&abt_att=1&from_global=true&text=%D0%B4%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%2C+L298N%2C+%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D0%B5%D1%80%2C+%D0%BC%D0%BE%D1%82%D0%BE%D1%80",
+    "useSW": true,
+    "trackResources": true,
+    "webp": true,
+    "device": "desktop",
+    "age": "modern",
+    "cspNonce": "379c04e3-5a7c-4216-a112-35863b4bf396",
+    "family": "Chrome",
+    "majorVersion": 138,
+    "cdnImgHostname": "ir.ozone.ru",
+    "cdnVideoHostname": "v-1.ozone.ru",
+    "cdnOriginalImgHostname": "io.ozone.ru",
+    "cdnStaticHostname": "st.ozone.ru",
+    "avif": true
+  },
+  "client": {
+    "platform": "desktop",
+    "marketplaceDomain": "ozon.ru"
+  },
+  "layoutTrackingInfo": "{\"layoutId\":149755,\"layoutVersion\":7,\"pageType\":\"search\",\"layoutContainer\":\"default\",\"layoutPageIndex\":13,\"deviceType\":\"desktop\",\"platform\":\"site\",\"templateType\":\"desktop\",\"marketplaceId\":1,\"requestId\":\"4c97b4c84efdf0d6fdc7a03c0622b5a0\",\"userWwId\":1}",
+  "location": {
+    "current": {
+      "areaId": 15870,
+      "areaType": 4,
+      "city": "Волгоград",
+      "country": "Россия",
+      "countryCode": "RUS",
+      "countryId": 1,
+      "fias": "a52b7389-0cfe-46fb-ae15-298652a64cf8",
+      "fullName": "Волгоград, Волгоградская область",
+      "name": "Волгоград",
+      "timeZoneUtcname": "UTC+3",
+      "geoCoordinate": {},
+      "uid": "a52b7389-0cfe-46fb-ae15-298652a64cf8"
+    }
+  },
+  "seo": {
+    "title": "драйвер, L298N, контроллер, мотор - купить на OZON",
+    "meta": [
+      {
+        "content": "драйвер, L298N, контроллер, мотор – покупайте на OZON по выгодным ценам! Быстрая и бесплатная доставка, большой ассортимент продуктов. Бонусы и кэшбэк. Распродажи, скидки и акции. Реальные отзывы покупателей.",
+        "name": "description"
+      },
+      {
+        "content": "драйвер, L298N, контроллер, мотор - купить на OZON",
+        "property": "og:title"
+      },
+      {
+        "content": "драйвер, L298N, контроллер, мотор – покупайте на OZON по выгодным ценам! Быстрая и бесплатная доставка, большой ассортимент продуктов. Бонусы и кэшбэк. Распродажи, скидки и акции. Реальные отзывы покупателей.",
+        "property": "og:description"
+      },
+      {
+        "content": "https://ir.ozone.ru/s3/cms/logo/og_ozon_ru.png",
+        "property": "og:image"
+      },
+      {
+        "content": "noindex, nofollow",
+        "name": "robots"
+      },
+      {
+        "content": "website",
+        "property": "og:type"
+      },
+      {
+        "content": "1211635852237386",
+        "property": "fb:app_id"
+      }
+    ]
+  },
+  "shared": "{\"context\":\"ozon\",\"catalog\":{\"totalPages\":14,\"currentPage\":13}}",
+  "nextPage": "/search/?__rr=1&__rr=1&abt_att=1&from_global=true&layout_container=default&layout_page_index=14&page=14&paginator_token=3635012&search_page_state=GzKPdzHkc9R-KcdU4mIb_GC-mo2y7qhLAgYFMZrwrkz1XaF0wsNrTZU8yR7O9QLds2JgrJRfu3sATSZxQr1m7K0Twq1s-rcy2Ug4NobFTG2euMNZ6TGrHoIcgMSiV7EnifZthxw%3D&start_page_id=335736c81d4fe7f2dcaf31b2c67f6ff5&text=%D0%B4%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%2C+L298N%2C+%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D0%B5%D1%80%2C+%D0%BC%D0%BE%D1%82%D0%BE%D1%80",
+  "prevPage": "/search/?__rr=1&__rr=1&abt_att=1&from_global=true&layout_page_index=12&page=13&paginator_token=3635012&search_page_state=Q12-ArHHhLPXzPfGp6GdR2-3WyTxx5uSHj1BthHXA8-fXtL3n7yEyaBVuh2qgzJbEn2yJSLmYrlPoBW3lufbwNtERe_TJIZ7wMLCDkNdRWnYwccz9NpkzMXip8PvhFx1FX4Ziy8%3D&start_page_id=335736c81d4fe7f2dcaf31b2c67f6ff5&text=%D0%B4%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%2C+L298N%2C+%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D0%B5%D1%80%2C+%D0%BC%D0%BE%D1%82%D0%BE%D1%80",
+  "segments": [
+    1
+  ],
+  "pageInfo": {
+    "url": "/search/?__rr=1&__rr=1&abt_att=1&from_global=true&layout_container=default&layout_page_index=13&page=13&paginator_token=3635012&search_page_state=Q12-ArHHhLPXzPfGp6GdR2-3WyTxx5uSHj1BthHXA8-fXtL3n7yEyaBVuh2qgzJbEn2yJSLmYrlPoBW3lufbwNtERe_TJIZ7wMLCDkNdRWnYwccz9NpkzMXip8PvhFx1FX4Ziy8%3D&start_page_id=335736c81d4fe7f2dcaf31b2c67f6ff5&text=%D0%B4%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%2C+L298N%2C+%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D0%B5%D1%80%2C+%D0%BC%D0%BE%D1%82%D0%BE%D1%80",
+    "layoutId": 149755,
+    "layoutVersion": 7,
+    "pageType": "search",
+    "referer": "https://www.ozon.ru/search/?__rr=1&abt_att=1&from_global=true&text=%D0%B4%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%2C+L298N%2C+%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D0%B5%D1%80%2C+%D0%BC%D0%BE%D1%82%D0%BE%D1%80",
+    "pageTypeTracking": "search"
+  },
+  "trackingPayloads": {
+    "0XKg1SYCr-JQvS6WD2mdFaMNGXxbQLkD": "{\"layoutId\":149755,\"layoutVersion\":7,\"pageType\":\"search\",\"layoutContainer\":\"default\",\"layoutPageIndex\":13,\"deviceType\":\"desktop\",\"platform\":\"site\",\"templateType\":\"desktop\",\"marketplaceId\":1,\"requestId\":\"4c97b4c84efdf0d6fdc7a03c0622b5a0\",\"userWwId\":1}"
+  },
+  "pageToken": "0XKg1SYCr-JQvS6WD2mdFaMNGXxbQLkD",
+  "serverTiming": [
+    {
+      "duration": 119,
+      "name": "Widgets"
+    },
+    {
+      "duration": 7,
+      "name": "Resolve"
+    },
+    {
+      "duration": 132,
+      "name": "Total"
+    },
+    {
+      "duration": 132,
+      "name": "ComposerTotal"
+    },
+    {
+      "duration": 4,
+      "name": "ComposerInternal"
+    }
+  ],
+  "userToken": "1bKg1-CRe__RBmzsVEqrxzE-eezc89a5",
+  "experimentsConfig": {
+    "lowerGalleryImageQuality": true,
+    "entrypointCacheControl": true,
+    "swDisableReinitSPA": true,
+    "enableVersionFallbackLogs": true,
+    "disableSendWidgetViewCE": true,
+    "trackMediaPlayerMetricsRum4": true,
+    "trackLcpElement": true,
+    "useNewSwPath": true,
+    "withPerformanceMarks": true,
+    "enableDevtools": true,
+    "cpmTrackerEnabled": true,
+    "allyMode": true,
+    "prerenderCheckoutSW": true,
+    "detectHeadlessRum4": true,
+    "disableWidgetTracking": true,
+    "fastDeliveryDeploy": true,
+    "usePreloadImagesPDPGallery": true,
+    "enableCertEvents": true,
+    "isTrinityEvent": true,
+    "s3PublicPath": true,
+    "entrypointPrerenderHome": true,
+    "enableTrackerLogs": true,
+    "prerenderCartPageSW": true,
+    "mergeUrlLogger": true,
+    "disableProductClickEvent": true,
+    "disableVersionFallback": true,
+    "enableSpeculationRules": true,
+    "trackImagesRum4": true,
+    "gtmDelay2000": true,
+    "enableSummaryV2": true,
+    "isCdnFonts": true,
+    "trackAsyncActions": true,
+    "linkAsyncWidgets": true,
+    "imgPixelatedRender": true,
+    "newPaginationRum4": true,
+    "earlyHintsEnabled": true,
+    "isModern": true,
+    "trackMapInitActions": true,
+    "prerenderHomePageSW": true,
+    "clearCacheOnNextLoad": true,
+    "prefetchWebGalleryVideoSW": true,
+    "enableVideoPrefetchSW": true,
+    "prefetchListPhotosVideoSW": true,
+    "prefetchAssetsSW": true,
+    "fingerprinting": true,
+    "enableTrackerInfoLogs": true,
+    "enableSWCaching": true,
+    "useCrossorigin": true
+  },
+  "requestID": "4c97b4c84efdf0d6fdc7a03c0622b5a0",
+  "verticalInfo": {
+    "composer": {
+      "publicPath": "https://st.ozone.ru/assets/7ee37bd5/",
+      "initial": [],
+      "experimentsConfig": null
+    },
+    "cms": {
+      "publicPath": "https://st.ozone.ru/s3/assets-27147/6b9533d1/",
+      "initial": [
+        "microfront/catalog-menu-cms-lottery-shell-uw.js"
+      ],
+      "experimentsConfig": null
+    },
+    "products": {
+      "publicPath": "https://st.ozone.ru/assets/7ee37bd5/",
+      "initial": [
+        "detached/navi/entry.products.js"
+      ],
+      "experimentsConfig": null
+    },
+    "catalog": {
+      "publicPath": "https://st.ozone.ru/s3/assets-66613/26877a5f/",
+      "initial": [
+        "microfront/catalog-search.js"
+      ],
+      "experimentsConfig": null
+    },
+    "common": {
+      "publicPath": "https://st.ozone.ru/assets/7ee37bd5/",
+      "initial": [
+        "detached/common/entry.common.js"
+      ],
+      "experimentsConfig": null
+    }
+  },
+  "resolveParams": {
+    "cdn_video_hostname": "v-1.ozone.ru",
+    "cdn_video_pdp_hostname": "vp-1.ozone.ru",
+    "cdn_static_hostname": "st.ozone.ru",
+    "app.type": 1,
+    "cdn_img_hostname": "ir.ozone.ru",
+    "current.time": "2026-07-24T11:30:42.697228461Z",
+    "cdn_video_review_hostname": "vr-1.ozone.ru",
+    "cdn_video_tile_hostname": "vt-1.ozone.ru",
+    "app.type.text": "bx",
+    "cdn_original_img_hostname": "io.ozone.ru",
+    "request.url.domain.level2": "ozon.ru",
+    "cdn_user_content_hostname": "cdn1.ozonusercontent.com"
+  }
+}

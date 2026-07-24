@@ -1,6 +1,3 @@
-"""
-Извлечение полей из сырого JSON Wildberries
-"""
 import json
 import os
 from pathlib import Path
@@ -14,17 +11,41 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 
 
 def parse_wb_product(item):
-    """Извлечение данных из одного товара WB"""
     product_id = item.get("id")
     name = item.get("name", "Без названия")
     
-    # Цена в копейках (salePriceU) или обычная (priceU)
-    price_kopecks = item.get("salePriceU") or item.get("priceU") or 0
+    # Получаем данные о цене из sizes[0].price
+    sizes_price_data = item.get("sizes", [{}])[0].get("price") if item.get("sizes") else None
     
-    rating = item.get("rating", 0)
-    reviews = item.get("feedbacks", 0)
+    price_kopecks = 0
     
-    # Формируем прямую ссылку на товар
+    # Если price - это словарь (новая структура WB), извлекаем значение из ключа 'product' или 'basic'
+    if isinstance(sizes_price_data, dict):
+        price_kopecks = sizes_price_data.get("product") or sizes_price_data.get("basic") or 0
+    elif sizes_price_data is not None:
+        # Если price - это число (старая структура)
+        price_kopecks = sizes_price_data
+    
+    # Если не нашли в sizes, пробуем другие поля на всякий случай
+    if price_kopecks == 0:
+        price_kopecks = (
+            item.get("salePriceU") or 
+            item.get("priceU") or 
+            item.get("salePrice") or 
+            item.get("price") or
+            0
+        )
+    
+    # Рейтинг
+    rating = (
+        item.get("rating") or 
+        item.get("reviewRating") or 
+        item.get("feedbackRating") or
+        0
+    )
+    
+    reviews = item.get("feedbacks") or item.get("reviews") or 0
+    
     link = f"https://www.wildberries.ru/catalog/{product_id}/detail.aspx"
     
     return {
@@ -48,8 +69,10 @@ def extract_wb_products():
             with open(path, "r", encoding="utf-8") as f:
                 data = json.load(f)
             
-            # WB API обычно кладет товары в data.products
+            # Универсальная проверка структуры JSON Wildberries
             items = data.get("data", {}).get("products", [])
+            if not items:
+                items = data.get("products", [])
             
             for item in items:
                 product = parse_wb_product(item)
